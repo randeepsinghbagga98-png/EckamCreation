@@ -1,0 +1,30 @@
+# Development-only Postgres + Redis.
+# Docker is not installed on the current machine — do not start this file yet.
+# No production credentials. Change passwords before any shared use.
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: eckamcreation-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: eckamcreation
+      POSTGRES_USER: eckam
+      POSTGRES_PASSWORD: replace-me-locally
+    ports:
+      - "5432:5432"
+    volumes:
+      - eckamcreation_pg_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: eckamcreation-redis-dev
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - eckamcreation_redis_data:/data
+
+volumes:
+  eckamcreation_pg_data:
+  eckamcreation_redis_data:

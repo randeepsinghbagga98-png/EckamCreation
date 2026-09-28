@@ -1,0 +1,36 @@
+{
+  "name": "@eckamcreation/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3002",
+    "build": "next build",
+    "start": "next start --port 3002",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eckamcreation/ai": "workspace:*",
+    "@eckamcreation/api-contracts": "workspace:*",
+    "@eckamcreation/auth": "workspace:*",
+    "@eckamcreation/config": "workspace:*",
+    "@eckamcreation/database": "workspace:*",
+    "@eckamcreation/email": "workspace:*",
+    "@eckamcreation/payments": "workspace:*",
+    "@eckamcreation/search": "workspace:*",
+    "@eckamcreation/storage": "workspace:*",
+    "@eckamcreation/whatsapp": "workspace:*",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@11.20.0"
+}

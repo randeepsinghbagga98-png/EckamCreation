@@ -1,0 +1,19 @@
+{
+  "name": "@eckamcreation/storage",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"No lint config in @eckamcreation/storage\""
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
