@@ -141,7 +141,7 @@ export class CheckoutService {
     let couponCode = session.couponCode;
 
     if (input.shippingAddressId) {
-      await this.assertAddressAccess(identity, input.shippingAddressId);
+      await this.assertAddressAccess(identity, input.shippingAddressId, session);
       shippingAddressId = input.shippingAddressId;
     } else if (input.shippingAddress) {
       if (identity.kind !== "guest") {
@@ -170,7 +170,7 @@ export class CheckoutService {
       if (input.billingAddressId === null) {
         billingAddressId = null;
       } else {
-        await this.assertAddressAccess(identity, input.billingAddressId);
+        await this.assertAddressAccess(identity, input.billingAddressId, session);
         billingAddressId = input.billingAddressId;
       }
     } else if (input.billingAddress) {
@@ -669,7 +669,11 @@ export class CheckoutService {
     throw validationError("Invalid country");
   }
 
-  private async assertAddressAccess(identity: CartIdentity, addressId: string) {
+  private async assertAddressAccess(
+    identity: CartIdentity,
+    addressId: string,
+    session: { shippingAddressId: string | null; billingAddressId: string | null },
+  ) {
     const address = await this.prisma.address.findUnique({ where: { id: addressId } });
     if (!address) throw notFound("Address not found");
 
@@ -680,9 +684,14 @@ export class CheckoutService {
       return address;
     }
 
-    // Guests may only use addresses with no customer owner
     if (address.userId) {
       throw forbidden("Cannot use a customer address for guest checkout");
+    }
+
+    const attached =
+      session.shippingAddressId === addressId || session.billingAddressId === addressId;
+    if (!attached) {
+      throw notFound("Address not found");
     }
     return address;
   }

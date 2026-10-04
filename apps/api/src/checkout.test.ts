@@ -646,5 +646,44 @@ describeDb("checkout API", () => {
     expect(patched.status).toBe(200);
     expect(patchBody.data.shippingAddressId).toBeTruthy();
     expect(patchBody.data.status).toBe("SHIPPING");
+
+    const reuseOrphan = await patchCheckout(
+      new Request(`http://localhost:3002/v1/checkout/sessions/${checkoutIdA}`, {
+        method: "PATCH",
+        headers: {
+          "content-type": "application/json",
+          [CART_TOKEN_HEADER]: token,
+        },
+        body: JSON.stringify({ shippingAddressId: addressA }),
+      }),
+      { params: Promise.resolve({ id: checkoutIdA }) },
+    );
+    expect([401, 404]).toContain(reuseOrphan.status);
+
+    const otherGuestStart = await startCheckout(
+      new Request("http://localhost:3002/v1/checkout/sessions", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          [CART_TOKEN_HEADER]: guestToken,
+        },
+        body: JSON.stringify({ currency: "INR", country: "IN" }),
+      }),
+    );
+    const otherGuestBody = await otherGuestStart.json();
+    if (otherGuestStart.status === 201) {
+      const hijack = await patchCheckout(
+        new Request(`http://localhost:3002/v1/checkout/sessions/${otherGuestBody.data.id}`, {
+          method: "PATCH",
+          headers: {
+            "content-type": "application/json",
+            [CART_TOKEN_HEADER]: guestToken,
+          },
+          body: JSON.stringify({ shippingAddressId: patchBody.data.shippingAddressId }),
+        }),
+        { params: Promise.resolve({ id: otherGuestBody.data.id }) },
+      );
+      expect(hijack.status).toBe(404);
+    }
   });
 });
