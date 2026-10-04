@@ -1,3 +1,4 @@
+import { AiError } from "@eckamcreation/ai";
 import { AuthError } from "@eckamcreation/auth";
 import { PaymentError } from "@eckamcreation/payments";
 import {
@@ -74,6 +75,9 @@ export function toApiError(error: unknown): ApiError {
   if (error instanceof ApiError) return error;
   if (error instanceof ZodError) return fromZodError(error);
   if (error instanceof PaymentError) {
+    return new ApiError(error.code as ApiErrorCode, error.message);
+  }
+  if (error instanceof AiError) {
     return new ApiError(error.code as ApiErrorCode, error.message);
   }
   if (error instanceof AuthError) {

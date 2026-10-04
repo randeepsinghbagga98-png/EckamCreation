@@ -15,7 +15,8 @@ let testAdapter: TestPaymentAdapter | null = null;
 export function getPaymentRegistry(): PaymentProviderRegistry {
   if (!registry) {
     registry = new PaymentProviderRegistry();
-    // Production providers (PhonePe/Cashfree/etc.) are NOT registered in Phase 4.1.
+    // No live provider is registered. PAYMENT_PROVIDER / key / secret / webhook
+    // env vars are reserved and do not activate an adapter by themselves.
     // Test adapter is registered only outside production when explicitly allowed.
     const nodeEnv = process.env.NODE_ENV;
     const allowTest =
@@ -32,6 +33,13 @@ export function getPaymentRegistry(): PaymentProviderRegistry {
 export function getTestPaymentAdapter(): TestPaymentAdapter | null {
   getPaymentRegistry();
   return testAdapter;
+}
+
+/** True only when a non-test adapter is registered and configured. */
+export function hasLivePaymentProvider(): boolean {
+  return getPaymentRegistry()
+    .list()
+    .some((adapter) => adapter.id !== TEST_PAYMENT_PROVIDER_ID && adapter.isConfigured());
 }
 
 export function getPaymentService(): PaymentService {

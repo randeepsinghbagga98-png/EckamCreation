@@ -32,6 +32,44 @@ export class StaffAuthService {
     private readonly sessions: StaffSessionStore = getDefaultStaffSessionStore(),
   ) {}
 
+  /**
+   * Creates the first ACTIVE staff admin from ADMIN_EMAIL / ADMIN_PASSWORD
+   * when no active staff users exist. Never overwrites existing staff.
+   */
+  async ensureBootstrapAdmin(): Promise<void> {
+    const emailRaw = process.env.ADMIN_EMAIL?.trim();
+    const password = process.env.ADMIN_PASSWORD;
+    if (!emailRaw || !password) return;
+    if (password.length < 8 || password.length > 128) return;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailRaw)) return;
+
+    const activeCount = await this.prisma.staffUser.count({ where: { status: "ACTIVE" } });
+    if (activeCount > 0) return;
+
+    const email = normalizeEmail(emailRaw);
+    const clash = await this.prisma.staffUser.findUnique({ where: { email } });
+    if (clash) return;
+
+    try {
+      const staff = await this.createStaffUser({
+        email,
+        name: "Administrator",
+        password,
+        roleCodes: ["admin"],
+        status: "ACTIVE",
+      });
+      await writeAuditLog(this.prisma, {
+        action: "staff.bootstrap",
+        entityType: "StaffUser",
+        entityId: staff.id,
+        staffUserId: staff.id,
+        metadata: { email },
+      });
+    } catch {
+      // Concurrent bootstrap or unique-email race — login continues normally.
+    }
+  }
+
   /** Invite-only bootstrap helper for tests/ops — not a public API. */
   async createStaffUser(input: {
     email: string;

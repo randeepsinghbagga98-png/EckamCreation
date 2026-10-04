@@ -13,6 +13,20 @@ export const apiErrorCodeSchema = z.enum([
   "IDEMPOTENCY_REPLAY",
   "RATE_LIMITED",
   "PAYMENT_PROVIDER_NOT_CONFIGURED",
+  "AI_PROVIDER_NOT_CONFIGURED",
+  "AI_CONVERSATION_NOT_FOUND",
+  "AI_CONVERSATION_FORBIDDEN",
+  "AI_INVALID_MESSAGE",
+  "AI_PROVIDER_ERROR",
+  "AI_PROVIDER_AUTH_FAILED",
+  "AI_PROVIDER_RATE_LIMITED",
+  "AI_PROVIDER_TIMEOUT",
+  "AI_PROVIDER_UNAVAILABLE",
+  "AI_PROVIDER_INVALID_REQUEST",
+  "AI_TOOL_NOT_FOUND",
+  "AI_TOOL_INVALID_ARGUMENTS",
+  "AI_TOOL_EXECUTION_FAILED",
+  "AI_TOOL_LOOP_LIMIT",
   "NOT_IMPLEMENTED",
   "INTERNAL_ERROR",
 ]);
@@ -36,7 +50,28 @@ export function httpStatusForErrorCode(code: ApiErrorCode): number {
     case "RATE_LIMITED":
       return 429;
     case "PAYMENT_PROVIDER_NOT_CONFIGURED":
+    case "AI_PROVIDER_NOT_CONFIGURED":
+    case "AI_PROVIDER_UNAVAILABLE":
       return 503;
+    case "AI_CONVERSATION_NOT_FOUND":
+      return 404;
+    case "AI_CONVERSATION_FORBIDDEN":
+      return 403;
+    case "AI_INVALID_MESSAGE":
+    case "AI_TOOL_NOT_FOUND":
+    case "AI_TOOL_INVALID_ARGUMENTS":
+    case "AI_TOOL_LOOP_LIMIT":
+    case "AI_PROVIDER_INVALID_REQUEST":
+      return 400;
+    case "AI_PROVIDER_AUTH_FAILED":
+      return 502;
+    case "AI_PROVIDER_RATE_LIMITED":
+      return 429;
+    case "AI_PROVIDER_TIMEOUT":
+      return 504;
+    case "AI_PROVIDER_ERROR":
+    case "AI_TOOL_EXECUTION_FAILED":
+      return 502;
     case "NOT_IMPLEMENTED":
       return 501;
     case "INTERNAL_ERROR":

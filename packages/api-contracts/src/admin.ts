@@ -45,13 +45,15 @@ export const adminCustomerListQuerySchema = cursorQuerySchema.extend({
     .transform((v) => (v === undefined ? undefined : v === "true")),
 });
 
-export const adminCustomerUpdateSchema = z.object({
-  name: z.string().min(1).max(200).optional().nullable(),
-  phone: z.string().max(32).optional().nullable(),
-  locale: z.string().max(16).optional().nullable(),
-  notes: z.string().max(5000).optional().nullable(),
-  deleted: z.boolean().optional(),
-});
+export const adminCustomerUpdateSchema = z
+  .object({
+    name: z.string().min(1).max(200).optional().nullable(),
+    phone: z.string().max(32).optional().nullable(),
+    locale: z.string().max(16).optional().nullable(),
+    notes: z.string().max(5000).optional().nullable(),
+    deleted: z.boolean().optional(),
+  })
+  .strict();
 
 export const adminCustomerSummarySchema = z.object({
   id: z.string(),
@@ -178,8 +180,42 @@ export const adminVariantUpdateSchema = z.object({
   weightGrams: z.number().int().nonnegative().optional().nullable(),
 });
 
+export const adminAiStatusDtoSchema = z.object({
+  configured: z.boolean(),
+  provider: z.string().nullable(),
+  model: z.string().nullable(),
+  toolCount: z.number().int(),
+  featureStatus: z.enum(["live", "not_configured"]),
+  rateLimit: z.object({
+    conversationLimit: z.number().int(),
+    messageLimit: z.number().int(),
+    windowMinutes: z.number().int(),
+  }),
+});
+
+export const adminSettingsDtoSchema = z.object({
+  storeName: z.string(),
+  environment: z.string(),
+  defaultCurrencyCode: z.string(),
+  defaultLocale: z.string(),
+  paymentProviderConfigured: z.boolean(),
+  aiProviderConfigured: z.boolean(),
+});
+
+export const adminShipmentListQuerySchema = cursorQuerySchema.extend({
+  status: z
+    .string()
+    .max(40)
+    .regex(/^[A-Z_]+$/)
+    .optional(),
+  orderId: z.string().min(1).max(64).optional(),
+});
+
+export type AdminPaymentIntentDto = z.infer<typeof adminPaymentIntentDtoSchema>;
 export type AdminDashboardDto = z.infer<typeof adminDashboardDtoSchema>;
 export type AdminCustomerSummaryDto = z.infer<typeof adminCustomerSummarySchema>;
 export type AdminCustomerDetailDto = z.infer<typeof adminCustomerDetailSchema>;
 export type AdminInventoryItemDto = z.infer<typeof adminInventoryItemSchema>;
 export type AdminAuditLogDto = z.infer<typeof adminAuditLogDtoSchema>;
+export type AdminAiStatusDto = z.infer<typeof adminAiStatusDtoSchema>;
+export type AdminSettingsDto = z.infer<typeof adminSettingsDtoSchema>;

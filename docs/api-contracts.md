@@ -27,6 +27,7 @@ Error: `{ ok: false, error: { code, message, details?, requestId } }`
 | CONFLICT | 409 |
 | IDEMPOTENCY_REPLAY | 409 |
 | RATE_LIMITED | 429 |
+| PAYMENT_PROVIDER_NOT_CONFIGURED | 503 |
 | NOT_IMPLEMENTED | 501 |
 | INTERNAL_ERROR | 500 |
 
@@ -169,7 +170,7 @@ Provider-neutral core in `@eckamcreation/payments`. Live India/international gat
 | Route | Behavior |
 | --- | --- |
 | `POST /v1/payments/intents` | Body `{ checkoutSessionId }` — amount/currency from checkout only; optional `Idempotency-Key` |
-| `GET /v1/payments/intents/:id` | Owner session/guest token (or staff); never cross-customer |
+| `GET /v1/payments/intents/:id` | Owner session/guest token, or staff with `payments.read`; never cross-customer |
 | `POST /v1/payments/intents/:id/initiate` | Calls configured `PaymentProviderAdapter`; `503 PAYMENT_PROVIDER_NOT_CONFIGURED` if none |
 | `POST /v1/webhooks/payments/:provider` | Signature-verified, idempotent `WebhookEvent`; may mark intent `SUCCEEDED` and create order |
 

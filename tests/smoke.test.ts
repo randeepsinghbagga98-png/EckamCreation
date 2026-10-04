@@ -11,7 +11,9 @@ describe("environment smoke", () => {
     const parsed = envSchema.safeParse({
       NODE_ENV: "development",
       DATABASE_URL: "",
+      AI_PROVIDER: "",
       AI_API_KEY: "",
+      AI_MODEL: "",
     });
 
     expect(parsed.success).toBe(true);

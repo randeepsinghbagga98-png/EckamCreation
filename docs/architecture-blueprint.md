@@ -190,6 +190,24 @@ Verified `PaymentIntent.status === SUCCEEDED` → `OrderService.createFromPaidCh
 
 `PaymentService` + `PaymentProviderAdapter` registry in `@eckamcreation/payments`. Checkout totals are the only amount source. Webhooks must verify signatures, record `WebhookEvent` uniquely, then transition intents and call `onPaymentSucceeded` → order create. Test adapter (`test`) is non-production only. No live provider credentials in this phase.
 
+**PaymentIntent lifecycle:** `REQUIRES_PAYMENT` → `PROCESSING` → `SUCCEEDED` / `FAILED` / `CANCELLED`. Transitions live in `PaymentStateService`; invalid transitions are `409 CONFLICT`. Creation never marks `SUCCEEDED`.
+
+**Amount authority:** `CheckoutSession.totalMinor` + `currencyCode` only. Client amount/currency are ignored. Provider requests use server-authoritative minor units. No silent FX.
+
+**Provider adapter boundary:** `createPayment` / `getPaymentStatus` / `verifyWebhook` / `refundPayment` return normalized `PaymentProviderResult`. Commerce services never import PhonePe/Cashfree/Razorpay/Stripe SDKs. Unconfigured providers return `PAYMENT_PROVIDER_NOT_CONFIGURED` (503). No fake production redirect URLs.
+
+**Webhook verification:** Adapter verifies signature first. Unverified events never succeed a payment. `WebhookEvent` unique on `(provider, eventId)` — duplicates are replay-safe and ignored.
+
+**Idempotency:** `IdempotencyRecord` on `POST /v1/payments/intents` plus unique `PaymentIntent.idempotencyKey` (`checkout:{sessionId}`). Same successful event cannot create two orders.
+
+**Payment → order:** Only verified provider result → `SUCCEEDED` → `OrderService.createFromPaidCheckout`. Frontend redirects and checkout complete do not create orders.
+
+**Refund boundary:** `PaymentService.createRefund` uses server amount, never exceeds remaining refundable, is idempotent by key / provider refund id. Cancel does not auto-refund.
+
+**Test provider:** `TestPaymentAdapter` (`id=test`) — TEST ONLY. Registered when `NODE_ENV=test` or `ALLOW_TEST_PAYMENT_PROVIDER=1`. Blocked in production.
+
+**Provider readiness:** live gateway is not selected. Reserved server env (`PAYMENT_PROVIDER`, `PAYMENT_PROVIDER_KEY`, `PAYMENT_PROVIDER_SECRET`, `PAYMENT_WEBHOOK_SECRET`) must stay empty until the client chooses a provider. See [payment-provider.md](./payment-provider.md).
+
 `apps/web` and `apps/admin` may call `apps/api` or use server actions that delegate into packages. Prefer **one write path** into domain packages to avoid divergent business rules.
 
 ---
@@ -217,9 +235,11 @@ Permission checks use centralized codes (`products.read`, `orders.update`, …) 
 `@eckamcreation/payments` is a **registry of providers**, not a single SDK wrapper.
 
 ```text
-Checkout → PaymentIntent → ProviderAdapter.charge()
+Checkout → PaymentIntent → PaymentService → PaymentProviderAdapter
                 ↓
-         webhook → PaymentTransaction → Order status
+         verified webhook → PaymentIntent.SUCCEEDED
+                ↓
+         OrderService.createFromPaidCheckout
 ```
 
 | Region | Methods (target) | Adapter note |

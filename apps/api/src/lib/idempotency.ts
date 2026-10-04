@@ -10,7 +10,10 @@ import { conflict } from "./errors";
 export async function beginIdempotency(
   prisma: PrismaClient,
   input: { scope: string; key: string; requestHash?: string; ttlMs?: number },
-): Promise<{ replay: true; statusCode: number } | { replay: false; recordId: string }> {
+): Promise<
+  | { replay: true; statusCode: number; responseHash?: string | null }
+  | { replay: false; recordId: string }
+> {
   const existing = await prisma.idempotencyRecord.findUnique({
     where: { scope_key: { scope: input.scope, key: input.key } },
   });
@@ -19,7 +22,11 @@ export async function beginIdempotency(
       throw conflict("Idempotency-Key reused with a different request body");
     }
     if (existing.statusCode != null) {
-      return { replay: true, statusCode: existing.statusCode };
+      return {
+        replay: true,
+        statusCode: existing.statusCode,
+        responseHash: existing.responseHash,
+      };
     }
   }
 
@@ -45,7 +52,11 @@ export async function beginIdempotency(
         where: { scope_key: { scope: input.scope, key: input.key } },
       });
       if (raced?.statusCode != null) {
-        return { replay: true, statusCode: raced.statusCode };
+        return {
+          replay: true,
+          statusCode: raced.statusCode,
+          responseHash: raced.responseHash,
+        };
       }
       throw conflict("Idempotent request is already in progress");
     }

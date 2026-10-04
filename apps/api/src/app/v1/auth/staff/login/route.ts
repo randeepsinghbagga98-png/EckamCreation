@@ -11,6 +11,7 @@ export const POST = withApiHandler(async (request, requestId) => {
   await enforceAuthRateLimit(request, "staff-login");
   const body = await parseJsonBody(request, staffLoginBodySchema);
   try {
+    await getStaffAuth().ensureBootstrapAdmin();
     const result = await getStaffAuth().login(body, clientMeta(request));
     const response = jsonOk(
       {

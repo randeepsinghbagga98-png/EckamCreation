@@ -10,7 +10,11 @@ export const GET = withApiHandler(async (_request, requestId) => {
       groups: contractGroups.map((name) => ({
         name,
         handlers:
-          name === "health" || name === "auth" || name === "catalogue" || name === "admin"
+          name === "health" ||
+          name === "auth" ||
+          name === "catalogue" ||
+          name === "admin" ||
+          name === "ai"
             ? "ready"
             : "not_implemented",
       })),

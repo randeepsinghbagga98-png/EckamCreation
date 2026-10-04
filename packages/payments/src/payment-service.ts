@@ -113,6 +113,13 @@ export class PaymentService {
           },
         },
       });
+      await this.audit("payment.intent.created", intent.id, {
+        checkoutSessionId: session.id,
+        amountMinor: intent.amountMinor.toString(),
+        currencyCode: intent.currencyCode,
+        provider: intent.provider,
+        userId: session.userId,
+      });
       return this.toDto(intent);
     } catch (error) {
       if (
@@ -203,6 +210,11 @@ export class PaymentService {
             lastProviderMeta: sanitizeMeta(result.metadata),
           },
         },
+      });
+      await this.audit("payment.processing", intent.id, {
+        provider: adapter.id,
+        amountMinor: intent.amountMinor.toString(),
+        currencyCode: intent.currencyCode,
       });
     } else {
       await this.deps.prisma.paymentIntent.update({
@@ -343,6 +355,24 @@ export class PaymentService {
       throw new PaymentValidationError("Missing provider payment reference");
     }
 
+    if (input.idempotencyKey) {
+      const replayed = intent.refunds.find((r) => {
+        const meta = asMeta(r.metadata);
+        return meta.idempotencyKey === input.idempotencyKey;
+      });
+      if (replayed) {
+        return {
+          id: replayed.id,
+          orderId: replayed.orderId,
+          paymentIntentId: replayed.paymentIntentId,
+          status: replayed.status,
+          amountMinor: replayed.amountMinor,
+          currencyCode: replayed.currencyCode,
+          reason: replayed.reason,
+        };
+      }
+    }
+
     const already = intent.refunds
       .filter((r) => r.status === "SUCCEEDED" || r.status === "PENDING")
       .reduce((sum, r) => sum + r.amountMinor, BigInt(0));
@@ -359,6 +389,12 @@ export class PaymentService {
       throw new PaymentProviderNotConfiguredError(intent.provider);
     }
 
+    await this.audit("payment.refund.initiated", intent.id, {
+      amountMinor: refundAmount.toString(),
+      currencyCode: intent.currencyCode,
+      staffUserId: input.staffUserId,
+    });
+
     const result = await adapter.refundPayment({
       paymentIntentId: intent.id,
       providerPaymentId: intent.providerIntentId,
@@ -367,29 +403,81 @@ export class PaymentService {
       reason: input.reason,
     });
 
-    const refund = await this.deps.prisma.refund.create({
-      data: {
-        orderId: intent.orderId,
-        paymentIntentId: intent.id,
-        provider: intent.provider,
-        providerRefundId: result.providerRefundId,
-        amountMinor: result.amountMinor,
-        currencyCode: result.currencyCode,
-        status: result.status,
-        reason: input.reason,
-        metadata: { staffUserId: input.staffUserId },
-      },
-    });
+    try {
+      const refund = await this.deps.prisma.refund.create({
+        data: {
+          orderId: intent.orderId,
+          paymentIntentId: intent.id,
+          provider: intent.provider,
+          providerRefundId: result.providerRefundId,
+          amountMinor: result.amountMinor,
+          currencyCode: result.currencyCode,
+          status: result.status,
+          reason: input.reason,
+          metadata: {
+            staffUserId: input.staffUserId,
+            idempotencyKey: input.idempotencyKey,
+          },
+        },
+      });
+      await this.audit("payment.refund.completed", intent.id, {
+        refundId: refund.id,
+        status: refund.status,
+        amountMinor: refund.amountMinor.toString(),
+        currencyCode: refund.currencyCode,
+      });
+      return {
+        id: refund.id,
+        orderId: refund.orderId,
+        paymentIntentId: refund.paymentIntentId,
+        status: refund.status,
+        amountMinor: refund.amountMinor,
+        currencyCode: refund.currencyCode,
+        reason: refund.reason,
+      };
+    } catch (error) {
+      if (
+        error &&
+        typeof error === "object" &&
+        "code" in error &&
+        (error as { code: string }).code === "P2002" &&
+        result.providerRefundId
+      ) {
+        const raced = await this.deps.prisma.refund.findFirst({
+          where: { provider: intent.provider, providerRefundId: result.providerRefundId },
+        });
+        if (raced) {
+          return {
+            id: raced.id,
+            orderId: raced.orderId,
+            paymentIntentId: raced.paymentIntentId,
+            status: raced.status,
+            amountMinor: raced.amountMinor,
+            currencyCode: raced.currencyCode,
+            reason: raced.reason,
+          };
+        }
+      }
+      throw error;
+    }
+  }
 
-    return {
-      id: refund.id,
-      orderId: refund.orderId,
-      paymentIntentId: refund.paymentIntentId,
-      status: refund.status,
-      amountMinor: refund.amountMinor,
-      currencyCode: refund.currencyCode,
-      reason: refund.reason,
-    };
+  async cancelIntent(
+    paymentIntentId: string,
+    opts?: { userId?: string | null; guestToken?: string | null; staff?: boolean },
+  ) {
+    const intent = await this.deps.prisma.paymentIntent.findUnique({
+      where: { id: paymentIntentId },
+    });
+    if (!intent) throw new PaymentNotFoundError();
+    if (!opts?.staff) await this.assertIntentOwnership(intent, opts);
+    this.state.assertTransition(intent.status, "CANCELLED");
+    const updated = await this.deps.prisma.paymentIntent.update({
+      where: { id: intent.id },
+      data: { status: "CANCELLED" },
+    });
+    await this.audit("payment.cancelled", intent.id, { from: intent.status });
+    return this.toDto(updated);
   }
 
   private async applyProviderResultByProviderPaymentId(
@@ -467,8 +555,49 @@ export class PaymentService {
       });
     });
 
-    if (result.status === "SUCCEEDED" && this.deps.onPaymentSucceeded) {
-      await this.deps.onPaymentSucceeded(intent.id);
+    if (result.status === "SUCCEEDED") {
+      await this.audit("payment.succeeded", intent.id, {
+        amountMinor: intent.amountMinor.toString(),
+        currencyCode: intent.currencyCode,
+        provider: intent.provider,
+      });
+      if (this.deps.onPaymentSucceeded) {
+        await this.deps.onPaymentSucceeded(intent.id);
+      }
+    } else if (result.status === "FAILED") {
+      await this.audit("payment.failed", intent.id, {
+        amountMinor: intent.amountMinor.toString(),
+        currencyCode: intent.currencyCode,
+        provider: intent.provider,
+      });
+    } else if (result.status === "CANCELLED") {
+      await this.audit("payment.cancelled", intent.id, {
+        amountMinor: intent.amountMinor.toString(),
+        currencyCode: intent.currencyCode,
+        provider: intent.provider,
+      });
+    }
+  }
+
+  private async audit(
+    action: string,
+    entityId: string,
+    metadata?: Record<string, unknown>,
+  ): Promise<void> {
+    const actorUserId =
+      typeof metadata?.userId === "string" ? metadata.userId : undefined;
+    try {
+      await this.deps.prisma.auditLog.create({
+        data: {
+          action,
+          entityType: "PaymentIntent",
+          entityId,
+          actorUserId,
+          metadata: sanitizeMeta(metadata),
+        },
+      });
+    } catch {
+      // Audit must never block payment processing
     }
   }
 
@@ -563,7 +692,11 @@ function sanitizeMeta(meta?: Record<string, unknown>): Prisma.InputJsonValue {
       key.includes("pan") ||
       key.includes("token") ||
       key.includes("signature") ||
-      key.includes("authorization")
+      key.includes("authorization") ||
+      key.includes("webhook") ||
+      key.includes("credential") ||
+      key.includes("api_key") ||
+      key.includes("apikey")
     ) {
       continue;
     }

@@ -2,8 +2,13 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import {
+  PaymentProviderNotConfiguredError,
+  PaymentProviderRegistry,
+  PaymentStateService,
+  PaymentValidationError,
   TestPaymentAdapter,
   TEST_PAYMENT_PROVIDER_ID,
+  assertTestProviderAllowed,
 } from "@eckamcreation/payments";
 import { prisma } from "@eckamcreation/database";
 import { POST as register } from "./app/v1/auth/register/route";
@@ -55,6 +60,50 @@ process.env.ALLOW_TEST_PAYMENT_PROVIDER = "1";
 
 const hasDb = Boolean(process.env.DATABASE_URL);
 const describeDb = hasDb ? describe : describe.skip;
+
+describe("payment provider readiness", () => {
+  it("fails safely when no provider is registered", () => {
+    const registry = new PaymentProviderRegistry();
+    expect(() => registry.resolve()).toThrow(PaymentProviderNotConfiguredError);
+    expect(() => registry.resolve("unknown")).toThrow(PaymentValidationError);
+  });
+
+  it("fails safely when a registered adapter is not configured", () => {
+    const registry = new PaymentProviderRegistry();
+    registry.register({
+      id: "unconfigured",
+      region: "india",
+      supportedMethods: ["other"],
+      isConfigured: () => false,
+      createPayment: async () => {
+        throw new Error("must not be called");
+      },
+      getPaymentStatus: async () => {
+        throw new Error("must not be called");
+      },
+      verifyWebhook: async () => {
+        throw new Error("must not be called");
+      },
+      refundPayment: async () => {
+        throw new Error("must not be called");
+      },
+    });
+    expect(() => registry.resolve("unconfigured")).toThrow(PaymentProviderNotConfiguredError);
+    expect(() => registry.resolve()).toThrow(PaymentProviderNotConfiguredError);
+  });
+
+  it("keeps the test provider out of production", () => {
+    expect(() => assertTestProviderAllowed("production")).toThrow(PaymentValidationError);
+    expect(() => assertTestProviderAllowed("development")).not.toThrow();
+    expect(() => assertTestProviderAllowed("test")).not.toThrow();
+  });
+
+  it("does not allow REQUIRES_PAYMENT to become SUCCEEDED in one step", () => {
+    const states = new PaymentStateService();
+    expect(() => states.assertTransition("REQUIRES_PAYMENT", "SUCCEEDED")).toThrow();
+    expect(() => states.assertTransition("REQUIRES_PAYMENT", "PROCESSING")).not.toThrow();
+  });
+});
 
 function cookieFrom(response: Response, name: string): string {
   const headers = response.headers.getSetCookie?.() ?? [];
@@ -219,6 +268,9 @@ describeDb("payment core API", () => {
     });
     await prisma.webhookEvent.deleteMany({ where: { provider: TEST_PAYMENT_PROVIDER_ID } });
     await prisma.idempotencyRecord.deleteMany({ where: { scope: "payments.intents.create" } });
+    await prisma.auditLog.deleteMany({
+      where: { entityType: "PaymentIntent", entityId: { in: intents.map((i) => i.id) } },
+    });
 
     const carts = await prisma.cart.findMany({
       where: { userId: { in: [userIdA, userIdB] } },
@@ -446,15 +498,44 @@ describeDb("payment core API", () => {
     expect(await prisma.order.count({ where: { userId: userIdA } })).toBe(1);
   });
 
+  it("rejects invalid checkout and invalid payment transitions", async () => {
+    const { PaymentStateService, PaymentConflictError } = await import("@eckamcreation/payments");
+    const states = new PaymentStateService();
+    expect(() => states.assertTransition("REQUIRES_PAYMENT", "PROCESSING")).not.toThrow();
+    expect(() => states.assertTransition("REQUIRES_PAYMENT", "SUCCEEDED")).toThrow(PaymentConflictError);
+    expect(() => states.assertTransition("SUCCEEDED", "FAILED")).toThrow(PaymentConflictError);
+
+    const notReady = await createIntent(
+      new Request("http://localhost:3002/v1/payments/intents", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          cookie: `${CUSTOMER_SESSION_COOKIE}=${cookieA}`,
+        },
+        body: JSON.stringify({ checkoutSessionId: "does-not-exist" }),
+      }),
+    );
+    expect(notReady.status).toBe(404);
+  });
+
   it("supports refund boundary without exceeding amount", async () => {
     const intent = await prisma.paymentIntent.findUniqueOrThrow({ where: { id: intentId } });
     const refund = await getPaymentService().createRefund({
       paymentIntentId: intent.id,
       amountMinor: BigInt(1000),
       reason: "partial test refund",
+      idempotencyKey: `refund-${suffix}`,
     });
     expect(refund.status).toBe("SUCCEEDED");
     expect(refund.amountMinor).toBe(BigInt(1000));
+
+    const replay = await getPaymentService().createRefund({
+      paymentIntentId: intent.id,
+      amountMinor: BigInt(1000),
+      reason: "partial test refund",
+      idempotencyKey: `refund-${suffix}`,
+    });
+    expect(replay.id).toBe(refund.id);
 
     await expect(
       getPaymentService().createRefund({

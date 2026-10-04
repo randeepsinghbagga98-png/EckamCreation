@@ -26,6 +26,10 @@ function sanitize(fields?: LogFields): LogFields | undefined {
       lower.includes("password") ||
       lower.includes("secret") ||
       lower.includes("authorization") ||
+      lower.includes("webhook") ||
+      lower.includes("credential") ||
+      lower.includes("api_key") ||
+      lower.includes("apikey") ||
       lower === "database_url" ||
       lower.includes("cookie")
     ) {

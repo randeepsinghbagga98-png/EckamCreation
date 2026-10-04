@@ -58,7 +58,13 @@ export const orderSummaryDtoSchema = z.object({
 });
 
 export const orderListQuerySchema = cursorQuerySchema.extend({
-  status: z.string().optional(),
+  status: z
+    .string()
+    .max(40)
+    .regex(/^[A-Z_]+$/)
+    .optional(),
+  q: z.string().max(64).optional(),
+  userId: z.string().min(1).max(64).optional(),
 });
 
 export const orderStatusPatchSchema = z.object({

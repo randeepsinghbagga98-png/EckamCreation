@@ -17,6 +17,7 @@ export const productListQuerySchema = cursorQuerySchema.extend({
     .transform((v) => (v === undefined ? undefined : v === "true")),
   q: z.string().max(120).optional(),
   sort: productSortSchema.optional(),
+  status: z.enum(["DRAFT", "ACTIVE", "ARCHIVED"]).optional(),
 });
 
 export const productSummarySchema = z.object({

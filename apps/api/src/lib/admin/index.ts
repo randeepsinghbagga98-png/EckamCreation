@@ -2,11 +2,13 @@ import { prisma } from "@eckamcreation/database";
 import { AdminCustomerService, AuditLogService } from "./customer-service";
 import { DashboardService } from "./dashboard-service";
 import { InventoryService } from "./inventory-service";
+import { AdminPaymentService } from "./payment-service";
 
 let dashboard: DashboardService | null = null;
 let inventory: InventoryService | null = null;
 let customers: AdminCustomerService | null = null;
 let auditLogs: AuditLogService | null = null;
+let payments: AdminPaymentService | null = null;
 
 export function getDashboardService() {
   if (!dashboard) dashboard = new DashboardService(prisma);
@@ -28,11 +30,17 @@ export function getAuditLogService() {
   return auditLogs;
 }
 
+export function getAdminPaymentService() {
+  if (!payments) payments = new AdminPaymentService(prisma);
+  return payments;
+}
+
 export function resetAdminServices() {
   dashboard = null;
   inventory = null;
   customers = null;
   auditLogs = null;
+  payments = null;
 }
 
 export {
@@ -40,4 +48,5 @@ export {
   InventoryService,
   AdminCustomerService,
   AuditLogService,
+  AdminPaymentService,
 };

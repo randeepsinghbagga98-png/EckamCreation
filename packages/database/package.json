@@ -12,7 +12,11 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "lint": "echo \"No lint config in @eckamcreation/database\"",
-    "prisma": "prisma"
+    "prisma": "prisma",
+    "seed": "node prisma/seed.mjs"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
   },
   "dependencies": {
     "@prisma/client": "^6.15.0"

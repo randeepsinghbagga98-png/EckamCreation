@@ -147,6 +147,8 @@ export const adminPaths = {
   reviews: "/v1/admin/reviews",
   roles: "/v1/admin/roles",
   auditLogs: "/v1/admin/audit-logs",
+  settings: "/v1/admin/settings",
+  aiStatus: "/v1/admin/ai/status",
 } as const;
 
 export const contractGroups = [

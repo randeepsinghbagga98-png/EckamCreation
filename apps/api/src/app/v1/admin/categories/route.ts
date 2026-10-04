@@ -7,7 +7,7 @@ import { parseJsonBody } from "../../../../lib/parse-json";
 
 export const GET = withApiHandler(async (request, requestId) => {
   await requirePermission(request, PERMISSIONS.CATALOGUE_READ);
-  const items = await getCategoryService().listPublic();
+  const items = await getCategoryService().listAdmin();
   return jsonOk({ items }, { requestId });
 });
 

@@ -158,7 +158,7 @@ export class CheckoutService {
           city: input.shippingAddress.city,
           state: input.shippingAddress.state,
           postalCode: input.shippingAddress.postalCode,
-          countryId: input.shippingAddress.countryId,
+          countryId: await this.resolveAddressCountryId(input.shippingAddress.countryId),
           regionId: input.shippingAddress.regionId,
           isDefault: false,
         },
@@ -188,7 +188,7 @@ export class CheckoutService {
           city: input.billingAddress.city,
           state: input.billingAddress.state,
           postalCode: input.billingAddress.postalCode,
-          countryId: input.billingAddress.countryId,
+          countryId: await this.resolveAddressCountryId(input.billingAddress.countryId),
           regionId: input.billingAddress.regionId,
           isDefault: false,
         },
@@ -654,6 +654,19 @@ export class CheckoutService {
       throw notFound("Checkout session not found");
     }
     return session;
+  }
+
+  private async resolveAddressCountryId(countryId: string): Promise<string> {
+    const resolved = await resolveCountryId(this.prisma, countryId);
+    if (resolved) return resolved;
+
+    const existing = await this.prisma.country.findFirst({
+      where: { id: countryId, isActive: true },
+      select: { id: true },
+    });
+    if (existing) return existing.id;
+
+    throw validationError("Invalid country");
   }
 
   private async assertAddressAccess(identity: CartIdentity, addressId: string) {

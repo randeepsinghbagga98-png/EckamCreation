@@ -1,45 +1,78 @@
-export type EckamAiCapability =
-  | "product-discovery"
-  | "natural-language-search"
-  | "recommendations"
-  | "comparison"
-  | "product-qa"
-  | "order-assistance"
-  | "shipping-information"
-  | "support-assistance";
+export type { EckamAiCapability } from "./types";
+export type {
+  AiChatMessage,
+  AiMessageRole,
+  AiProviderKind,
+  AiProviderTurnInput,
+  AiProviderTurnResult,
+  AiToolCallRequest,
+  AiToolCallResult,
+  AiToolCallStatus,
+  AiTurnRequest,
+  AiTurnResult,
+  AiUsageMetadata,
+} from "./types";
 
-export type AiTurnResult = {
-  conversationId: string;
-  assistantMessage: string;
-  toolCalls: Array<{ toolName: string; success: boolean }>;
-};
+export { ECKAM_AI_SYSTEM_INSTRUCTION } from "./system-prompt";
+export type { AiProvider } from "./provider";
+export { AiProviderRegistry } from "./registry";
+export {
+  createAiProviderRegistryFromEnv,
+  preferredAiProviderId,
+  resolveAiProviderFromEnv,
+} from "./providers/from-env";
+export type { AiProviderEnv, CreateAiProvidersFromEnvOptions } from "./providers/from-env";
+export {
+  OPENAI_AI_PROVIDER_ID,
+  OPENAI_DEFAULT_TIMEOUT_MS,
+  OpenAiProvider,
+  createOpenAiProvider,
+  fromOpenAiResponse,
+  mapOpenAiError,
+  toOpenAiRequest,
+} from "./providers/openai";
+export type {
+  OpenAiProviderConfig,
+  OpenAiTransport,
+  OpenAiTransportRequest,
+  OpenAiTransportResponse,
+} from "./providers/openai";
+export {
+  DEVELOPMENT_AI_MESSAGE,
+  DEVELOPMENT_AI_MODEL,
+  DEVELOPMENT_AI_PROVIDER_ID,
+  DevelopmentAiProvider,
+  assertDevelopmentAiProviderAllowed,
+} from "./development-provider";
+export { AI_MAX_TOOL_ITERATIONS, DefaultEckamAiService, createEckamAiService } from "./service";
+export type { CreateEckamAiServiceOptions, EckamAiService } from "./service";
+export { AI_TOOL_ARGS_MAX_BYTES, AI_TOOL_NAME_PATTERN, AiToolRegistry, normalizeToolArgs } from "./tools";
+export type { AiTool, AiToolContext, AiToolResult } from "./tools";
+export {
+  AI_TOOL_PERMISSIONS,
+  AI_TOOL_PERMISSION_MUTATION,
+  AI_TOOL_PERMISSION_READ_ONLY,
+  isMutationAiTool,
+} from "./tool-permissions";
+export type { AiToolPermission } from "./tool-permissions";
 
-export interface EckamAiService {
-  readonly name: "eckam-ai";
-  isConfigured(): boolean;
-  createConversation(input?: { channel?: string; title?: string; userId?: string }): Promise<{ id: string }>;
-  sendMessage(input: { conversationId: string; content: string; userId?: string }): Promise<AiTurnResult>;
-}
-
-export class NotImplementedAiError extends Error {
-  readonly code = "NOT_IMPLEMENTED" as const;
-  constructor(method: string) {
-    super(`EckamAiService.${method} is not implemented yet`);
-    this.name = "NotImplementedAiError";
-  }
-}
-
-export function createEckamAiService(apiKey?: string): EckamAiService {
-  return {
-    name: "eckam-ai",
-    isConfigured() {
-      return Boolean(apiKey);
-    },
-    async createConversation() {
-      throw new NotImplementedAiError("createConversation");
-    },
-    async sendMessage() {
-      throw new NotImplementedAiError("sendMessage");
-    },
-  };
-}
+export {
+  AiConversationForbiddenError,
+  AiConversationNotFoundError,
+  AiError,
+  AiInvalidMessageError,
+  AiProviderAuthFailedError,
+  AiProviderError,
+  AiProviderInvalidRequestError,
+  AiProviderNotConfiguredError,
+  AiProviderRateLimitedError,
+  AiProviderTimeoutError,
+  AiProviderUnavailableError,
+  AiToolExecutionFailedError,
+  AiToolInvalidArgumentsError,
+  AiToolLoopLimitError,
+  AiToolNotFoundError,
+  toSanitizedAiProviderError,
+  toSanitizedAiToolError,
+} from "./errors";
+export type { AiErrorCode } from "./errors";

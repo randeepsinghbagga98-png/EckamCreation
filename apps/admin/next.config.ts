@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
+const API_ORIGIN = process.env.API_INTERNAL_URL ?? "http://127.0.0.1:3002";
+
 const nextConfig: NextConfig = {
   transpilePackages: [
+    "@eckamcreation/api-contracts",
     "@eckamcreation/ui",
     "@eckamcreation/config",
     "@eckamcreation/database",
@@ -13,6 +16,14 @@ const nextConfig: NextConfig = {
     "@eckamcreation/search",
     "@eckamcreation/storage",
   ],
+  async rewrites() {
+    return [
+      {
+        source: "/v1/:path*",
+        destination: `${API_ORIGIN}/v1/:path*`,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

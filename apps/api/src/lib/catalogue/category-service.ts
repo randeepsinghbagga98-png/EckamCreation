@@ -26,6 +26,25 @@ export class CategoryService {
     }));
   }
 
+  async listAdmin(): Promise<CategoryDto[]> {
+    const rows = await this.prisma.category.findMany({
+      where: { deletedAt: null },
+      orderBy: [{ sortOrder: "asc" }, { name: "asc" }],
+      include: { _count: { select: { children: true } } },
+    });
+    return rows.map((c) => ({
+      id: c.id,
+      slug: c.slug,
+      name: c.name,
+      description: c.description,
+      parentId: c.parentId,
+      path: c.path,
+      sortOrder: c.sortOrder,
+      isActive: c.isActive,
+      childrenCount: c._count.children,
+    }));
+  }
+
   async getPublicBySlugOrId(idOrSlug: string): Promise<CategoryDto & { children: CategoryDto[] }> {
     const category = await this.prisma.category.findFirst({
       where: {

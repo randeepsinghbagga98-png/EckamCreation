@@ -29,6 +29,9 @@ importers:
 
   apps/admin:
     dependencies:
+      '@eckamcreation/api-contracts':
+        specifier: workspace:*
+        version: link:../../packages/api-contracts
       next:
         specifier: 16.3.4
         version: 16.3.4(@babel/core@7.29.7(supports-color@7.2.0))(@playwright/test@1.63.0)(@types/node@20.19.43)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -127,6 +130,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@eckamcreation/api-contracts':
+        specifier: workspace:*
+        version: link:../../packages/api-contracts
       '@eckamcreation/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -181,6 +187,10 @@ importers:
         version: 5.9.3
 
   packages/ai:
+    dependencies:
+      openai:
+        specifier: ^7.27.0
+        version: 7.27.0(zod@3.25.76)
     devDependencies:
       typescript:
         specifier: ^5
@@ -2613,6 +2623,30 @@ packages:
 
   ohash@2.0.12:
     resolution: {integrity: sha512-65S/5gk9YSsaRjcyf7Nfa6h/d3E8/1gslpXfI4W7Dxn/oap8IKRuNT5VXkLQ1YFKIEg4apRY4Pj6aiwFzrDdmw==}
+
+  openai@7.27.0:
+    resolution: {integrity: sha512-QDo1FvnRDZn15YwGVOhT9vpyypDiLphkd/7a4mcURWf5upMoEetgA6o4DJeII+ZZkC6m6DvlilCwii3+ynDcTw==}
+    engines: {node: '>=22.0.0'}
+    peerDependencies:
+      '@aws-sdk/credential-provider-node': '>=3.972.0 <4'
+      '@smithy/hash-node': '>=4.3.0 <5'
+      '@smithy/signature-v4': '>=5.4.0 <6'
+      undici: '>=5 <9'
+      ws: ^8.21.0
+      zod: ^3.25 || ^4.0
+    peerDependenciesMeta:
+      '@aws-sdk/credential-provider-node':
+        optional: true
+      '@smithy/hash-node':
+        optional: true
+      '@smithy/signature-v4':
+        optional: true
+      undici:
+        optional: true
+      ws:
+        optional: true
+      zod:
+        optional: true
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -5529,6 +5563,10 @@ snapshots:
       es-object-atoms: 1.1.2
 
   ohash@2.0.12: {}
+
+  openai@7.27.0(zod@3.25.76):
+    optionalDependencies:
+      zod: 3.25.76
 
   optionator@0.9.4:
     dependencies:

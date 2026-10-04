@@ -412,10 +412,28 @@ export class OrderService {
     };
   }
 
-  async listAdminOrders(query: { cursor?: string; limit?: number; status?: string }) {
+  async listAdminOrders(query: {
+    cursor?: string;
+    limit?: number;
+    status?: string;
+    q?: string;
+    userId?: string;
+  }) {
     const limit = Math.min(100, Math.max(1, query.limit ?? 20));
     const rows = await this.prisma.order.findMany({
-      where: query.status ? { status: query.status as "PAID" } : {},
+      where: {
+        ...(query.status ? { status: query.status as "PAID" } : {}),
+        ...(query.userId ? { userId: query.userId } : {}),
+        ...(query.q
+          ? {
+              OR: [
+                { number: { contains: query.q, mode: "insensitive" } },
+                { id: query.q },
+              ],
+            }
+          : {}),
+      },
+      ...(query.cursor ? { cursor: { id: query.cursor }, skip: 1 } : {}),
       orderBy: [{ placedAt: "desc" }, { id: "desc" }],
       take: limit + 1,
       include: { _count: { select: { items: true } } },
@@ -434,7 +452,7 @@ export class OrderService {
         userId: o.userId,
       })),
       pagination: {
-        nextCursor: null as string | null,
+        nextCursor: hasMore ? page[page.length - 1]!.id : null,
         hasMore,
       },
     };
@@ -743,6 +761,56 @@ export class OrderService {
     });
 
     return this.toShipmentDto(shipmentId);
+  }
+
+  async listAdminShipments(query: {
+    cursor?: string;
+    limit?: number;
+    status?: string;
+    orderId?: string;
+  }) {
+    const limit = Math.min(100, Math.max(1, query.limit ?? 20));
+    const rows = await this.prisma.shipment.findMany({
+      where: {
+        ...(query.status ? { status: query.status as "PENDING" } : {}),
+        ...(query.orderId
+          ? { OR: [{ orderId: query.orderId }, { order: { number: query.orderId } }] }
+          : {}),
+      },
+      ...(query.cursor ? { cursor: { id: query.cursor }, skip: 1 } : {}),
+      orderBy: [{ createdAt: "desc" }, { id: "desc" }],
+      take: limit + 1,
+      select: {
+        id: true,
+        orderId: true,
+        status: true,
+        carrier: true,
+        trackingNumber: true,
+        shippedAt: true,
+        deliveredAt: true,
+        createdAt: true,
+        order: { select: { number: true } },
+      },
+    });
+    const hasMore = rows.length > limit;
+    const page = hasMore ? rows.slice(0, limit) : rows;
+    return {
+      items: page.map((row) => ({
+        id: row.id,
+        orderId: row.orderId,
+        orderNumber: row.order.number,
+        status: row.status,
+        carrier: row.carrier,
+        trackingNumber: row.trackingNumber,
+        shippedAt: row.shippedAt?.toISOString() ?? null,
+        deliveredAt: row.deliveredAt?.toISOString() ?? null,
+        createdAt: row.createdAt.toISOString(),
+      })),
+      pagination: {
+        nextCursor: hasMore ? page[page.length - 1]!.id : null,
+        hasMore,
+      },
+    };
   }
 
   async listShipmentsForOrder(

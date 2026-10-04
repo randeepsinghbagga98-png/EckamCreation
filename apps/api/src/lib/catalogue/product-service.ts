@@ -144,6 +144,7 @@ export class ProductService {
       ...(query.collection
         ? { collections: { some: { collection: { slug: query.collection, deletedAt: null } } } }
         : {}),
+      ...(query.status ? { status: query.status } : {}),
       ...(cursor
         ? {
             OR: [
