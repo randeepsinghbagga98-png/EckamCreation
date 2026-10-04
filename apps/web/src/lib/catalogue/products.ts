@@ -3,7 +3,7 @@ import type { ProductCardData } from './product';
 /**
  * Local shop catalogue presentation list.
  * Sourced from `apps/web/public/products` — no prices, stock, ratings, or discounts.
- * Replace with catalogue API results when the storefront is connected.
+ * Placeholder cards link to /shop, not invented product slugs.
  */
 export const CATALOGUE_PRODUCTS: ProductCardData[] = [
   {
@@ -11,7 +11,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'cream-structured-tote',
     name: 'Cream Structured Tote',
     category: 'Bags & Lifestyle',
-    href: '/shop/cream-structured-tote',
+    href: '/shop',
     imageSrc: '/products/cream-tote.svg',
     imageAlt: 'Cream structured tote bag, front view',
   },
@@ -20,7 +20,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'noir-compact-bag',
     name: 'Noir Compact Bag',
     category: 'Bags & Lifestyle',
-    href: '/shop/noir-compact-bag',
+    href: '/shop',
     imageSrc: '/products/noir-bag.svg',
     imageAlt: 'Black compact handbag, front view',
   },
@@ -29,7 +29,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'everyday-tailored-layer',
     name: 'Everyday Tailored Layer',
     category: 'Fashion',
-    href: '/shop/everyday-tailored-layer',
+    href: '/shop',
     imageSrc: '/products/fashion-layer.svg',
     imageAlt: 'Tailored fashion layer on a studio figure',
   },
@@ -38,7 +38,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'daily-ritual-care',
     name: 'Daily Ritual Care',
     category: 'Beauty & Personal Care',
-    href: '/shop/daily-ritual-care',
+    href: '/shop',
     imageSrc: '/products/beauty-ritual.svg',
     imageAlt: 'Beauty care bottle, front view',
   },
@@ -47,7 +47,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'porcelain-table-setting',
     name: 'Porcelain Table Setting',
     category: 'Kitchen Essentials',
-    href: '/shop/porcelain-table-setting',
+    href: '/shop',
     imageSrc: '/products/kitchen-vessel.svg',
     imageAlt: 'Porcelain dinnerware setting, front view',
   },
@@ -56,7 +56,7 @@ export const CATALOGUE_PRODUCTS: ProductCardData[] = [
     slug: 'tan-carryall',
     name: 'Tan Carryall',
     category: 'Bags & Lifestyle',
-    href: '/shop/tan-carryall',
+    href: '/shop',
     imageSrc: '/products/tan-carryall.svg',
     imageAlt: 'Tan carryall bag, front view',
   },

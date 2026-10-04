@@ -1,5 +1,7 @@
 import type { ProductDetailDto } from '@eckamcreation/api-contracts';
 import { CATEGORIES } from '@/components/shop-by-category/categories';
+import { mapSummaryToCard } from '@/lib/collections/map';
+import { listCatalogueProducts } from './api';
 import type { ProductCardData, ProductPrice } from './product';
 import { CATALOGUE_PRODUCTS } from './products';
 
@@ -145,18 +147,16 @@ export function toLiveProductDetail(live: ProductDetailDto): ProductDetailData {
   };
 }
 
-export function getRelatedProducts(slug: string, limit = 4): ProductCardData[] {
-  const current = CATALOGUE_PRODUCTS.find((item) => item.slug === slug);
-  const others = CATALOGUE_PRODUCTS.filter((item) => item.slug !== slug);
-
-  if (!current) {
-    return others.slice(0, limit);
+export async function getRelatedProducts(slug: string, limit = 4): Promise<ProductCardData[]> {
+  try {
+    const listed = await listCatalogueProducts({ limit: '12', sort: 'created_at' });
+    return listed.items
+      .filter((item) => item.slug !== slug)
+      .slice(0, limit)
+      .map((item) => mapSummaryToCard(item, 'Catalogue'));
+  } catch {
+    return [];
   }
-
-  const sameCategory = others.filter((item) => item.category === current.category);
-  const remaining = others.filter((item) => item.category !== current.category);
-
-  return [...sameCategory, ...remaining].slice(0, limit);
 }
 
 export type VariantAttributeGroup = {

@@ -44,7 +44,7 @@ export function CustomerStories({ stories = CUSTOMER_STORIES }: CustomerStoriesP
             id="customer-stories-heading"
             className="font-sans text-[clamp(36px,5.6vw,68px)] font-light leading-[0.94] tracking-[-0.04em] uppercase text-[#F6F0E5]"
           >
-            <span className="block">Real stories.</span>
+            <span className="block">Stories ahead.</span>
             <span className="mt-1 block font-serif italic font-normal tracking-normal text-[#E8D3A4] normal-case">
               Real style.
             </span>

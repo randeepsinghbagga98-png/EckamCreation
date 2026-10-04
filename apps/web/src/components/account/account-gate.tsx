@@ -1,6 +1,7 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { usePathname } from 'next/navigation';
 import { retryAuthSession, useAuth } from '@/lib/auth/session';
 import { AccountAuthRequired } from './account-auth-required';
 import { AccountLoading } from './account-loading';
@@ -11,6 +12,7 @@ type AccountGateProps = {
 
 export function AccountGate({ children }: AccountGateProps) {
   const auth = useAuth();
+  const pathname = usePathname();
 
   if (auth.status === 'loading') {
     return <AccountLoading />;
@@ -40,7 +42,7 @@ export function AccountGate({ children }: AccountGateProps) {
   }
 
   if (auth.status !== 'authenticated') {
-    return <AccountAuthRequired />;
+    return <AccountAuthRequired next={pathname} />;
   }
 
   return <>{children}</>;

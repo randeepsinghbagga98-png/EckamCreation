@@ -1,24 +1,35 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import { EckamAiRoot } from '@/components/ai/eckam-ai-root';
+import { siteUrl } from '@/lib/site-url';
 import './globals.css';
 
+const appName = process.env.NEXT_PUBLIC_APP_NAME?.trim() || 'Eckam Creation';
+const description =
+  'Curated products and a considered shopping experience from Eckam Creation.';
+
 export const metadata: Metadata = {
-  title: 'ECKAM CREATION | Designed To Be Desired',
-  description:
-    'Curated products, refined design, and a premium shopping experience — crafted for India and the world.',
-  keywords: [
-    'luxury fashion',
-    'curated lifestyle',
-    'haute horlogerie',
-    'fine jewellery',
-    'designer accessories',
-    'India luxury',
-  ],
-  authors: [{ name: 'Eckam Creation' }],
-  icons: {
-    icon: '/favicon.ico',
+  metadataBase: new URL(siteUrl()),
+  title: {
+    default: `${appName} | Designed To Be Desired`,
+    template: `%s | ${appName}`,
   },
+  description,
+  applicationName: appName,
+  authors: [{ name: 'Eckam Creation' }],
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    siteName: appName,
+    title: `${appName} | Designed To Be Desired`,
+    description,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${appName} | Designed To Be Desired`,
+    description,
+  },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {

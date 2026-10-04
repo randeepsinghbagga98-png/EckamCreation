@@ -21,7 +21,7 @@ export const FOOTER_NAV_GROUPS: FooterNavGroup[] = [
       { label: 'Shop', href: '/shop' },
       { label: 'New Arrivals', href: '/#new-arrivals' },
       { label: 'Collections', href: '/collections' },
-      { label: 'Best Sellers', href: '/#best-sellers' },
+      { label: 'Selected Pieces', href: '/#best-sellers' },
     ],
   },
   {

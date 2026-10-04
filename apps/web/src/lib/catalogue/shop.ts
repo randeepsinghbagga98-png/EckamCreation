@@ -80,3 +80,12 @@ export async function loadShopCatalogue(query: CatalogueQuery): Promise<ShopCata
     return { status: 'error', products: [], categories: [] };
   }
 }
+
+export async function loadHomeCatalogue(): Promise<ProductCardData[]> {
+  try {
+    const listed = await listCatalogueProducts({ limit: '8', sort: 'created_at' });
+    return listed.items.map((item) => mapSummaryToCard(item, 'Catalogue'));
+  } catch {
+    return [];
+  }
+}

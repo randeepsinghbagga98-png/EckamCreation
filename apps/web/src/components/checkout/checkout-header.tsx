@@ -21,7 +21,7 @@ export function CheckoutHeader() {
           />
         </Link>
         <p className="text-[10px] font-semibold tracking-[0.22em] uppercase text-[#8B6914]">
-          Secure checkout
+          Checkout
         </p>
       </div>
     </header>

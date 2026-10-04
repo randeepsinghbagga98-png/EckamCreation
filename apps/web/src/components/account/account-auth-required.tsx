@@ -1,6 +1,19 @@
 import Link from 'next/link';
+import { safeReturnTo } from '@/lib/auth/return-to';
 
-export function AccountAuthRequired() {
+type AccountAuthRequiredProps = {
+  next?: string;
+};
+
+export function AccountAuthRequired({ next }: AccountAuthRequiredProps) {
+  const returnTo = safeReturnTo(next);
+  const loginHref = returnTo
+    ? `/account/login?next=${encodeURIComponent(returnTo)}`
+    : '/account/login';
+  const signupHref = returnTo
+    ? `/account/signup?next=${encodeURIComponent(returnTo)}`
+    : '/account/signup';
+
   return (
     <div className="account-page">
       <div className="account-shell">
@@ -11,10 +24,10 @@ export function AccountAuthRequired() {
             Sign in to manage your account, addresses and orders.
           </p>
           <div className="account-actions">
-            <Link href="/account/login" className="cart-cta cart-cta--primary">
+            <Link href={loginHref} className="cart-cta cart-cta--primary">
               Sign in
             </Link>
-            <Link href="/account/signup" className="cart-cta cart-cta--ghost">
+            <Link href={signupHref} className="cart-cta cart-cta--ghost">
               Create account
             </Link>
           </div>

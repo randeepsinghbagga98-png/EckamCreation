@@ -4,10 +4,11 @@ import Link from 'next/link';
 import { motion, useReducedMotion } from 'motion/react';
 import { ArrowRightIcon } from '../icons';
 import { ProductCard } from '../product/product-card';
+import type { ProductCardData } from '@/lib/catalogue/product';
 import { BEST_SELLER_PRODUCTS } from './products';
 
 type BestSellersProps = {
-  products?: typeof BEST_SELLER_PRODUCTS;
+  products?: ProductCardData[];
 };
 
 export function BestSellers({ products = BEST_SELLER_PRODUCTS }: BestSellersProps) {
@@ -35,11 +36,10 @@ export function BestSellers({ products = BEST_SELLER_PRODUCTS }: BestSellersProp
           <div className="max-w-2xl">
             <p className="section-eyebrow">The Edit</p>
             <h2 id="best-sellers-heading" className="section-title mt-4 font-sans">
-              Best Sellers
+              Selected Pieces
             </h2>
             <p className="mt-5 max-w-xl text-[15px] sm:text-base font-light leading-relaxed text-[#1A1815]/70">
-              Discover the pieces customers return to — thoughtfully selected for
-              lasting style, everyday use, and distinctive character.
+              An editorial selection from the catalogue — not a sales ranking.
             </p>
           </div>
 

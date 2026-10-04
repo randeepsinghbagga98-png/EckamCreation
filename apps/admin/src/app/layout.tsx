@@ -5,6 +5,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Eckam Creation Admin",
   description: "Staff console for the Eckam Creation storefront.",
+  applicationName: "Eckam Creation Admin",
+  robots: { index: false, follow: false },
 };
 
 export const viewport: Viewport = {

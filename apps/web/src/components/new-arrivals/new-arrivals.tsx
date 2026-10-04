@@ -4,10 +4,11 @@ import Link from 'next/link';
 import { motion, useReducedMotion } from 'motion/react';
 import { ArrowRightIcon } from '../icons';
 import { ProductCard } from '../product/product-card';
+import type { ProductCardData } from '@/lib/catalogue/product';
 import { NEW_ARRIVAL_PRODUCTS } from './products';
 
 type NewArrivalsProps = {
-  products?: typeof NEW_ARRIVAL_PRODUCTS;
+  products?: ProductCardData[];
 };
 
 export function NewArrivals({ products = NEW_ARRIVAL_PRODUCTS }: NewArrivalsProps) {

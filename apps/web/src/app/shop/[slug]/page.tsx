@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getCatalogueProduct } from '@/lib/catalogue/api';
 import {
   getRelatedProducts,
   toLiveProductDetail,
 } from '@/lib/catalogue/product-detail';
 import { ProductDetailView } from '@/components/product-detail/product-detail-view';
-import { ProductNotFound } from '@/components/product-detail/product-not-found';
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
@@ -39,12 +39,11 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   const live = await getCatalogueProduct(slug);
 
   if (!live) {
-    return <ProductNotFound />;
+    notFound();
   }
 
   const product = toLiveProductDetail(live);
+  const related = await getRelatedProducts(product.slug);
 
-  return (
-    <ProductDetailView product={product} related={getRelatedProducts(product.slug)} />
-  );
+  return <ProductDetailView product={product} related={related} />;
 }

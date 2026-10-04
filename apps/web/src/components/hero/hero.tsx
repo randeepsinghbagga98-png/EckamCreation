@@ -132,18 +132,18 @@ export function Hero() {
           <div
             className="mt-11 sm:mt-13 pt-6 sm:pt-7 border-t border-white/[0.12] flex flex-wrap items-center gap-x-6 gap-y-3 sm:gap-x-7 text-[10.5px] sm:text-[11px] font-medium tracking-[0.16em] uppercase text-white/70"
             role="list"
-            aria-label="Trust and service commitments"
+            aria-label="Brand notes"
           >
             <div role="listitem" className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
               <GlobeIcon className="w-3.5 h-3.5 text-[#D6A84F] flex-none" />
-              <span>India &amp; International Delivery</span>
+              <span>Designed To Be Desired</span>
             </div>
 
             <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-[#D6A84F]/50" aria-hidden="true" />
 
             <div role="listitem" className="flex items-center gap-2 text-white/80 hover:text-white transition-colors">
               <ShieldCheckIcon className="w-3.5 h-3.5 text-[#D6A84F] flex-none" />
-              <span>Secure Checkout</span>
+              <span>The Catalogue</span>
             </div>
 
             <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-[#D6A84F]/50" aria-hidden="true" />
