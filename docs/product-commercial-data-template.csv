@@ -1,0 +1,87 @@
+SKU,Product ID,Category,Suggested Product Name,Price,Compare-at/MRP,Stock,Color,Status,Manual Review
+BEA-001,cmuv10h6l0005utmcsh4h7i9w,Beauty,Beauty Product 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-002,cmuv10hah000iutmcfdmvi94j,Beauty,Beauty Product 10,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-003,cmuv10hbt000rutmcr2ewg93q,Beauty,Beauty Product 11,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-004,cmuv10hd90010utmcprbgu1ok,Beauty,Beauty Product 12,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-005,cmuv10he00015utmcj5828yg2,Beauty,Beauty Product 02,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-006,cmuv10hf7001eutmc1r0119c0,Beauty,Beauty Product 03,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-007,cmuv10hgx001nutmc5h86miix,Beauty,Beauty Product 04,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-008,cmuv10hib001wutmcg2cn3wix,Beauty,Beauty Product 05,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-009,cmuv10hjl0025utmc6y6qudp9,Beauty,Beauty Product 06,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-010,cmuv10hl7002eutmchkq3q3e2,Beauty,Beauty Product 07,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-011,cmuv10hme002nutmc0cg0chc3,Beauty,Beauty Product 08,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+BEA-012,cmuv10hnj002wutmckpes036h,Beauty,Beauty Product 09,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-001,cmuv10hov0035utmc0xzvi0pk,Fashion Wear,Fashion Wear Product 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-002,cmuv10hqz003kutmce538f1qr,Fashion Wear,Fashion Wear Product 02,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-003,cmuv10hs5003tutmc2lio836a,Fashion Wear,Fashion Wear Product 11,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-004,cmuv10hud0042utmcfp4ocyso,Fashion Wear,Fashion Wear Product 12,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-005,cmuv10hvj0049utmc0y0prz7n,Fashion Wear,Fashion Wear Product 13,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-006,cmuv10hwk004eutmcsk19yvmo,Fashion Wear,Fashion Wear Product 03,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-007,cmuv10hz0004tutmcxg021cs2,Fashion Wear,Fashion Wear Product 04,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-008,cmuv10i190054utmchtxyx1ad,Fashion Wear,Fashion Wear Product 05,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-009,cmuv10i2y005futmc1kr3e722,Fashion Wear,Fashion Wear Product 06,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-010,cmuv10i4f005qutmcjwu3fvz3,Fashion Wear,Fashion Wear Product 07,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-011,cmuv10i8u0061utmchmrtyyvu,Fashion Wear,Fashion Wear Product 08,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-012,cmuv10ihb006cutmclyx09ey7,Fashion Wear,Fashion Wear Product 09,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-013,cmuv10iiu006lutmciy0tw4tw,Fashion Wear,Fashion Wear Product 10,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-014,cmuv10il9006uutmc5la5kw83,Fashion Wear,Fashion Wear Product 14,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+FAS-015,cmuv10im5006zutmcnh13rhxo,Fashion Wear,Fashion Wear Product 15,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+HAN-001,cmuv10inf0074utmcqumdx699,Handbags,Ivory Handbag,,,,ivory,PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,price|stock|grouping
+HAN-002,cmuv10ioc0079utmc0vxxfmy3,Handbags,Mint Green Handbag,,,,mint green,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-003,cmuv10ir4007mutmcpwj7x83j,Handbags,Black Handbag,,,,black,PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,price|stock|grouping
+HAN-004,cmuv10itf007zutmcqej2twbv,Handbags,Cream Handbag,,,,cream,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-005,cmuv10ivv008cutmct3108q7k,Handbags,Blush Pink Handbag,,,,blush pink,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-006,cmuv10izc008putmcymazmu9z,Handbags,Pink Handbag,,,,pink,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-007,cmuv10j0z0092utmc7frmnkud,Handbags,Beige Handbag,,,,beige,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-008,cmuv10j3k009futmcry6ciwyx,Handbags,Black Handbag,,,,black,PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,price|stock|grouping
+HAN-009,cmuv10j5j009sutmc9w0u5lsy,Handbags,Light Blue Handbag,,,,light blue,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-010,cmuv10j7h00a5utmcpbg5i5r0,Handbags,Tan Handbag,,,,tan,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-011,cmuv10ja100aiutmc5cmxuaiy,Handbags,Beige White Handbag,,,,beige white,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-012,cmuv10jc900avutmcwk9fz8nw,Handbags,Black White Handbag,,,,black white,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-013,cmuv10jee00b8utmcwwqnfubs,Handbags,Blush Pink White Handbag,,,,blush pink white,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-014,cmuv10jgb00blutmcbynkbmze,Handbags,Mauve White Handbag,,,,mauve white,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+HAN-015,cmuv10jif00byutmcemrfl1qy,Handbags,Sky Blue White Handbag,,,,sky blue white,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+KIT-001,cmuv10jkg00cbutmcnv5j5z3l,Kitchen,Kitchen Product 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-002,cmuv10jnw00cwutmcrqa9z6te,Kitchen,Kitchen Product 02,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-003,cmuv10jro00dbutmcmpatp7by,Kitchen,Kitchen Product 03,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-004,cmuv10juh00doutmcokw7ct27,Kitchen,Kitchen Product 04,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-005,cmuv10k3t00dxutmcr66jslm3,Kitchen,Kitchen Product 05,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-006,cmuv10k5r00e6utmclkzbknzk,Kitchen,Kitchen Product 06,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-007,cmuv10k6z00edutmcqisgpgwd,Kitchen,Kitchen Product 07,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+KIT-008,cmuv10k8k00emutmc640cu361,Kitchen,All Components,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+KIT-009,cmuv10ka300erutmcz4r3h4xb,Kitchen,Electric Hot Pot,,,,,PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,price|stock|grouping
+KIT-010,cmuv10kaw00ewutmcz815iz1g,Kitchen,Slotted Spatula,,,,,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+KIT-011,cmuv10kbo00f1utmche9ghus4,Kitchen,Slotted Spoon,,,,,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+KIT-012,cmuv10kcg00f6utmcqyh7zjkt,Kitchen,Spiral Whisk,,,,,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+KIT-013,cmuv10ke800fbutmcw0nc6s9x,Kitchen,Whisk,,,,,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+KIT-014,cmuv10kez00fgutmct3e5jktz,Kitchen,Wooden Spatula,,,,,PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,price|stock
+TOY-001,cmuv10kfw00flutmc83e5ycp4,Toys,Toy Product 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-002,cmuv10kmo00gsutmcw9by93de,Toys,Toy Product 10,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-003,cmuv10kn900gxutmc0nvhfvcd,Toys,Toy Product 11,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-004,cmuv10knz00h2utmcgclc00q4,Toys,Toy Product 12,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-005,cmuv10kor00h7utmcsv826nqe,Toys,Toy Product 13,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-006,cmuv10kpl00hcutmcabsjrp6n,Toys,Toy Product 14,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-007,cmuv10kqd00hhutmcy6ndnqc5,Toys,Toy Product 02,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-008,cmuv10kvh00i8utmcwk9twtyh,Toys,Toy Product 03,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-009,cmuv10kze00irutmc9omozwlu,Toys,Toy Product 04,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-010,cmuv10l3b00jeutmcs0oxx4h0,Toys,Toy Product 05,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-011,cmuv10l8400jxutmc6btkx5af,Toys,Toy Product 06,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-012,cmuv10lc500k8utmct4cq4pi1,Toys,Toy Product 07,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-013,cmuv10lpb00kjutmcgj0dimi4,Toys,Toy Product 08,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-014,cmuv10lq800koutmcw15uycxq,Toys,Toy Product 09,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|MULTIPLE_MISSING,name|price|stock
+TOY-015,cmuv10lrs00ktutmcouj6zg91,Toys,Transforming Robot Car,,,,,PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,price|stock|grouping
+TOY-016,cmuv10m2500m6utmcxporv4z7,Toys,Toy Image 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-017,cmuv10m2w00mbutmcvaeydfqg,Toys,Toy Image 01,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-018,cmuv10m3j00mgutmcol15i5jp,Toys,Toy Image 10,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-019,cmuv10m6800mlutmc7geh7iu8,Toys,Toy Image 11,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-020,cmuv10mb200mqutmcj1vswgsn,Toys,Toy Image 12,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-021,cmuv10mec00mvutmcve1i3jjx,Toys,Toy Image 13,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-022,cmuv10mff00n0utmc8xe9rskr,Toys,Toy Image 14,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-023,cmuv10mgd00n5utmcdyimgjqq,Toys,Toy Image 15,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-024,cmuv10mhc00nautmcdwuefhe7,Toys,Toy Image 16,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-025,cmuv10mis00nfutmc25ls8ugh,Toys,Toy Image 17,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-026,cmuv10mju00nkutmcsv9rwhnc,Toys,Toy Image 02,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-027,cmuv10mlb00nputmckjxgrl3b,Toys,Toy Image 06,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-028,cmuv10mmi00nuutmc5n571pb2,Toys,Toy Image 07,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-029,cmuv10mod00nzutmcsgyli5kr,Toys,Toy Image 08,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping
+TOY-030,cmuv10mpa00o4utmcnfndynh0,Toys,Toy Image 09,,,,,NAME_REVIEW|PRICE_MISSING|INVENTORY_MISSING|GROUPING_REVIEW|MULTIPLE_MISSING,name|price|stock|grouping

@@ -1,0 +1,4526 @@
+{
+  "createdAt": "2026-10-05T09:07:57.574Z",
+  "counts": {
+    "categories": 13,
+    "products": 97,
+    "variants": 97,
+    "media": 311,
+    "prices": 11
+  },
+  "categories": [
+    {
+      "id": "cmutbq1p10003utgg0uc659dd",
+      "slug": "jewellery-accessories",
+      "name": "Jewellery & Accessories",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1po0004utggdzlmaccv",
+      "slug": "bags-lifestyle",
+      "name": "Bags & Lifestyle",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1ps0005utgg8l9j2taf",
+      "slug": "fashion",
+      "name": "Fashion",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1pu0006utggis03sgau",
+      "slug": "home-decor",
+      "name": "Home & Decor",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1pw0007utgglbfqqeva",
+      "slug": "kitchen-essentials",
+      "name": "Kitchen Essentials",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1py0008utggps4w3rfw",
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1q20009utggvx174hpy",
+      "slug": "gifts-celebrations",
+      "name": "Gifts & Celebrations",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1q3000autgg97okasin",
+      "slug": "arts-crafts-spiritual",
+      "name": "Arts, Crafts & Spiritual",
+      "isActive": true
+    },
+    {
+      "id": "cmuv10h4u0000utmc3vifz478",
+      "slug": "beauty",
+      "name": "Beauty",
+      "isActive": true
+    },
+    {
+      "id": "cmuv10h5w0001utmcjbocrb42",
+      "slug": "fashion-wear",
+      "name": "Fashion Wear",
+      "isActive": true
+    },
+    {
+      "id": "cmuv10h620002utmcc81urwxr",
+      "slug": "handbags",
+      "name": "Handbags",
+      "isActive": true
+    },
+    {
+      "id": "cmuv10h660003utmc6dz6zhk7",
+      "slug": "kitchen",
+      "name": "Kitchen",
+      "isActive": true
+    },
+    {
+      "id": "cmuv10h690004utmctv8wu5pm",
+      "slug": "toys",
+      "name": "Toys",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "cmuv10h6l0005utmcsh4h7i9w",
+      "slug": "beauty-product-01",
+      "name": "Beauty Product 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.531Z",
+      "description": "Imported from beauty source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hah000iutmcfdmvi94j",
+      "slug": "beauty-product-10",
+      "name": "Beauty Product 10",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.672Z",
+      "description": "Imported from beauty source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hbt000rutmcr2ewg93q",
+      "slug": "beauty-product-11",
+      "name": "Beauty Product 11",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.720Z",
+      "description": "Imported from beauty source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hd90010utmcprbgu1ok",
+      "slug": "beauty-product-12",
+      "name": "Beauty Product 12",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.772Z",
+      "description": "Imported from beauty source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10he00015utmcj5828yg2",
+      "slug": "beauty-product-02",
+      "name": "Beauty Product 02",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.799Z",
+      "description": "Imported from beauty source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hf7001eutmc1r0119c0",
+      "slug": "beauty-product-03",
+      "name": "Beauty Product 03",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.842Z",
+      "description": "Imported from beauty source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hgx001nutmc5h86miix",
+      "slug": "beauty-product-04",
+      "name": "Beauty Product 04",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.904Z",
+      "description": "Imported from beauty source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hib001wutmcg2cn3wix",
+      "slug": "beauty-product-05",
+      "name": "Beauty Product 05",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:13.954Z",
+      "description": "Imported from beauty source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hjl0025utmc6y6qudp9",
+      "slug": "beauty-product-06",
+      "name": "Beauty Product 06",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.000Z",
+      "description": "Imported from beauty source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hl7002eutmchkq3q3e2",
+      "slug": "beauty-product-07",
+      "name": "Beauty Product 07",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.059Z",
+      "description": "Imported from beauty source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hme002nutmc0cg0chc3",
+      "slug": "beauty-product-08",
+      "name": "Beauty Product 08",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.101Z",
+      "description": "Imported from beauty source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hnj002wutmckpes036h",
+      "slug": "beauty-product-09",
+      "name": "Beauty Product 09",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.142Z",
+      "description": "Imported from beauty source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hov0035utmc0xzvi0pk",
+      "slug": "fashion-wear-product-01",
+      "name": "Fashion Wear Product 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.190Z",
+      "description": "Imported from fashion wear source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hqz003kutmce538f1qr",
+      "slug": "fashion-wear-product-02",
+      "name": "Fashion Wear Product 02",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.266Z",
+      "description": "Imported from fashion wear source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hs5003tutmc2lio836a",
+      "slug": "fashion-wear-product-11",
+      "name": "Fashion Wear Product 11",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.308Z",
+      "description": "Imported from fashion wear source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hud0042utmcfp4ocyso",
+      "slug": "fashion-wear-product-12",
+      "name": "Fashion Wear Product 12",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.388Z",
+      "description": "Imported from fashion wear source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmutbq1q9000butggdsjzqjud",
+      "slug": "cream-structured-tote",
+      "name": "Cream Structured Tote",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.364Z",
+      "description": "A structured everyday tote with a quiet cream finish and considered proportions."
+    },
+    {
+      "id": "cmutbq1sd000kutggof7k6jic",
+      "slug": "noir-compact-bag",
+      "name": "Noir Compact Bag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.443Z",
+      "description": "A compact carry piece in a deep noir tone, sized for daily essentials."
+    },
+    {
+      "id": "cmutbq1ss000tutggmzqq9k3z",
+      "slug": "tan-carryall",
+      "name": "Tan Carryall",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.458Z",
+      "description": "An open carryall in warm tan, made for unhurried days and simple errands."
+    },
+    {
+      "id": "cmutbq1t70012utggcw33kokt",
+      "slug": "everyday-tailored-layer",
+      "name": "Everyday Tailored Layer",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.473Z",
+      "description": "A tailored layer with a clean line, intended for everyday wear."
+    },
+    {
+      "id": "cmutbq1tn001butgg2x9x649f",
+      "slug": "daily-ritual-care",
+      "name": "Daily Ritual Care",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.490Z",
+      "description": "A simple care ritual for the daily shelf — quiet, useful, and considered."
+    },
+    {
+      "id": "cmutbq1u2001kutgg25hf3o0x",
+      "slug": "porcelain-table-setting",
+      "name": "Porcelain Table Setting",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.504Z",
+      "description": "A porcelain table setting for a more graceful everyday table."
+    },
+    {
+      "id": "cmutbq1uj001tutggt2hktfco",
+      "slug": "pearl-drop-earrings",
+      "name": "Pearl Drop Earrings",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.521Z",
+      "description": "A pair of pearl drop earrings with a restrained, everyday silhouette."
+    },
+    {
+      "id": "cmutbq1uw0020utgg6nacxcs1",
+      "slug": "minimal-pendant-necklace",
+      "name": "Minimal Pendant Necklace",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.534Z",
+      "description": "A minimal pendant necklace with a quiet chain and a small, balanced drop."
+    },
+    {
+      "id": "cmutbq1v60027utgg8hi0bqwi",
+      "slug": "linen-accent-cushion",
+      "name": "Linen Accent Cushion",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.545Z",
+      "description": "A linen accent cushion for a considered living space."
+    },
+    {
+      "id": "cmutbq1vi002eutggmd8llk3y",
+      "slug": "botanical-gift-box",
+      "name": "Botanical Gift Box",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.557Z",
+      "description": "A botanical gift box assembled for a quiet celebration."
+    },
+    {
+      "id": "cmutbq1vu002lutgg6m2x06ht",
+      "slug": "artisan-decorative-tray",
+      "name": "Artisan Decorative Tray",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.569Z",
+      "description": "A decorative tray with a handmade character for mindful spaces."
+    },
+    {
+      "id": "cmuv10hvj0049utmc0y0prz7n",
+      "slug": "fashion-wear-product-13",
+      "name": "Fashion Wear Product 13",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.430Z",
+      "description": "Imported from fashion wear source imagery (set 13). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hwk004eutmcsk19yvmo",
+      "slug": "fashion-wear-product-03",
+      "name": "Fashion Wear Product 03",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.467Z",
+      "description": "Imported from fashion wear source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10hz0004tutmcxg021cs2",
+      "slug": "fashion-wear-product-04",
+      "name": "Fashion Wear Product 04",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.555Z",
+      "description": "Imported from fashion wear source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10i190054utmchtxyx1ad",
+      "slug": "fashion-wear-product-05",
+      "name": "Fashion Wear Product 05",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.636Z",
+      "description": "Imported from fashion wear source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10i2y005futmc1kr3e722",
+      "slug": "fashion-wear-product-06",
+      "name": "Fashion Wear Product 06",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.697Z",
+      "description": "Imported from fashion wear source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10i4f005qutmcjwu3fvz3",
+      "slug": "fashion-wear-product-07",
+      "name": "Fashion Wear Product 07",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.750Z",
+      "description": "Imported from fashion wear source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10i8u0061utmchmrtyyvu",
+      "slug": "fashion-wear-product-08",
+      "name": "Fashion Wear Product 08",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:14.909Z",
+      "description": "Imported from fashion wear source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ihb006cutmclyx09ey7",
+      "slug": "fashion-wear-product-09",
+      "name": "Fashion Wear Product 09",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.214Z",
+      "description": "Imported from fashion wear source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10iiu006lutmciy0tw4tw",
+      "slug": "fashion-wear-product-10",
+      "name": "Fashion Wear Product 10",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.266Z",
+      "description": "Imported from fashion wear source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10il9006uutmc5la5kw83",
+      "slug": "fashion-wear-product-14",
+      "name": "Fashion Wear Product 14",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.356Z",
+      "description": "Imported from fashion wear source imagery (set 14). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10im5006zutmcnh13rhxo",
+      "slug": "fashion-wear-product-15",
+      "name": "Fashion Wear Product 15",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.388Z",
+      "description": "Imported from fashion wear source imagery (set 15). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10inf0074utmcqumdx699",
+      "slug": "ivory-handbag",
+      "name": "Ivory Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.434Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ioc0079utmc0vxxfmy3",
+      "slug": "mint-green-handbag",
+      "name": "Mint Green Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.467Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ir4007mutmcpwj7x83j",
+      "slug": "black-handbag",
+      "name": "Black Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.567Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10itf007zutmcqej2twbv",
+      "slug": "cream-handbag",
+      "name": "Cream Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.648Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ivv008cutmct3108q7k",
+      "slug": "blush-pink-handbag",
+      "name": "Blush Pink Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.738Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10izc008putmcymazmu9z",
+      "slug": "pink-handbag",
+      "name": "Pink Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.862Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10j0z0092utmc7frmnkud",
+      "slug": "beige-handbag",
+      "name": "Beige Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:15.922Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10j3k009futmcry6ciwyx",
+      "slug": "black-handbag-2",
+      "name": "Black Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.016Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10j5j009sutmc9w0u5lsy",
+      "slug": "light-blue-handbag",
+      "name": "Light Blue Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.086Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10j7h00a5utmcpbg5i5r0",
+      "slug": "tan-handbag",
+      "name": "Tan Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.156Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ja100aiutmc5cmxuaiy",
+      "slug": "beige-white-handbag",
+      "name": "Beige White Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.248Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jc900avutmcwk9fz8nw",
+      "slug": "black-white-handbag",
+      "name": "Black White Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.326Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jee00b8utmcwwqnfubs",
+      "slug": "blush-pink-white-handbag",
+      "name": "Blush Pink White Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.405Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jgb00blutmcbynkbmze",
+      "slug": "mauve-white-handbag",
+      "name": "Mauve White Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.474Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jif00byutmcemrfl1qy",
+      "slug": "sky-blue-white-handbag",
+      "name": "Sky Blue White Handbag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.550Z",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jkg00cbutmcnv5j5z3l",
+      "slug": "kitchen-product-01",
+      "name": "Kitchen Product 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.624Z",
+      "description": "Imported from kitchen source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jnw00cwutmcrqa9z6te",
+      "slug": "kitchen-product-02",
+      "name": "Kitchen Product 02",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.747Z",
+      "description": "Imported from kitchen source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10jro00dbutmcmpatp7by",
+      "slug": "kitchen-product-03",
+      "name": "Kitchen Product 03",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.883Z",
+      "description": "Imported from kitchen source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10juh00doutmcokw7ct27",
+      "slug": "kitchen-product-04",
+      "name": "Kitchen Product 04",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:16.984Z",
+      "description": "Imported from kitchen source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10k3t00dxutmcr66jslm3",
+      "slug": "kitchen-product-05",
+      "name": "Kitchen Product 05",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.320Z",
+      "description": "Imported from kitchen source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10k5r00e6utmclkzbknzk",
+      "slug": "kitchen-product-06",
+      "name": "Kitchen Product 06",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.390Z",
+      "description": "Imported from kitchen source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10k6z00edutmcqisgpgwd",
+      "slug": "kitchen-product-07",
+      "name": "Kitchen Product 07",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.434Z",
+      "description": "Imported from kitchen source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10k8k00emutmc640cu361",
+      "slug": "all-components",
+      "name": "All Components",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.491Z",
+      "description": "Imported kitchen item imagery (12_all_components_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ka300erutmcz4r3h4xb",
+      "slug": "electric-hot-pot-front-top-bottom-3d-hd-2",
+      "name": "Electric Hot Pot Front Top Bottom 3d Hd (2)",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.545Z",
+      "description": "Imported kitchen item imagery (electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kaw00ewutmcz815iz1g",
+      "slug": "slotted-spatula",
+      "name": "Slotted Spatula",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.575Z",
+      "description": "Imported kitchen item imagery (11_slotted_spatula_top_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kbo00f1utmche9ghus4",
+      "slug": "slotted-spoon",
+      "name": "Slotted Spoon",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.603Z",
+      "description": "Imported kitchen item imagery (07_slotted_spoon_top_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kcg00f6utmcqyh7zjkt",
+      "slug": "spiral-whisk",
+      "name": "Spiral Whisk",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.631Z",
+      "description": "Imported kitchen item imagery (10_spiral_whisk_top_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ke800fbutmcw0nc6s9x",
+      "slug": "whisk",
+      "name": "Whisk",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.694Z",
+      "description": "Imported kitchen item imagery (09_whisk_top_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kez00fgutmct3e5jktz",
+      "slug": "wooden-spatula",
+      "name": "Wooden Spatula",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.722Z",
+      "description": "Imported kitchen item imagery (08_wooden_spatula_top_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kfw00flutmc83e5ycp4",
+      "slug": "toy-product-01",
+      "name": "Toy Product 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.755Z",
+      "description": "Imported from toys source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kmo00gsutmcw9by93de",
+      "slug": "toy-product-10",
+      "name": "Toy Product 10",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:17.999Z",
+      "description": "Imported from toys source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kn900gxutmc0nvhfvcd",
+      "slug": "toy-product-11",
+      "name": "Toy Product 11",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.020Z",
+      "description": "Imported from toys source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10knz00h2utmcgclc00q4",
+      "slug": "toy-product-12",
+      "name": "Toy Product 12",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.046Z",
+      "description": "Imported from toys source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kor00h7utmcsv826nqe",
+      "slug": "toy-product-13",
+      "name": "Toy Product 13",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.074Z",
+      "description": "Imported from toys source imagery (set 13). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kpl00hcutmcabsjrp6n",
+      "slug": "toy-product-14",
+      "name": "Toy Product 14",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.104Z",
+      "description": "Imported from toys source imagery (set 14). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kqd00hhutmcy6ndnqc5",
+      "slug": "toy-product-02",
+      "name": "Toy Product 02",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.132Z",
+      "description": "Imported from toys source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kvh00i8utmcwk9twtyh",
+      "slug": "toy-product-03",
+      "name": "Toy Product 03",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.317Z",
+      "description": "Imported from toys source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10kze00irutmc9omozwlu",
+      "slug": "toy-product-04",
+      "name": "Toy Product 04",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.457Z",
+      "description": "Imported from toys source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10l3b00jeutmcs0oxx4h0",
+      "slug": "toy-product-05",
+      "name": "Toy Product 05",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.599Z",
+      "description": "Imported from toys source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10l8400jxutmc6btkx5af",
+      "slug": "toy-product-06",
+      "name": "Toy Product 06",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.771Z",
+      "description": "Imported from toys source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10lc500k8utmct4cq4pi1",
+      "slug": "toy-product-07",
+      "name": "Toy Product 07",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:18.913Z",
+      "description": "Imported from toys source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10lpb00kjutmcgj0dimi4",
+      "slug": "toy-product-08",
+      "name": "Toy Product 08",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.390Z",
+      "description": "Imported from toys source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10lq800koutmcw15uycxq",
+      "slug": "toy-product-09",
+      "name": "Toy Product 09",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.423Z",
+      "description": "Imported from toys source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10lrs00ktutmcouj6zg91",
+      "slug": "transforming-robot-car",
+      "name": "Transforming Robot Car",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.479Z",
+      "description": "Imported toy imagery that references robot/car modes and accessories. Confirm whether all of these assets belong to one SKU. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m2500m6utmcxporv4z7",
+      "slug": "toy-image-01-b957b0",
+      "name": "Toy Image 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.852Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m2w00mbutmcvaeydfqg",
+      "slug": "toy-image-01-558a80",
+      "name": "Toy Image 01",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.879Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m3j00mgutmcol15i5jp",
+      "slug": "toy-image-10-04ddc1",
+      "name": "Toy Image 10",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.902Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m6800mlutmc7geh7iu8",
+      "slug": "toy-image-11-d2289e",
+      "name": "Toy Image 11",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:19.999Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mb200mqutmcj1vswgsn",
+      "slug": "toy-image-12-34da07",
+      "name": "Toy Image 12",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.173Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mec00mvutmcve1i3jjx",
+      "slug": "toy-image-13-371774",
+      "name": "Toy Image 13",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.291Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mff00n0utmc8xe9rskr",
+      "slug": "toy-image-14-a88e98",
+      "name": "Toy Image 14",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.330Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mgd00n5utmcdyimgjqq",
+      "slug": "toy-image-15-dbd28e",
+      "name": "Toy Image 15",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.364Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mhc00nautmcdwuefhe7",
+      "slug": "toy-image-16-0c24e5",
+      "name": "Toy Image 16",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.399Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mis00nfutmc25ls8ugh",
+      "slug": "toy-image-17-ed46c3",
+      "name": "Toy Image 17",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.451Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mju00nkutmcsv9rwhnc",
+      "slug": "toy-image-02-791fe6",
+      "name": "Toy Image 02",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.489Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mlb00nputmckjxgrl3b",
+      "slug": "toy-image-06-a981d5",
+      "name": "Toy Image 06",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.542Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mmi00nuutmc5n571pb2",
+      "slug": "toy-image-07-e76405",
+      "name": "Toy Image 07",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.585Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mod00nzutmcsgyli5kr",
+      "slug": "toy-image-08-d53700",
+      "name": "Toy Image 08",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.652Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mpa00o4utmcnfndynh0",
+      "slug": "toy-image-09-7fce09",
+      "name": "Toy Image 09",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-05T09:07:20.685Z",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    }
+  ],
+  "variants": [
+    {
+      "id": "cmuv10h770007utmcmsy55sn6",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "sku": "BEA-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hap000kutmctuntjjao",
+      "productId": "cmuv10hah000iutmcfdmvi94j",
+      "sku": "BEA-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hby000tutmchlzpcktc",
+      "productId": "cmuv10hbt000rutmcr2ewg93q",
+      "sku": "BEA-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hdi0012utmctyq8g22p",
+      "productId": "cmuv10hd90010utmcprbgu1ok",
+      "sku": "BEA-004",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10he60017utmcll5hlvsz",
+      "productId": "cmuv10he00015utmcj5828yg2",
+      "sku": "BEA-005",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hfd001gutmcpqrkfkbf",
+      "productId": "cmuv10hf7001eutmc1r0119c0",
+      "sku": "BEA-006",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hh5001putmcqsu4vjn3",
+      "productId": "cmuv10hgx001nutmc5h86miix",
+      "sku": "BEA-007",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hij001yutmcdk8fl0qo",
+      "productId": "cmuv10hib001wutmcg2cn3wix",
+      "sku": "BEA-008",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hjs0027utmczpcl6rcu",
+      "productId": "cmuv10hjl0025utmc6y6qudp9",
+      "sku": "BEA-009",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hle002gutmcwc2ca6dp",
+      "productId": "cmuv10hl7002eutmchkq3q3e2",
+      "sku": "BEA-010",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hmj002putmcjwpr55kk",
+      "productId": "cmuv10hme002nutmc0cg0chc3",
+      "sku": "BEA-011",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hnq002yutmcxuczr1vw",
+      "productId": "cmuv10hnj002wutmckpes036h",
+      "sku": "BEA-012",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hp40037utmcfh65cfaj",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "sku": "FAS-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hr5003mutmc0ij8134w",
+      "productId": "cmuv10hqz003kutmce538f1qr",
+      "sku": "FAS-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hss003vutmc12yve1u2",
+      "productId": "cmuv10hs5003tutmc2lio836a",
+      "sku": "FAS-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10huo0044utmci3fik4pe",
+      "productId": "cmuv10hud0042utmcfp4ocyso",
+      "sku": "FAS-004",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hvo004butmcc3glribc",
+      "productId": "cmuv10hvj0049utmc0y0prz7n",
+      "sku": "FAS-005",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hx1004gutmche4pcy64",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "sku": "FAS-006",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10hz7004vutmc297x39y1",
+      "productId": "cmuv10hz0004tutmcxg021cs2",
+      "sku": "FAS-007",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10i1f0056utmc26dvwc4t",
+      "productId": "cmuv10i190054utmchtxyx1ad",
+      "sku": "FAS-008",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10i34005hutmccdut4uf1",
+      "productId": "cmuv10i2y005futmc1kr3e722",
+      "sku": "FAS-009",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10i4y005sutmc84ejs9g2",
+      "productId": "cmuv10i4f005qutmcjwu3fvz3",
+      "sku": "FAS-010",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10iad0063utmcciw1ogik",
+      "productId": "cmuv10i8u0061utmchmrtyyvu",
+      "sku": "FAS-011",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ihh006eutmczeqk8y1t",
+      "productId": "cmuv10ihb006cutmclyx09ey7",
+      "sku": "FAS-012",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ije006nutmc637g4p71",
+      "productId": "cmuv10iiu006lutmciy0tw4tw",
+      "sku": "FAS-013",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ill006wutmchnqujy71",
+      "productId": "cmuv10il9006uutmc5la5kw83",
+      "sku": "FAS-014",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10imf0071utmccxphit8z",
+      "productId": "cmuv10im5006zutmcnh13rhxo",
+      "sku": "FAS-015",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10inl0076utmc37k4ic75",
+      "productId": "cmuv10inf0074utmcqumdx699",
+      "sku": "HAN-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ioj007butmcteyowbxf",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "sku": "HAN-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ir9007outmc7evmj0v9",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "sku": "HAN-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10itm0081utmcq00kd47x",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "sku": "HAN-004",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10iw4008eutmchqqs94yo",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "sku": "HAN-005",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10izj008rutmcp7ig7vx5",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "sku": "HAN-006",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10j170094utmct2skzoh2",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "sku": "HAN-007",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10j3q009hutmcdi2bc87w",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "sku": "HAN-008",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10j5y009uutmc4kdr6gwh",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "sku": "HAN-009",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10j7p00a7utmc7uzthjjm",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "sku": "HAN-010",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ja800akutmcesr64rf4",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "sku": "HAN-011",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jcg00axutmcp3402w9p",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "sku": "HAN-012",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jem00bautmcclcwb3aw",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "sku": "HAN-013",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jgk00bnutmcudcwt6fl",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "sku": "HAN-014",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jil00c0utmceli5n8ra",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "sku": "HAN-015",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jkp00cdutmcpxtw4949",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "sku": "KIT-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jo000cyutmcurpj91kf",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "sku": "KIT-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1qt000dutggjfsx6r0j",
+      "productId": "cmutbq1q9000butggdsjzqjud",
+      "sku": "ECK-BAG-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1sg000mutggmc4yls56",
+      "productId": "cmutbq1sd000kutggof7k6jic",
+      "sku": "ECK-BAG-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1sv000vutgg5o051tp4",
+      "productId": "cmutbq1ss000tutggmzqq9k3z",
+      "sku": "ECK-BAG-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1ta0014utggx0cj993z",
+      "productId": "cmutbq1t70012utggcw33kokt",
+      "sku": "ECK-FSH-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1tr001dutggvx4tfzuj",
+      "productId": "cmutbq1tn001butgg2x9x649f",
+      "sku": "ECK-BTY-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1u5001mutgga6220cbz",
+      "productId": "cmutbq1u2001kutgg25hf3o0x",
+      "sku": "ECK-KIT-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1un001vutggphdleda6",
+      "productId": "cmutbq1uj001tutggt2hktfco",
+      "sku": "ECK-JWL-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1v00022utgg3i50rlrn",
+      "productId": "cmutbq1uw0020utgg6nacxcs1",
+      "sku": "ECK-JWL-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1v90029utgg30lpb4as",
+      "productId": "cmutbq1v60027utgg8hi0bqwi",
+      "sku": "ECK-HOM-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1vl002gutgg9nltsuyw",
+      "productId": "cmutbq1vi002eutggmd8llk3y",
+      "sku": "ECK-GFT-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1vy002nutggiivtu4e5",
+      "productId": "cmutbq1vu002lutgg6m2x06ht",
+      "sku": "ECK-ART-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10jrw00ddutmcn6t313vq",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "sku": "KIT-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10juo00dqutmc93a6lrf8",
+      "productId": "cmuv10juh00doutmcokw7ct27",
+      "sku": "KIT-004",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10k4500dzutmc6rjcorwx",
+      "productId": "cmuv10k3t00dxutmcr66jslm3",
+      "sku": "KIT-005",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10k6200e8utmcnvnxjo8d",
+      "productId": "cmuv10k5r00e6utmclkzbknzk",
+      "sku": "KIT-006",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10k7600efutmcf0e0fyoi",
+      "productId": "cmuv10k6z00edutmcqisgpgwd",
+      "sku": "KIT-007",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10k8t00eoutmcx0v7d77b",
+      "productId": "cmuv10k8k00emutmc640cu361",
+      "sku": "KIT-008",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kab00etutmcoo4aq7aq",
+      "productId": "cmuv10ka300erutmcz4r3h4xb",
+      "sku": "KIT-009",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kb300eyutmc8vbttoqq",
+      "productId": "cmuv10kaw00ewutmcz815iz1g",
+      "sku": "KIT-010",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kbt00f3utmc82spttva",
+      "productId": "cmuv10kbo00f1utmche9ghus4",
+      "sku": "KIT-011",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kdk00f8utmc6kxbn86f",
+      "productId": "cmuv10kcg00f6utmcqyh7zjkt",
+      "sku": "KIT-012",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kef00fdutmc6dfn88m6",
+      "productId": "cmuv10ke800fbutmcw0nc6s9x",
+      "sku": "KIT-013",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kf800fiutmc5a2docpf",
+      "productId": "cmuv10kez00fgutmct3e5jktz",
+      "sku": "KIT-014",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kg900fnutmc7txplbf7",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "sku": "TOY-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kmt00guutmcfi3jsm6j",
+      "productId": "cmuv10kmo00gsutmcw9by93de",
+      "sku": "TOY-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kne00gzutmcf5syxjzi",
+      "productId": "cmuv10kn900gxutmc0nvhfvcd",
+      "sku": "TOY-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10ko600h4utmcp29uvwb9",
+      "productId": "cmuv10knz00h2utmcgclc00q4",
+      "sku": "TOY-004",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kp100h9utmcyf73yva6",
+      "productId": "cmuv10kor00h7utmcsv826nqe",
+      "sku": "TOY-005",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kps00heutmcs7bhmodu",
+      "productId": "cmuv10kpl00hcutmcabsjrp6n",
+      "sku": "TOY-006",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kqj00hjutmciv88epnc",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "sku": "TOY-007",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kvo00iautmcp80vnl5y",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "sku": "TOY-008",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10kzl00itutmcyitxg1vr",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "sku": "TOY-009",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10l3h00jgutmcokfw4nyc",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "sku": "TOY-010",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10l8e00jzutmclw7nvbhc",
+      "productId": "cmuv10l8400jxutmc6btkx5af",
+      "sku": "TOY-011",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10leg00kautmcsrco2xxc",
+      "productId": "cmuv10lc500k8utmct4cq4pi1",
+      "sku": "TOY-012",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10lpi00klutmc8hbo30nu",
+      "productId": "cmuv10lpb00kjutmcgj0dimi4",
+      "sku": "TOY-013",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10lqf00kqutmcwd8xxe7w",
+      "productId": "cmuv10lq800koutmcw15uycxq",
+      "sku": "TOY-014",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10lrz00kvutmcr4o2z7sc",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "sku": "TOY-015",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10m2b00m8utmce7zv0693",
+      "productId": "cmuv10m2500m6utmcxporv4z7",
+      "sku": "TOY-016",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10m3100mdutmcvfy0r7yw",
+      "productId": "cmuv10m2w00mbutmcvaeydfqg",
+      "sku": "TOY-017",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10m3o00miutmcl7js358u",
+      "productId": "cmuv10m3j00mgutmcol15i5jp",
+      "sku": "TOY-018",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10m6d00mnutmcm6f72xok",
+      "productId": "cmuv10m6800mlutmc7geh7iu8",
+      "sku": "TOY-019",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mbh00msutmcx5wkcwho",
+      "productId": "cmuv10mb200mqutmcj1vswgsn",
+      "sku": "TOY-020",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mek00mxutmcqf8f8p73",
+      "productId": "cmuv10mec00mvutmcve1i3jjx",
+      "sku": "TOY-021",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mfk00n2utmcng5tzp9g",
+      "productId": "cmuv10mff00n0utmc8xe9rskr",
+      "sku": "TOY-022",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mgj00n7utmc44wlo69a",
+      "productId": "cmuv10mgd00n5utmcdyimgjqq",
+      "sku": "TOY-023",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mhi00ncutmcqzpnofzf",
+      "productId": "cmuv10mhc00nautmcdwuefhe7",
+      "sku": "TOY-024",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10miy00nhutmcempeq5nc",
+      "productId": "cmuv10mis00nfutmc25ls8ugh",
+      "sku": "TOY-025",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mk900nmutmc1tyidgrh",
+      "productId": "cmuv10mju00nkutmcsv9rwhnc",
+      "sku": "TOY-026",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mlm00nrutmc2n697rmd",
+      "productId": "cmuv10mlb00nputmckjxgrl3b",
+      "sku": "TOY-027",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mmn00nwutmcf3fpf8c2",
+      "productId": "cmuv10mmi00nuutmc5n571pb2",
+      "sku": "TOY-028",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10moi00o1utmcgwu1nquv",
+      "productId": "cmuv10mod00nzutmcsgyli5kr",
+      "sku": "TOY-029",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmuv10mpg00o6utmcudyry7qs",
+      "productId": "cmuv10mpa00o4utmcnfndynh0",
+      "sku": "TOY-030",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    }
+  ],
+  "media": [
+    {
+      "id": "cmuv10hc8000vutmcj4pnrq7d",
+      "productId": "cmuv10hbt000rutmcr2ewg93q",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-11/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (11).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hcg000xutmcbndq9coi",
+      "productId": "cmuv10hbt000rutmcr2ewg93q",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-11/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (11).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hcp000zutmc31ni120v",
+      "productId": "cmuv10hbt000rutmcr2ewg93q",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-11/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (11).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmutbq1s8000jutggpumylj0n",
+      "productId": "cmutbq1q9000butggdsjzqjud",
+      "variantId": null,
+      "url": "/products/cream-tote.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1sq000sutggr3o0tv3y",
+      "productId": "cmutbq1sd000kutggof7k6jic",
+      "variantId": null,
+      "url": "/products/noir-bag.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1t50011utgg6j4tm0hw",
+      "productId": "cmutbq1ss000tutggmzqq9k3z",
+      "variantId": null,
+      "url": "/products/tan-carryall.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1tm001autgg2c2ii4tp",
+      "productId": "cmutbq1t70012utggcw33kokt",
+      "variantId": null,
+      "url": "/products/fashion-layer.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1u0001jutgg9ntudrdx",
+      "productId": "cmutbq1tn001butgg2x9x649f",
+      "variantId": null,
+      "url": "/products/beauty-ritual.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1ug001sutggrgywnh39",
+      "productId": "cmutbq1u2001kutgg25hf3o0x",
+      "variantId": null,
+      "url": "/products/kitchen-vessel.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10h8k0009utmc0mslm2h4",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-01/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10h8t000butmcomm43dc8",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-01/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10h90000dutmc45pwhhxv",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-01/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10h96000futmckzboa5e9",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-01/04-front.svg",
+      "storageKey": "beauty/front_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10h9f000hutmcw9a7q6if",
+      "productId": "cmuv10h6l0005utmcsh4h7i9w",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-01/05-bottom.svg",
+      "storageKey": "beauty/bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10hav000mutmcf66h487p",
+      "productId": "cmuv10hah000iutmcfdmvi94j",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-10/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (10).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hb6000outmcw7870wdx",
+      "productId": "cmuv10hah000iutmcfdmvi94j",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-10/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (10).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hbc000qutmc08ci8lpw",
+      "productId": "cmuv10hah000iutmcfdmvi94j",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-10/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (10).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hdp0014utmc1qxma4xh",
+      "productId": "cmuv10hd90010utmcprbgu1ok",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-12/01-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (12).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hee0019utmcklg7863y",
+      "productId": "cmuv10he00015utmcj5828yg2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-02/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (2).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hel001butmc9rkdsl4a",
+      "productId": "cmuv10he00015utmcj5828yg2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-02/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10heu001dutmcmiyu4md0",
+      "productId": "cmuv10he00015utmcj5828yg2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-02/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hfj001iutmcf08e5vc5",
+      "productId": "cmuv10hf7001eutmc1r0119c0",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-03/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (3).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hfr001kutmc3gmb6khc",
+      "productId": "cmuv10hf7001eutmc1r0119c0",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-03/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hfx001mutmcmth4v9uc",
+      "productId": "cmuv10hf7001eutmc1r0119c0",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-03/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hhb001rutmcb1erlp6a",
+      "productId": "cmuv10hgx001nutmc5h86miix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-04/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (4).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hhk001tutmch8zuiuyd",
+      "productId": "cmuv10hgx001nutmc5h86miix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-04/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hht001vutmcurly2l7p",
+      "productId": "cmuv10hgx001nutmc5h86miix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-04/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hiq0020utmcxkm89wmc",
+      "productId": "cmuv10hib001wutmcg2cn3wix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-05/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (5).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hix0022utmc8q2wmpao",
+      "productId": "cmuv10hib001wutmcg2cn3wix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-05/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hj40024utmct0zxhq6m",
+      "productId": "cmuv10hib001wutmcg2cn3wix",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-05/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hke002butmc6m3slepv",
+      "productId": "cmuv10hjl0025utmc6y6qudp9",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-06/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hkl002dutmckfeoot1m",
+      "productId": "cmuv10hjl0025utmc6y6qudp9",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-06/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hk40029utmcu4opyfxr",
+      "productId": "cmuv10hjl0025utmc6y6qudp9",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-06/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (6).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hlk002iutmc3pjk4bup",
+      "productId": "cmuv10hl7002eutmchkq3q3e2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-07/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (7).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hlt002kutmc8zp53gmx",
+      "productId": "cmuv10hl7002eutmchkq3q3e2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-07/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hlz002mutmc2kb8ybhe",
+      "productId": "cmuv10hl7002eutmchkq3q3e2",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-07/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hmr002rutmc8gm88q8t",
+      "productId": "cmuv10hme002nutmc0cg0chc3",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-08/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (8).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hmx002tutmco5ffez2u",
+      "productId": "cmuv10hme002nutmc0cg0chc3",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-08/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (8).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hn5002vutmcsdlbbdia",
+      "productId": "cmuv10hme002nutmc0cg0chc3",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-08/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (8).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hnw0030utmcq63qncxz",
+      "productId": "cmuv10hnj002wutmckpes036h",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-09/01-front.svg",
+      "storageKey": "beauty/01_front_view_hd (9).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ho30032utmcbnmcnp4k",
+      "productId": "cmuv10hnj002wutmckpes036h",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-09/02-top.svg",
+      "storageKey": "beauty/02_top_view_hd (9).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hoa0034utmcff3490az",
+      "productId": "cmuv10hnj002wutmckpes036h",
+      "variantId": null,
+      "url": "/products/import/beauty/beauty-product-09/03-bottom.svg",
+      "storageKey": "beauty/03_bottom_view_hd (9).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hp90039utmcnojvmqvn",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hph003butmc1gzx4ztr",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hpn003dutmcggvlpvik",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hpu003futmck9jo6ljc",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10hq2003hutmcprifwyjb",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/05-angled.svg",
+      "storageKey": "fashion_wear/04_another_angle_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10hq8003jutmcfgkfu6gb",
+      "productId": "cmuv10hov0035utmc0xzvi0pk",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-01/06-lifestyle.svg",
+      "storageKey": "fashion_wear/05_lifestyle_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10hrc003outmctg6vhy3b",
+      "productId": "cmuv10hqz003kutmce538f1qr",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-02/01-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd(1).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hri003qutmc4j447sr8",
+      "productId": "cmuv10hqz003kutmce538f1qr",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-02/02-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd(1).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hro003sutmcqf98ohki",
+      "productId": "cmuv10hqz003kutmce538f1qr",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-02/03-angled.svg",
+      "storageKey": "fashion_wear/04_another_angle_hd(1).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10ht0003xutmcqe47rsha",
+      "productId": "cmuv10hs5003tutmc2lio836a",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-11/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (10).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10htd003zutmczayerr62",
+      "productId": "cmuv10hs5003tutmc2lio836a",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-11/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (10).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10htr0041utmcxzij66yp",
+      "productId": "cmuv10hs5003tutmc2lio836a",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-11/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (10).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10huv0046utmcqe2svzf5",
+      "productId": "cmuv10hud0042utmcfp4ocyso",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-12/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (11).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hv40048utmcxbspfhh8",
+      "productId": "cmuv10hud0042utmcfp4ocyso",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-12/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (11).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hw4004dutmctj0bdy09",
+      "productId": "cmuv10hvj0049utmc0y0prz7n",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-13/01-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (12).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hxe004kutmcc218xxbg",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10hxk004mutmcaix1h9ei",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10hxu004outmc1geftqlk",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10hy0004qutmcoxvddy2t",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/05-angled.svg",
+      "storageKey": "fashion_wear/04_another_angle_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10hx6004iutmc71d1mr3x",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (2).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10hyb004sutmcfvuk9hty",
+      "productId": "cmuv10hwk004eutmcsk19yvmo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-03/06-lifestyle.svg",
+      "storageKey": "fashion_wear/05_lifestyle_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10hzt004xutmcpll9mjpz",
+      "productId": "cmuv10hz0004tutmcxg021cs2",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-04/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (3).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10i01004zutmc8dg6vyvz",
+      "productId": "cmuv10hz0004tutmcxg021cs2",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-04/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10i0c0051utmcd0a1e9cu",
+      "productId": "cmuv10hz0004tutmcxg021cs2",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-04/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10i0o0053utmcnfd61lsl",
+      "productId": "cmuv10hz0004tutmcxg021cs2",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-04/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10i1n0058utmc4k5jbi0q",
+      "productId": "cmuv10i190054utmchtxyx1ad",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-05/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (4).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10i1u005autmcvr5f4712",
+      "productId": "cmuv10i190054utmchtxyx1ad",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-05/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10i23005cutmcizqia90m",
+      "productId": "cmuv10i190054utmchtxyx1ad",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-05/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10i2c005eutmcewlsb1io",
+      "productId": "cmuv10i190054utmchtxyx1ad",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-05/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10i3c005jutmc77wze20a",
+      "productId": "cmuv10i2y005futmc1kr3e722",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-06/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (5).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10i3j005lutmcaedbe6qj",
+      "productId": "cmuv10i2y005futmc1kr3e722",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-06/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10i3o005nutmcwqb5mph3",
+      "productId": "cmuv10i2y005futmc1kr3e722",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-06/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10i3w005putmc4cvgi68j",
+      "productId": "cmuv10i2y005futmc1kr3e722",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-06/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10i5a005uutmcgvdz0pej",
+      "productId": "cmuv10i4f005qutmcjwu3fvz3",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-07/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (6).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10i5r005wutmcqpdx3gjn",
+      "productId": "cmuv10i4f005qutmcjwu3fvz3",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-07/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10i6v005yutmcy5xexs61",
+      "productId": "cmuv10i4f005qutmcjwu3fvz3",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-07/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10i830060utmck23hch7v",
+      "productId": "cmuv10i4f005qutmcjwu3fvz3",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-07/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10ic20065utmcn0stbr7f",
+      "productId": "cmuv10i8u0061utmchmrtyyvu",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-08/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (7).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10iea0067utmcgi69dd0b",
+      "productId": "cmuv10i8u0061utmchmrtyyvu",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-08/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10ifn0069utmce4363x5c",
+      "productId": "cmuv10i8u0061utmchmrtyyvu",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-08/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10igk006butmcw4gui771",
+      "productId": "cmuv10i8u0061utmchmrtyyvu",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-08/04-angled.svg",
+      "storageKey": "fashion_wear/04_angle_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10ihp006gutmc90cd96bi",
+      "productId": "cmuv10ihb006cutmclyx09ey7",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-09/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (8).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ihv006iutmcuktjbm7u",
+      "productId": "cmuv10ihb006cutmclyx09ey7",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-09/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (8).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10ii1006kutmc1lnbpv8r",
+      "productId": "cmuv10ihb006cutmclyx09ey7",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-09/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (8).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10ijw006putmc8ul2l867",
+      "productId": "cmuv10iiu006lutmciy0tw4tw",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-10/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd (9).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ik5006rutmc78ukh60a",
+      "productId": "cmuv10iiu006lutmciy0tw4tw",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-10/02-side.svg",
+      "storageKey": "fashion_wear/02_side_view_hd (9).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10iko006tutmcsyz4bvym",
+      "productId": "cmuv10iiu006lutmciy0tw4tw",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-10/03-back.svg",
+      "storageKey": "fashion_wear/03_back_view_hd (9).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10ilr006yutmco51fpv04",
+      "productId": "cmuv10il9006uutmc5la5kw83",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-14/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd(20260912-061437).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10imz0073utmc1zxtkmis",
+      "productId": "cmuv10im5006zutmcnh13rhxo",
+      "variantId": null,
+      "url": "/products/import/fashion-wear/fashion-wear-product-15/01-front.svg",
+      "storageKey": "fashion_wear/01_front_view_hd(20260912-062549).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10inv0078utmcrpef66in",
+      "productId": "cmuv10inf0074utmcqumdx699",
+      "variantId": null,
+      "url": "/products/import/handbags/ivory-handbag/01-bottom.svg",
+      "storageKey": "handbag/01_Ivory_05_Bottom.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10iow007dutmcjzndciqb",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "variantId": null,
+      "url": "/products/import/handbags/mint-green-handbag/01-front.svg",
+      "storageKey": "handbag/01_Mint_Green_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ip8007futmcp4ddntvw",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "variantId": null,
+      "url": "/products/import/handbags/mint-green-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/01_Mint_Green_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10ipf007hutmcij9ms9cj",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "variantId": null,
+      "url": "/products/import/handbags/mint-green-handbag/03-side.svg",
+      "storageKey": "handbag/01_Mint_Green_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10ipq007jutmczgurx9yy",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "variantId": null,
+      "url": "/products/import/handbags/mint-green-handbag/04-back.svg",
+      "storageKey": "handbag/01_Mint_Green_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10iq1007lutmcg4swic0j",
+      "productId": "cmuv10ioc0079utmc0vxxfmy3",
+      "variantId": null,
+      "url": "/products/import/handbags/mint-green-handbag/05-bottom.svg",
+      "storageKey": "handbag/01_Mint_Green_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10irj007qutmcym9di9xu",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag/01-front.svg",
+      "storageKey": "handbag/02_Black_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10irp007sutmcxulhldlz",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/02_Black_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10is0007uutmc62qi02t5",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag/03-side.svg",
+      "storageKey": "handbag/02_Black_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10isa007wutmckecb7c2y",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag/04-back.svg",
+      "storageKey": "handbag/02_Black_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10isk007yutmc7x5roe51",
+      "productId": "cmuv10ir4007mutmcpwj7x83j",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag/05-bottom.svg",
+      "storageKey": "handbag/02_Black_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10iuc0083utmck7v5pber",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "variantId": null,
+      "url": "/products/import/handbags/cream-handbag/01-front.svg",
+      "storageKey": "handbag/02_Cream_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10iuj0085utmctjg3q2ag",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "variantId": null,
+      "url": "/products/import/handbags/cream-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/02_Cream_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10ius0087utmcqusvcn0g",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "variantId": null,
+      "url": "/products/import/handbags/cream-handbag/03-side.svg",
+      "storageKey": "handbag/02_Cream_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10iuy0089utmc0g5ahsg6",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "variantId": null,
+      "url": "/products/import/handbags/cream-handbag/04-back.svg",
+      "storageKey": "handbag/02_Cream_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10iv7008butmcazcnpcq5",
+      "productId": "cmuv10itf007zutmcqej2twbv",
+      "variantId": null,
+      "url": "/products/import/handbags/cream-handbag/05-bottom.svg",
+      "storageKey": "handbag/02_Cream_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10iwb008gutmcquu8ywny",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-handbag/01-front.svg",
+      "storageKey": "handbag/03_Blush_Pink_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10iwq008iutmcd4y8krh3",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/03_Blush_Pink_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10ix5008kutmcewfou44j",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-handbag/03-side.svg",
+      "storageKey": "handbag/03_Blush_Pink_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10ixd008mutmcd7yc5ns8",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-handbag/04-back.svg",
+      "storageKey": "handbag/03_Blush_Pink_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10iyj008outmceqf3api7",
+      "productId": "cmuv10ivv008cutmct3108q7k",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-handbag/05-bottom.svg",
+      "storageKey": "handbag/03_Blush_Pink_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10izo008tutmcvfh5kuel",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "variantId": null,
+      "url": "/products/import/handbags/pink-handbag/01-front.svg",
+      "storageKey": "handbag/03_Pink_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10izy008vutmccr94d46p",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "variantId": null,
+      "url": "/products/import/handbags/pink-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/03_Pink_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10j03008xutmc983fk45c",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "variantId": null,
+      "url": "/products/import/handbags/pink-handbag/03-side.svg",
+      "storageKey": "handbag/03_Pink_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10j0c008zutmcr7f3q330",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "variantId": null,
+      "url": "/products/import/handbags/pink-handbag/04-back.svg",
+      "storageKey": "handbag/03_Pink_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10j0i0091utmc33h0lok2",
+      "productId": "cmuv10izc008putmcymazmu9z",
+      "variantId": null,
+      "url": "/products/import/handbags/pink-handbag/05-bottom.svg",
+      "storageKey": "handbag/03_Pink_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10j25009autmc5q3kx7v3",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-handbag/03-side.svg",
+      "storageKey": "handbag/04_Beige_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10j2b009cutmcbfbg57j3",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-handbag/04-back.svg",
+      "storageKey": "handbag/04_Beige_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10j1h0096utmc3a4f7dc2",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-handbag/01-front.svg",
+      "storageKey": "handbag/04_Beige_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10j1w0098utmckfc56wnc",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/04_Beige_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10j2m009eutmcv86wojc3",
+      "productId": "cmuv10j0z0092utmc7frmnkud",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-handbag/05-bottom.svg",
+      "storageKey": "handbag/04_Beige_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10j41009jutmcxuvu309n",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag-2/01-front.svg",
+      "storageKey": "handbag/04_Black_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10j48009lutmc77agkny8",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag-2/02-three-quarter.svg",
+      "storageKey": "handbag/04_Black_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10j4g009nutmc0myrz1vn",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag-2/03-side.svg",
+      "storageKey": "handbag/04_Black_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10j4p009putmc6y49qipi",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag-2/04-back.svg",
+      "storageKey": "handbag/04_Black_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10j4y009rutmcdyz89xab",
+      "productId": "cmuv10j3k009futmcry6ciwyx",
+      "variantId": null,
+      "url": "/products/import/handbags/black-handbag-2/05-bottom.svg",
+      "storageKey": "handbag/04_Black_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10j63009wutmcfeoz9zql",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "variantId": null,
+      "url": "/products/import/handbags/light-blue-handbag/01-front.svg",
+      "storageKey": "handbag/05_Light_Blue_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10j6d009yutmcg5wxvc0o",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "variantId": null,
+      "url": "/products/import/handbags/light-blue-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/05_Light_Blue_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10j6i00a0utmcd2fbe82l",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "variantId": null,
+      "url": "/products/import/handbags/light-blue-handbag/03-side.svg",
+      "storageKey": "handbag/05_Light_Blue_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10j6r00a2utmcjxcrpgmo",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "variantId": null,
+      "url": "/products/import/handbags/light-blue-handbag/04-back.svg",
+      "storageKey": "handbag/05_Light_Blue_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10j6y00a4utmcqjqrzcyv",
+      "productId": "cmuv10j5j009sutmc9w0u5lsy",
+      "variantId": null,
+      "url": "/products/import/handbags/light-blue-handbag/05-bottom.svg",
+      "storageKey": "handbag/05_Light_Blue_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10j7u00a9utmc9mkjgatw",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "variantId": null,
+      "url": "/products/import/handbags/tan-handbag/01-front.svg",
+      "storageKey": "handbag/05_Tan_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10j8000abutmc44n1hsu1",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "variantId": null,
+      "url": "/products/import/handbags/tan-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/05_Tan_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10j8800adutmcz4whjcbs",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "variantId": null,
+      "url": "/products/import/handbags/tan-handbag/03-side.svg",
+      "storageKey": "handbag/05_Tan_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10j8u00afutmckqfx1jo3",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "variantId": null,
+      "url": "/products/import/handbags/tan-handbag/04-back.svg",
+      "storageKey": "handbag/05_Tan_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10j9600ahutmck4snzib9",
+      "productId": "cmuv10j7h00a5utmcpbg5i5r0",
+      "variantId": null,
+      "url": "/products/import/handbags/tan-handbag/05-bottom.svg",
+      "storageKey": "handbag/05_Tan_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jai00amutmcr4ue4a87",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-white-handbag/01-front.svg",
+      "storageKey": "handbag/Beige_White_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jap00aoutmcxkku5e9z",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-white-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/Beige_White_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jaz00aqutmcfw8vavss",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-white-handbag/03-side.svg",
+      "storageKey": "handbag/Beige_White_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jb700asutmc2silm437",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-white-handbag/04-back.svg",
+      "storageKey": "handbag/Beige_White_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jbm00auutmcz5bw61jf",
+      "productId": "cmuv10ja100aiutmc5cmxuaiy",
+      "variantId": null,
+      "url": "/products/import/handbags/beige-white-handbag/05-bottom.svg",
+      "storageKey": "handbag/Beige_White_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jcn00azutmcphshn6d9",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "variantId": null,
+      "url": "/products/import/handbags/black-white-handbag/01-front.svg",
+      "storageKey": "handbag/Black_White_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jd100b1utmc3zwoacjc",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "variantId": null,
+      "url": "/products/import/handbags/black-white-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/Black_White_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jdb00b3utmcqrjb6pj6",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "variantId": null,
+      "url": "/products/import/handbags/black-white-handbag/03-side.svg",
+      "storageKey": "handbag/Black_White_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jdi00b5utmcrw5r9t7t",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "variantId": null,
+      "url": "/products/import/handbags/black-white-handbag/04-back.svg",
+      "storageKey": "handbag/Black_White_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jds00b7utmclpy2l8ma",
+      "productId": "cmuv10jc900avutmcwk9fz8nw",
+      "variantId": null,
+      "url": "/products/import/handbags/black-white-handbag/05-bottom.svg",
+      "storageKey": "handbag/Black_White_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jf300beutmcdtinrxs4",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-white-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/Blush_Pink_White_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jf900bgutmcl96d2u7q",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-white-handbag/03-side.svg",
+      "storageKey": "handbag/Blush_Pink_White_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jes00bcutmc2k10b8rl",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-white-handbag/01-front.svg",
+      "storageKey": "handbag/Blush_Pink_White_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jfj00biutmct7nn8k2i",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-white-handbag/04-back.svg",
+      "storageKey": "handbag/Blush_Pink_White_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jfr00bkutmcftnf9oez",
+      "productId": "cmuv10jee00b8utmcwwqnfubs",
+      "variantId": null,
+      "url": "/products/import/handbags/blush-pink-white-handbag/05-bottom.svg",
+      "storageKey": "handbag/Blush_Pink_White_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jgq00bputmcd3qq1ek4",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "variantId": null,
+      "url": "/products/import/handbags/mauve-white-handbag/01-front.svg",
+      "storageKey": "handbag/Mauve_White_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jh000brutmcnk47el6q",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "variantId": null,
+      "url": "/products/import/handbags/mauve-white-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/Mauve_White_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jh600btutmc3uzhcerm",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "variantId": null,
+      "url": "/products/import/handbags/mauve-white-handbag/03-side.svg",
+      "storageKey": "handbag/Mauve_White_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jhh00bvutmcg9b0fmal",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "variantId": null,
+      "url": "/products/import/handbags/mauve-white-handbag/04-back.svg",
+      "storageKey": "handbag/Mauve_White_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jht00bxutmc0zpim73z",
+      "productId": "cmuv10jgb00blutmcbynkbmze",
+      "variantId": null,
+      "url": "/products/import/handbags/mauve-white-handbag/05-bottom.svg",
+      "storageKey": "handbag/Mauve_White_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jiv00c2utmcl3t8h53v",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "variantId": null,
+      "url": "/products/import/handbags/sky-blue-white-handbag/01-front.svg",
+      "storageKey": "handbag/Sky_Blue_White_01_Front.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jj200c4utmcwx8i3vmb",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "variantId": null,
+      "url": "/products/import/handbags/sky-blue-white-handbag/02-three-quarter.svg",
+      "storageKey": "handbag/Sky_Blue_White_02_Three_Quarter.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jjc00c6utmczp0rktcs",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "variantId": null,
+      "url": "/products/import/handbags/sky-blue-white-handbag/03-side.svg",
+      "storageKey": "handbag/Sky_Blue_White_03_Side.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jjl00c8utmcm08v6qxn",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "variantId": null,
+      "url": "/products/import/handbags/sky-blue-white-handbag/04-back.svg",
+      "storageKey": "handbag/Sky_Blue_White_04_Back.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jju00cautmcfmevbk37",
+      "productId": "cmuv10jif00byutmcemrfl1qy",
+      "variantId": null,
+      "url": "/products/import/handbags/sky-blue-white-handbag/05-bottom.svg",
+      "storageKey": "handbag/Sky_Blue_White_05_Bottom.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jkw00cfutmcn0u02v42",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jl500chutmcmbidf3cr",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/02-top.svg",
+      "storageKey": "kitchen/02_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jlc00cjutmc622rm01a",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/03-left.svg",
+      "storageKey": "kitchen/03_left_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jlm00clutmcayh046oq",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/04-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jlv00cnutmcuapjjyxi",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/05-top.svg",
+      "storageKey": "kitchen/05_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jm300cputmcn0qnsppt",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/06-bottom.svg",
+      "storageKey": "kitchen/06_bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10jm900crutmcpyl23g8b",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/07-angled.svg",
+      "storageKey": "kitchen/07_angled_front_right_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10jmi00ctutmc27ehu9bh",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/08-closeup.svg",
+      "storageKey": "kitchen/09_knob_closeup_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10jmo00cvutmc1zihlmme",
+      "productId": "cmuv10jkg00cbutmcnv5j5z3l",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-01/09-closeup.svg",
+      "storageKey": "kitchen/10_spout_closeup_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "cmuv10jo700d0utmcsbll30cv",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd (2).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10joi00d2utmc8buleofd",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/02-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10joo00d4utmchbnios34",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/03-left.svg",
+      "storageKey": "kitchen/03_left_side_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10joz00d6utmclpez4z0w",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/04-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jpf00d8utmc0un5zcht",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/05-left.svg",
+      "storageKey": "kitchen/05_left_side_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10jpw00dautmc7rwprqyi",
+      "productId": "cmuv10jnw00cwutmcrqa9z6te",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-02/06-top.svg",
+      "storageKey": "kitchen/05_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10jsk00dhutmclsudxsss",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-03/02-right.svg",
+      "storageKey": "kitchen/02_right_side_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10jsr00djutmcf5rrs8oc",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-03/03-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10jsa00dfutmc3wvla00g",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-03/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd (3).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10jt600dlutmcl8aqgikt",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-03/04-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10jtk00dnutmcopji40wi",
+      "productId": "cmuv10jro00dbutmcmpatp7by",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-03/05-bottom.svg",
+      "storageKey": "kitchen/06_bottom_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10k2o00dsutmcmhr2ztii",
+      "productId": "cmuv10juh00doutmcokw7ct27",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-04/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd (4).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10k3100duutmc73mwfrwy",
+      "productId": "cmuv10juh00doutmcokw7ct27",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-04/02-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10k3c00dwutmc65tx3op6",
+      "productId": "cmuv10juh00doutmcokw7ct27",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-04/03-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10k4l00e1utmcsnn2tiyx",
+      "productId": "cmuv10k3t00dxutmcr66jslm3",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-05/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd (5).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10k4t00e3utmc537uf09t",
+      "productId": "cmuv10k3t00dxutmcr66jslm3",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-05/02-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10k5600e5utmcjsvl84kp",
+      "productId": "cmuv10k3t00dxutmcr66jslm3",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-05/03-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10k6900eautmczyad3xjt",
+      "productId": "cmuv10k5r00e6utmclkzbknzk",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-06/01-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (6).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10k6k00ecutmcbrxn266s",
+      "productId": "cmuv10k5r00e6utmclkzbknzk",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-06/02-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10k7e00ehutmcwaprsq6q",
+      "productId": "cmuv10k6z00edutmcqisgpgwd",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-07/01-front.svg",
+      "storageKey": "kitchen/01_front_view_hd (7).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10k7s00ejutmc9z2brfxh",
+      "productId": "cmuv10k6z00edutmcqisgpgwd",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-07/02-top.svg",
+      "storageKey": "kitchen/02_top_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10k7z00elutmcclnn824v",
+      "productId": "cmuv10k6z00edutmcqisgpgwd",
+      "variantId": null,
+      "url": "/products/import/kitchen/kitchen-product-07/03-bottom.svg",
+      "storageKey": "kitchen/03_bottom_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10k9e00equtmcfeenaoi5",
+      "productId": "cmuv10k8k00emutmc640cu361",
+      "variantId": null,
+      "url": "/products/import/kitchen/all-components/01-accessories.svg",
+      "storageKey": "kitchen/12_all_components_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kan00evutmcifb4lbqe",
+      "productId": "cmuv10ka300erutmcz4r3h4xb",
+      "variantId": null,
+      "url": "/products/import/kitchen/electric-hot-pot-front-top-bottom-3d-hd-2/01-front.svg",
+      "storageKey": "kitchen/electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kba00f0utmcg9ikqe9i",
+      "productId": "cmuv10kaw00ewutmcz815iz1g",
+      "variantId": null,
+      "url": "/products/import/kitchen/slotted-spatula/01-top.svg",
+      "storageKey": "kitchen/11_slotted_spatula_top_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kc300f5utmc8hrjlka6",
+      "productId": "cmuv10kbo00f1utmche9ghus4",
+      "variantId": null,
+      "url": "/products/import/kitchen/slotted-spoon/01-top.svg",
+      "storageKey": "kitchen/07_slotted_spoon_top_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kdv00fautmc125pjfx3",
+      "productId": "cmuv10kcg00f6utmcqyh7zjkt",
+      "variantId": null,
+      "url": "/products/import/kitchen/spiral-whisk/01-top.svg",
+      "storageKey": "kitchen/10_spiral_whisk_top_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10keo00ffutmcsjfdnd5b",
+      "productId": "cmuv10ke800fbutmcw0nc6s9x",
+      "variantId": null,
+      "url": "/products/import/kitchen/whisk/01-top.svg",
+      "storageKey": "kitchen/09_whisk_top_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kff00fkutmcvo4o4tcr",
+      "productId": "cmuv10kez00fgutmct3e5jktz",
+      "variantId": null,
+      "url": "/products/import/kitchen/wooden-spatula/01-top.svg",
+      "storageKey": "kitchen/08_wooden_spatula_top_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kgv00frutmc9kxtsc8d",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/02-angled.svg",
+      "storageKey": "toys/02_angled_front_left_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10kh500ftutmcc4kp70r4",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/03-angled.svg",
+      "storageKey": "toys/02_angled_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10khe00fvutmc847wr42i",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/04-side.svg",
+      "storageKey": "toys/02_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10khm00fxutmceo8zoltd",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/05-left.svg",
+      "storageKey": "toys/02_left_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10ki700fzutmc1z9jv6ma",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/06-back.svg",
+      "storageKey": "toys/02_rear_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10kif00g1utmct3j11c6r",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/07-top.svg",
+      "storageKey": "toys/02_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10kil00g3utmcddf2nf59",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/08-left.svg",
+      "storageKey": "toys/03_left_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10kiq00g5utmcfyyoa8jb",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/09-left.svg",
+      "storageKey": "toys/03_side_left_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "cmuv10kiz00g7utmcawfxb6eq",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/10-top.svg",
+      "storageKey": "toys/03_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "cmuv10kj500g9utmcg007u9no",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/11-bottom.svg",
+      "storageKey": "toys/03_bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 10
+    },
+    {
+      "id": "cmuv10kgk00fputmc30v36tqk",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/01-front.svg",
+      "storageKey": "toys/01_front_view_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kjd00gbutmcx3mmbfb8",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/12-right.svg",
+      "storageKey": "toys/04_right_side_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "cmuv10kjj00gdutmc9nt4xtqz",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/13-back.svg",
+      "storageKey": "toys/04_rear_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 12
+    },
+    {
+      "id": "cmuv10kjp00gfutmcms7haqin",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/14-top.svg",
+      "storageKey": "toys/04_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 13
+    },
+    {
+      "id": "cmuv10kk100ghutmc4nzos79o",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/15-back.svg",
+      "storageKey": "toys/05_rear_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 14
+    },
+    {
+      "id": "cmuv10kk900gjutmcypenrh8d",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/16-top.svg",
+      "storageKey": "toys/05_top_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 15
+    },
+    {
+      "id": "cmuv10kkg00glutmc0heqsnpi",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/17-bottom.svg",
+      "storageKey": "toys/06_bottom_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 16
+    },
+    {
+      "id": "cmuv10kko00gnutmcdp6abox9",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/18-angled.svg",
+      "storageKey": "toys/07_angled_front_left_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 17
+    },
+    {
+      "id": "cmuv10kkv00gputmcciu6yw5w",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/19-angled.svg",
+      "storageKey": "toys/07_angled_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 18
+    },
+    {
+      "id": "cmuv10kl100grutmctlrzvjpz",
+      "productId": "cmuv10kfw00flutmc83e5ycp4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-01/20-angled.svg",
+      "storageKey": "toys/08_angled_rear_right_view_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 19
+    },
+    {
+      "id": "cmuv10kn100gwutmcixcwz2y6",
+      "productId": "cmuv10kmo00gsutmcw9by93de",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-10/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (10).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10knm00h1utmc51x8r8uv",
+      "productId": "cmuv10kn900gxutmc0nvhfvcd",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-11/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (11).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10koh00h6utmcrr5reawa",
+      "productId": "cmuv10knz00h2utmcgclc00q4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-12/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (12).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kp800hbutmcpekmzcwt",
+      "productId": "cmuv10kor00h7utmcsv826nqe",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-13/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (13).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kpz00hgutmczbaw1cp8",
+      "productId": "cmuv10kpl00hcutmcabsjrp6n",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-14/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (14).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kqu00hlutmcsf6ouw8w",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (2).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kr100hnutmcdj1u4xzt",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/02-angled.svg",
+      "storageKey": "toys/02_angled_front_left_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10krc00hputmcavui18lu",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/03-angled.svg",
+      "storageKey": "toys/02_angled_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10krj00hrutmceosxf9j9",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/04-top.svg",
+      "storageKey": "toys/02_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10krs00htutmcmy0cxofk",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/05-left.svg",
+      "storageKey": "toys/03_side_left_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10kry00hvutmcp2u22zji",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/06-bottom.svg",
+      "storageKey": "toys/03_bottom_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10ks600hxutmc5gaqxbvj",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/07-back.svg",
+      "storageKey": "toys/04_rear_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10ksd00hzutmcexymmonr",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/08-top.svg",
+      "storageKey": "toys/04_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10ksm00i1utmc08pd4xrw",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/09-bottom.svg",
+      "storageKey": "toys/04_bottom_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "cmuv10ksw00i3utmc7troflrk",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/10-back.svg",
+      "storageKey": "toys/05_rear_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "cmuv10kty00i5utmccp5qvevm",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/11-top.svg",
+      "storageKey": "toys/05_top_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 10
+    },
+    {
+      "id": "cmuv10kua00i7utmclqedj4c8",
+      "productId": "cmuv10kqd00hhutmcy6ndnqc5",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-02/12-angled.svg",
+      "storageKey": "toys/08_angled_rear_right_view_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "cmuv10kw300ieutmccwiyinzd",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/02-top.svg",
+      "storageKey": "toys/02_top_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10kwb00igutmcs3pgbs19",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/03-bottom.svg",
+      "storageKey": "toys/03_bottom_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10kwm00iiutmcsk4qbmzv",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/04-back.svg",
+      "storageKey": "toys/04_rear_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10kww00ikutmcsz3shadb",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/05-bottom.svg",
+      "storageKey": "toys/04_bottom_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10kx200imutmcg3chz89h",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/06-left.svg",
+      "storageKey": "toys/05_left_side_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10kvx00icutmc7061zdjg",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (3).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10kyd00ioutmclanjepuw",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/07-angled.svg",
+      "storageKey": "toys/07_angled_front_left_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10kym00iqutmcxh1tfcog",
+      "productId": "cmuv10kvh00i8utmcwk9twtyh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-03/08-angled.svg",
+      "storageKey": "toys/08_angled_rear_right_view_hd (3).svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10l0500ivutmcjpnin29h",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (4).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10l0c00ixutmc01p0yobu",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/02-angled.svg",
+      "storageKey": "toys/02_angled_front_left_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10l0m00izutmc4rr1lfi3",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/03-top.svg",
+      "storageKey": "toys/02_top_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10l0u00j1utmcjlxvuat6",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/04-left.svg",
+      "storageKey": "toys/03_side_left_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10l1300j3utmc109eaj1l",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/05-top.svg",
+      "storageKey": "toys/03_top_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10l1a00j5utmcmvigmug3",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/06-bottom.svg",
+      "storageKey": "toys/03_bottom_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10l1l00j7utmcsiki02l7",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/07-back.svg",
+      "storageKey": "toys/04_rear_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10l1y00j9utmcvmaqavtq",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/08-left.svg",
+      "storageKey": "toys/05_left_side_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10l2500jbutmckzmhzdkt",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/09-angled.svg",
+      "storageKey": "toys/07_angled_front_left_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "cmuv10l2d00jdutmcsodk0v15",
+      "productId": "cmuv10kze00irutmc9omozwlu",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-04/10-angled.svg",
+      "storageKey": "toys/08_angled_rear_right_view_hd (4).svg",
+      "isPrimary": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "cmuv10l4000jiutmcy2mvs0jj",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (5).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10l4a00jkutmctya4vwcq",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/02-angled.svg",
+      "storageKey": "toys/02_angled_front_left_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10l4t00jmutmczrmd41l1",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/03-top.svg",
+      "storageKey": "toys/02_top_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10l5400joutmcu0c8pvnt",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/04-back.svg",
+      "storageKey": "toys/04_rear_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10l5w00jqutmc8rwjuglw",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/05-left.svg",
+      "storageKey": "toys/05_left_side_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10l6m00jsutmc88uqonkz",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/06-right.svg",
+      "storageKey": "toys/06_right_side_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10l6v00juutmctqmauzdu",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/07-angled.svg",
+      "storageKey": "toys/07_angled_front_left_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10l7400jwutmc710l829w",
+      "productId": "cmuv10l3b00jeutmcs0oxx4h0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-05/08-angled.svg",
+      "storageKey": "toys/08_angled_rear_right_view_hd (5).svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10l9d00k1utmci99dv52g",
+      "productId": "cmuv10l8400jxutmc6btkx5af",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-06/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (6).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10l9j00k3utmcjf3nq2sg",
+      "productId": "cmuv10l8400jxutmc6btkx5af",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-06/02-back.svg",
+      "storageKey": "toys/04_rear_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10l9s00k5utmcpcajr5ae",
+      "productId": "cmuv10l8400jxutmc6btkx5af",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-06/03-left.svg",
+      "storageKey": "toys/05_left_side_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10la000k7utmctu9sggeu",
+      "productId": "cmuv10l8400jxutmc6btkx5af",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-06/04-right.svg",
+      "storageKey": "toys/06_right_side_view_hd (6).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10lgt00kcutmc12fe79xw",
+      "productId": "cmuv10lc500k8utmct4cq4pi1",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-07/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (7).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10lko00keutmcxkabphlc",
+      "productId": "cmuv10lc500k8utmct4cq4pi1",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-07/02-back.svg",
+      "storageKey": "toys/04_rear_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10lo900kgutmcb2wxiqrt",
+      "productId": "cmuv10lc500k8utmct4cq4pi1",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-07/03-left.svg",
+      "storageKey": "toys/05_left_side_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10lor00kiutmca3d9w7o7",
+      "productId": "cmuv10lc500k8utmct4cq4pi1",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-07/04-right.svg",
+      "storageKey": "toys/06_right_side_view_hd (7).svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10lpx00knutmctds605ch",
+      "productId": "cmuv10lpb00kjutmcgj0dimi4",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-08/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (8).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10lqq00ksutmc4a4u6sb2",
+      "productId": "cmuv10lq800koutmcw15uycxq",
+      "variantId": null,
+      "url": "/products/import/toys/toy-product-09/01-front.svg",
+      "storageKey": "toys/01_front_view_hd (9).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10lsj00kzutmcmzjx9109",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/02-front.svg",
+      "storageKey": "toys/01_front_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "cmuv10lsb00kxutmcomryp6eb",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/01-front.svg",
+      "storageKey": "toys/01_front_car_mode_hd.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10lt500l1utmcbvezvykk",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/03-angled.svg",
+      "storageKey": "toys/02_angled_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "cmuv10lte00l3utmcwio1ygya",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/04-angled.svg",
+      "storageKey": "toys/02_angled_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "cmuv10lto00l5utmcl7gmtl76",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/05-side.svg",
+      "storageKey": "toys/03_side_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "cmuv10ltv00l7utmcquzccylu",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/06-back.svg",
+      "storageKey": "toys/03_back_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "cmuv10lu800l9utmczb3olsds",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/07-side.svg",
+      "storageKey": "toys/04_side_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 6
+    },
+    {
+      "id": "cmuv10lug00lbutmcavfrpb45",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/08-back.svg",
+      "storageKey": "toys/04_rear_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "cmuv10luq00ldutmcyll3bugf",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/09-front.svg",
+      "storageKey": "toys/05_front_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "cmuv10lv200lfutmcwigg06vc",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/10-front.svg",
+      "storageKey": "toys/05_front_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "cmuv10lvb00lhutmc0t92fd24",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/11-angled.svg",
+      "storageKey": "toys/06_angled_robot_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 10
+    },
+    {
+      "id": "cmuv10lvq00ljutmcfr6afunm",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/12-back.svg",
+      "storageKey": "toys/08_rear_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "cmuv10lw000llutmco7lkbaxd",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/13-top.svg",
+      "storageKey": "toys/09_top_car_mode_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 12
+    },
+    {
+      "id": "cmuv10lw900lnutmcaxcxtyqf",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/14-top.svg",
+      "storageKey": "toys/09_top_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 13
+    },
+    {
+      "id": "cmuv10lwr00lputmcgofh958b",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/15-bottom.svg",
+      "storageKey": "toys/10_bottom_car_mode_hd (2).svg",
+      "isPrimary": false,
+      "sortOrder": 14
+    },
+    {
+      "id": "cmuv10lx000lrutmc61omqolr",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/16-bottom.svg",
+      "storageKey": "toys/10_bottom_car_mode_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 15
+    },
+    {
+      "id": "cmuv10lxb00ltutmc6j4l6kkq",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/17-accessories.svg",
+      "storageKey": "toys/10_batteries_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 16
+    },
+    {
+      "id": "cmuv10lxk00lvutmcf44jy97s",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/18-accessories.svg",
+      "storageKey": "toys/10_rechargeable_battery_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 17
+    },
+    {
+      "id": "cmuv10lxv00lxutmc33afctyq",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/19-accessories.svg",
+      "storageKey": "toys/11_accessories_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 18
+    },
+    {
+      "id": "cmuv10ly500lzutmcdg2fb1mm",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/20-accessories.svg",
+      "storageKey": "toys/11_remote_battery_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 19
+    },
+    {
+      "id": "cmuv10lyg00m1utmcjo2u9i1a",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/21-accessories.svg",
+      "storageKey": "toys/11_remote_controller_usb_cable_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 20
+    },
+    {
+      "id": "cmuv10lyr00m3utmcakoa3d0a",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/22-accessories.svg",
+      "storageKey": "toys/11_spare_propellers_landing_gear_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 21
+    },
+    {
+      "id": "cmuv10lz200m5utmcdhvwk923",
+      "productId": "cmuv10lrs00ktutmcouj6zg91",
+      "variantId": null,
+      "url": "/products/import/toys/transforming-robot-car/23-other.svg",
+      "storageKey": "toys/12_transforming_robot_car_hd.svg",
+      "isPrimary": false,
+      "sortOrder": 22
+    },
+    {
+      "id": "cmuv10m2l00mautmcfg8yjmo4",
+      "productId": "cmuv10m2500m6utmcxporv4z7",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-01-b957b0/01-other.svg",
+      "storageKey": "toys/images.svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10m3700mfutmckblud5if",
+      "productId": "cmuv10m2w00mbutmcvaeydfqg",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-01-558a80/01-other.svg",
+      "storageKey": "toys/images (1).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10m5v00mkutmc66urbuxo",
+      "productId": "cmuv10m3j00mgutmcol15i5jp",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-10-04ddc1/01-other.svg",
+      "storageKey": "toys/images (10).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ma500mputmc4nge4hf3",
+      "productId": "cmuv10m6800mlutmc7geh7iu8",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-11-d2289e/01-other.svg",
+      "storageKey": "toys/images (11).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mdw00muutmcbltvhu5c",
+      "productId": "cmuv10mb200mqutmcj1vswgsn",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-12-34da07/01-other.svg",
+      "storageKey": "toys/images (12).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mf100mzutmcaaxislrj",
+      "productId": "cmuv10mec00mvutmcve1i3jjx",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-13-371774/01-other.svg",
+      "storageKey": "toys/images (13).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mfy00n4utmckxon75hu",
+      "productId": "cmuv10mff00n0utmc8xe9rskr",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-14-a88e98/01-other.svg",
+      "storageKey": "toys/images (14).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mgx00n9utmc7a57nimq",
+      "productId": "cmuv10mgd00n5utmcdyimgjqq",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-15-dbd28e/01-other.svg",
+      "storageKey": "toys/images (15).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mif00neutmcot5eqjbg",
+      "productId": "cmuv10mhc00nautmcdwuefhe7",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-16-0c24e5/01-other.svg",
+      "storageKey": "toys/images (16).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mjf00njutmch2vws0aa",
+      "productId": "cmuv10mis00nfutmc25ls8ugh",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-17-ed46c3/01-other.svg",
+      "storageKey": "toys/images (17).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10ml100noutmc8b00sfxl",
+      "productId": "cmuv10mju00nkutmcsv9rwhnc",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-02-791fe6/01-other.svg",
+      "storageKey": "toys/images (2).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mm400ntutmciyo7v9de",
+      "productId": "cmuv10mlb00nputmckjxgrl3b",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-06-a981d5/01-other.svg",
+      "storageKey": "toys/images (6).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mny00nyutmcerten2x0",
+      "productId": "cmuv10mmi00nuutmc5n571pb2",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-07-e76405/01-other.svg",
+      "storageKey": "toys/images (7).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10moy00o3utmchmxtzdbp",
+      "productId": "cmuv10mod00nzutmcsgyli5kr",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-08-d53700/01-other.svg",
+      "storageKey": "toys/images (8).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmuv10mpw00o8utmcv426pron",
+      "productId": "cmuv10mpa00o4utmcnfndynh0",
+      "variantId": null,
+      "url": "/products/import/toys/toy-image-09-7fce09/01-other.svg",
+      "storageKey": "toys/images (9).svg",
+      "isPrimary": true,
+      "sortOrder": 0
+    }
+  ],
+  "prices": [
+    {
+      "id": "cmutbq1vp002iutggo27z1hcr",
+      "variantId": "cmutbq1vl002gutgg9nltsuyw",
+      "currencyCode": "INR",
+      "amountMinor": "159900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1w1002putggok0g963b",
+      "variantId": "cmutbq1vy002nutggiivtu4e5",
+      "currencyCode": "INR",
+      "amountMinor": "189900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1rb000futggmuj3kin2",
+      "variantId": "cmutbq1qt000dutggjfsx6r0j",
+      "currencyCode": "INR",
+      "amountMinor": "249900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1sl000outggc43ho9yc",
+      "variantId": "cmutbq1sg000mutggmc4yls56",
+      "currencyCode": "INR",
+      "amountMinor": "199900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1t0000xutgginuzpwil",
+      "variantId": "cmutbq1sv000vutgg5o051tp4",
+      "currencyCode": "INR",
+      "amountMinor": "299900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1td0016utgg4oebk7ra",
+      "variantId": "cmutbq1ta0014utggx0cj993z",
+      "currencyCode": "INR",
+      "amountMinor": "179900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1tu001futggp9qypgwm",
+      "variantId": "cmutbq1tr001dutggvx4tfzuj",
+      "currencyCode": "INR",
+      "amountMinor": "89900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1u8001outggb57k1hm1",
+      "variantId": "cmutbq1u5001mutgga6220cbz",
+      "currencyCode": "INR",
+      "amountMinor": "149900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1ur001xutgg16cuoal6",
+      "variantId": "cmutbq1un001vutggphdleda6",
+      "currencyCode": "INR",
+      "amountMinor": "129900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1v30024utgg7nqjewki",
+      "variantId": "cmutbq1v00022utgg3i50rlrn",
+      "currencyCode": "INR",
+      "amountMinor": "99900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1vf002butggbdnvfqq3",
+      "variantId": "cmutbq1v90029utgg30lpb4as",
+      "currencyCode": "INR",
+      "amountMinor": "119900",
+      "compareAtMinor": null
+    }
+  ]
+}

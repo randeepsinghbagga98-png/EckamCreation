@@ -1,0 +1,1300 @@
+{
+  "prefix": "qa-scan-202610050940",
+  "webStatuses": [
+    {
+      "path": "/",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/refund-policy",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/shop",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/search",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/collections",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/cart",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/checkout",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/login",
+      "status": 307,
+      "loc": "/account/login"
+    },
+    {
+      "path": "/signup",
+      "status": 307,
+      "loc": "/account/signup"
+    },
+    {
+      "path": "/account/login",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account/signup",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account/wishlist",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account/addresses",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account/orders",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/account/profile",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "loc": ""
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "loc": ""
+    }
+  ],
+  "slugs": [
+    "artisan-decorative-tray",
+    "botanical-gift-box",
+    "linen-accent-cushion",
+    "minimal-pendant-necklace",
+    "pearl-drop-earrings",
+    "porcelain-table-setting",
+    "daily-ritual-care",
+    "everyday-tailored-layer",
+    "tan-carryall",
+    "noir-compact-bag",
+    "cream-structured-tote"
+  ],
+  "catSlugs": [
+    "jewellery-accessories",
+    "bags-lifestyle",
+    "fashion",
+    "home-decor",
+    "kitchen-essentials",
+    "beauty-personal-care",
+    "gifts-celebrations",
+    "arts-crafts-spiritual"
+  ],
+  "colSlugs": [],
+  "slugResults": [
+    {
+      "slug": "artisan-decorative-tray",
+      "status": 200
+    },
+    {
+      "slug": "botanical-gift-box",
+      "status": 200
+    },
+    {
+      "slug": "linen-accent-cushion",
+      "status": 200
+    },
+    {
+      "slug": "minimal-pendant-necklace",
+      "status": 200
+    },
+    {
+      "slug": "pearl-drop-earrings",
+      "status": 200
+    },
+    {
+      "slug": "porcelain-table-setting",
+      "status": 200
+    },
+    {
+      "slug": "daily-ritual-care",
+      "status": 200
+    },
+    {
+      "slug": "everyday-tailored-layer",
+      "status": 200
+    },
+    {
+      "slug": "tan-carryall",
+      "status": 200
+    },
+    {
+      "slug": "noir-compact-bag",
+      "status": 200
+    },
+    {
+      "slug": "cream-structured-tote",
+      "status": 200
+    }
+  ],
+  "after": {
+    "products": 11,
+    "categories": 8,
+    "customers": 67,
+    "orders": 0
+  },
+  "leftover": [],
+  "rows": [
+    {
+      "id": "P0-API-HEALTH",
+      "check": "API health",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/",
+      "check": "GET /",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/about",
+      "check": "GET /about",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/contact",
+      "check": "GET /contact",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/privacy",
+      "check": "GET /privacy",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/terms",
+      "check": "GET /terms",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/refund-policy",
+      "check": "GET /refund-policy",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/shop",
+      "check": "GET /shop",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/search",
+      "check": "GET /search",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/collections",
+      "check": "GET /collections",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/cart",
+      "check": "GET /cart",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/checkout",
+      "check": "GET /checkout",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account",
+      "check": "GET /account",
+      "expected": "200-or-gated",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/login",
+      "check": "GET /login",
+      "expected": "307",
+      "actual": "307 -> /account/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/signup",
+      "check": "GET /signup",
+      "expected": "307",
+      "actual": "307 -> /account/signup",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/login",
+      "check": "GET /account/login",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/signup",
+      "check": "GET /account/signup",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/wishlist",
+      "check": "GET /account/wishlist",
+      "expected": "200-or-gated",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/addresses",
+      "check": "GET /account/addresses",
+      "expected": "200-or-gated",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/orders",
+      "check": "GET /account/orders",
+      "expected": "200-or-gated",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/account/profile",
+      "check": "GET /account/profile",
+      "expected": "200-or-gated",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/robots.txt",
+      "check": "GET /robots.txt",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-WEB-/sitemap.xml",
+      "check": "GET /sitemap.xml",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/login",
+      "check": "unauth GET /admin/login",
+      "expected": "200",
+      "actual": "200 ",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin",
+      "check": "unauth GET /admin",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/products",
+      "check": "unauth GET /admin/products",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/products/new",
+      "check": "unauth GET /admin/products/new",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/categories",
+      "check": "unauth GET /admin/categories",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/orders",
+      "check": "unauth GET /admin/orders",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/customers",
+      "check": "unauth GET /admin/customers",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/payments",
+      "check": "unauth GET /admin/payments",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/shipments",
+      "check": "unauth GET /admin/shipments",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/settings",
+      "check": "unauth GET /admin/settings",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-ADMIN-/admin/ai",
+      "check": "unauth GET /admin/ai",
+      "expected": "307 login",
+      "actual": "307 /admin/login",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CATALOGUE",
+      "check": "list published products",
+      "expected": "200 n>0",
+      "actual": "200 n=11",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-artisan-decorative-tray",
+      "check": "GET /shop/artisan-decorative-tray",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-botanical-gift-box",
+      "check": "GET /shop/botanical-gift-box",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-linen-accent-cushion",
+      "check": "GET /shop/linen-accent-cushion",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-minimal-pendant-necklace",
+      "check": "GET /shop/minimal-pendant-necklace",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-pearl-drop-earrings",
+      "check": "GET /shop/pearl-drop-earrings",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-porcelain-table-setting",
+      "check": "GET /shop/porcelain-table-setting",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-daily-ritual-care",
+      "check": "GET /shop/daily-ritual-care",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-everyday-tailored-layer",
+      "check": "GET /shop/everyday-tailored-layer",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-tan-carryall",
+      "check": "GET /shop/tan-carryall",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-noir-compact-bag",
+      "check": "GET /shop/noir-compact-bag",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-cream-structured-tote",
+      "check": "GET /shop/cream-structured-tote",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-PDP-INVALID",
+      "check": "invalid product slug",
+      "expected": "404",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S1-CAT-jewellery-accessories",
+      "check": "GET /shop?category=jewellery-accessories",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-bags-lifestyle",
+      "check": "GET /shop?category=bags-lifestyle",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-fashion",
+      "check": "GET /shop?category=fashion",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-home-decor",
+      "check": "GET /shop?category=home-decor",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-kitchen-essentials",
+      "check": "GET /shop?category=kitchen-essentials",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-beauty-personal-care",
+      "check": "GET /shop?category=beauty-personal-care",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-gifts-celebrations",
+      "check": "GET /shop?category=gifts-celebrations",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-CAT-arts-crafts-spiritual",
+      "check": "GET /shop?category=arts-crafts-spiritual",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-everyday-edit",
+      "check": "GET /collections/everyday-edit",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-INVALID",
+      "check": "invalid collection slug",
+      "expected": "404",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S2-RET-/account/login?next=https://evil.example",
+      "check": "returnTo /account/login?next=https://evil.example",
+      "expected": "no open redirect",
+      "actual": "200 leaked=true",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S2-RET-/account/login?next=//evil.example",
+      "check": "returnTo /account/login?next=//evil.example",
+      "expected": "no open redirect",
+      "actual": "200 leaked=true",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S2-RET-/account/login?next=/\\evil.example",
+      "check": "returnTo /account/login?next=/\\evil.example",
+      "expected": "no open redirect",
+      "actual": "200 leaked=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-RET-/account/login?next=/shop/tan-carryall",
+      "check": "returnTo /account/login?next=/shop/tan-carryall",
+      "expected": "no open redirect",
+      "actual": "200 leaked=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S4-STAFF-COOKIE",
+      "check": "staff Set-Cookie flags",
+      "expected": "httpOnly + SameSite=Lax",
+      "actual": "{\"present\":true,\"httpOnly\":true,\"secure\":false,\"sameSite\":\"lax\",\"path\":\"/\",\"valuePrinted\":false}",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S4-STAFF-BODY-SAFE",
+      "check": "staff login body has no secrets",
+      "expected": "no hash/token",
+      "actual": "unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/dashboard",
+      "check": "unauth /v1/admin/dashboard",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/products",
+      "check": "unauth /v1/admin/products",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/categories",
+      "check": "unauth /v1/admin/categories",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/orders",
+      "check": "unauth /v1/admin/orders",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/customers",
+      "check": "unauth /v1/admin/customers",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/payments/intents",
+      "check": "unauth /v1/admin/payments/intents",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/shipments",
+      "check": "unauth /v1/admin/shipments",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/settings",
+      "check": "unauth /v1/admin/settings",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-UNAUTH-/v1/admin/ai/status",
+      "check": "unauth /v1/admin/ai/status",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-REG-A",
+      "check": "register A",
+      "expected": "201",
+      "actual": "201",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S4-CUST-COOKIE",
+      "check": "customer Set-Cookie flags",
+      "expected": "httpOnly + SameSite=Lax",
+      "actual": "{\"present\":true,\"httpOnly\":true,\"secure\":false,\"sameSite\":\"lax\",\"path\":\"/\",\"valuePrinted\":false}",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S4-REG-SAFE",
+      "check": "register body safe",
+      "expected": "no secrets",
+      "actual": "unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-REG-B",
+      "check": "register B",
+      "expected": "201",
+      "actual": "201",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-ME-A",
+      "check": "GET /v1/me A",
+      "expected": "200 email match",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-SESS-A",
+      "check": "GET /v1/auth/session A",
+      "expected": "200 authenticated",
+      "actual": "200 auth=true",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/dashboard",
+      "check": "customer cookie /v1/admin/dashboard",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/products",
+      "check": "customer cookie /v1/admin/products",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/categories",
+      "check": "customer cookie /v1/admin/categories",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/orders",
+      "check": "customer cookie /v1/admin/orders",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/customers",
+      "check": "customer cookie /v1/admin/customers",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/payments/intents",
+      "check": "customer cookie /v1/admin/payments/intents",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/shipments",
+      "check": "customer cookie /v1/admin/shipments",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/settings",
+      "check": "customer cookie /v1/admin/settings",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-CUST-/v1/admin/ai/status",
+      "check": "customer cookie /v1/admin/ai/status",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S4-STAFF-AS-CUST",
+      "check": "staff cookie on /v1/me",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-ADDR-B",
+      "check": "create address B",
+      "expected": "201",
+      "actual": "201",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-ADDR-GET",
+      "check": "A GET B address",
+      "expected": "405 or 404 no leak",
+      "actual": "405 leak=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-ADDR-PATCH",
+      "check": "A PATCH B address",
+      "expected": "404",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-ADDR-LIST",
+      "check": "A list does not include B",
+      "expected": "no B id",
+      "actual": "leaked=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S7-WISH-ADD",
+      "check": "wishlist add A",
+      "expected": "201",
+      "actual": "201",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-WISH-B",
+      "check": "B wishlist does not contain A's add",
+      "expected": "no leak",
+      "actual": "Bstatus=200 leaked=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S7-WISH-GET",
+      "check": "wishlist get A",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-CART-ADD",
+      "check": "cart add ignores poison",
+      "expected": "200 server total",
+      "actual": "200 sub=SET",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-QTY-0",
+      "check": "quantity 0 rejected or ignored",
+      "expected": "4xx",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-QTY-NEG",
+      "check": "quantity negative rejected",
+      "expected": "4xx",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S6-CHECKOUT",
+      "check": "checkout start unconfigured",
+      "expected": "201 paymentReady false server total",
+      "actual": "201 ready=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-CHECKOUT",
+      "check": "B cannot read A's checkout",
+      "expected": "404",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S6-INTENT",
+      "check": "payment intent unconfigured",
+      "expected": "4xx no provider success",
+      "actual": "400 code=VALIDATION_ERROR",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S6-COMPLETE",
+      "check": "complete without payment",
+      "expected": "4xx no paid order",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S8-ORDER-GUESS",
+      "check": "A guess foreign/missing order",
+      "expected": "404",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-ORDERS",
+      "check": "A order history",
+      "expected": "200 empty or own",
+      "actual": "200 n=0",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S7-GUEST-WISH",
+      "check": "guest wishlist add",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-LOGOUT",
+      "check": "logout A",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-REPLAY",
+      "check": "replay A cookie",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-LOGIN",
+      "check": "login A",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-WRONG-PW",
+      "check": "wrong password",
+      "expected": "401",
+      "actual": "401 code=UNAUTHORIZED",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-UNKNOWN",
+      "check": "unknown email",
+      "expected": "401",
+      "actual": "401 code=UNAUTHORIZED",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-ENUM",
+      "check": "login messages do not distinguish user existence beyond product intent",
+      "expected": "same or documented",
+      "actual": "different=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-DUP",
+      "check": "duplicate email",
+      "expected": "409/400",
+      "actual": "409",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S3-WEAK",
+      "check": "weak password",
+      "expected": "400",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-STAFF-LOGOUT",
+      "check": "staff logout",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-STAFF-REPLAY",
+      "check": "staff cookie replay",
+      "expected": "401",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-CORS-EVIL",
+      "check": "unlisted origin not reflected",
+      "expected": "no ACAO or not evil",
+      "actual": "acao=none",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-BADJSON",
+      "check": "malformed JSON",
+      "expected": "400 no stack",
+      "actual": "400 stack=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-SEARCH-LONG",
+      "check": "very long search",
+      "expected": "200 or 400",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-SEARCH-EMPTY",
+      "check": "no-results search",
+      "expected": "200 empty",
+      "actual": "200 n=0",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S5-PAGE-NEG",
+      "check": "negative pagination",
+      "expected": "400 or clamped 200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/dashboard",
+      "check": "staff GET /v1/admin/dashboard",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/products",
+      "check": "staff GET /v1/admin/products",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/categories",
+      "check": "staff GET /v1/admin/categories",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/orders",
+      "check": "staff GET /v1/admin/orders",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/customers",
+      "check": "staff GET /v1/admin/customers",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/payments/intents",
+      "check": "staff GET /v1/admin/payments/intents",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/shipments",
+      "check": "staff GET /v1/admin/shipments",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/settings",
+      "check": "staff GET /v1/admin/settings",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S9-API-/v1/admin/ai/status",
+      "check": "staff GET /v1/admin/ai/status",
+      "expected": "200",
+      "actual": "200 unsafe=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-HEALTH-POST",
+      "check": "POST /v1/health",
+      "expected": "405/404",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S17-CLEANUP",
+      "check": "delete only qa-scan prefix users",
+      "expected": "deleted",
+      "actual": "n=2",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-S1-001",
+      "title": "Invalid product slug does not return HTTP 404",
+      "category": "routes",
+      "severity": "P2",
+      "evidence_type": "MEASURED",
+      "problem": "Unknown product slug should be a proper 404.",
+      "evidence": "GET /shop/qa-scan-unknown-slug-zzz -> 200",
+      "location": "apps/web /shop/[slug]",
+      "impact": "SEO and crawlers may index not-found as 200.",
+      "suggested_fix": "Ensure notFound() results in HTTP 404 in the running Next mode.",
+      "dev_only": false,
+      "intentional_limitation": false
+    },
+    {
+      "id": "F-S1-002",
+      "title": "Invalid collection slug does not return HTTP 404",
+      "category": "routes",
+      "severity": "P2",
+      "evidence_type": "MEASURED",
+      "problem": "Unknown collection renders UI without HTTP 404.",
+      "evidence": "GET /collections/qa-scan-unknown-collection -> 200",
+      "location": "apps/web /collections/[slug]",
+      "impact": "Soft-404 for crawlers.",
+      "suggested_fix": "Call notFound() when collection is null.",
+      "dev_only": false,
+      "intentional_limitation": false
+    },
+    {
+      "id": "F-S2-001",
+      "title": "Possible open-redirect echo",
+      "category": "security",
+      "severity": "P1",
+      "evidence_type": "MEASURED",
+      "problem": "evil.example appeared in login HTML",
+      "evidence": "GET /account/login?next=https://evil.example status 200",
+      "location": "apps/web return-to",
+      "impact": "Open redirect risk",
+      "suggested_fix": "Reject non same-origin next values in rendered HTML.",
+      "dev_only": false,
+      "intentional_limitation": false
+    },
+    {
+      "id": "F-S2-001",
+      "title": "Possible open-redirect echo",
+      "category": "security",
+      "severity": "P1",
+      "evidence_type": "MEASURED",
+      "problem": "evil.example appeared in login HTML",
+      "evidence": "GET /account/login?next=//evil.example status 200",
+      "location": "apps/web return-to",
+      "impact": "Open redirect risk",
+      "suggested_fix": "Reject non same-origin next values in rendered HTML.",
+      "dev_only": false,
+      "intentional_limitation": false
+    }
+  ]
+}

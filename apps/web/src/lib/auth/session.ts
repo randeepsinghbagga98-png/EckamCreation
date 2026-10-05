@@ -15,6 +15,11 @@ const loadingSnapshot: AuthSnapshot = {
 let snapshot: AuthSnapshot = loadingSnapshot;
 const listeners = new Set<() => void>();
 let hydrateStarted = false;
+/** Bumped on sign-in/up/out so stale hydrate responses cannot clear a fresh session. */
+let authEpoch = 0;
+/** False until the first client effect; keeps hydration aligned with getServerSnapshot. */
+let authUiReady = false;
+const uiReadyListeners = new Set<() => void>();
 
 function emit() {
   for (const listener of listeners) {
@@ -22,10 +27,31 @@ function emit() {
   }
 }
 
+function emitUiReady() {
+  for (const listener of uiReadyListeners) {
+    listener();
+  }
+}
+
+function markAuthUiReady() {
+  if (authUiReady) {
+    return;
+  }
+  authUiReady = true;
+  emitUiReady();
+}
+
 function subscribe(listener: () => void) {
   listeners.add(listener);
   return () => {
     listeners.delete(listener);
+  };
+}
+
+function subscribeUiReady(listener: () => void) {
+  uiReadyListeners.add(listener);
+  return () => {
+    uiReadyListeners.delete(listener);
   };
 }
 
@@ -40,6 +66,11 @@ function getServerSnapshot() {
 function setSnapshot(next: AuthSnapshot) {
   snapshot = next;
   emit();
+}
+
+function bumpAuthEpoch() {
+  authEpoch += 1;
+  return authEpoch;
 }
 
 export function applySession(session: SessionDto) {
@@ -64,21 +95,24 @@ export async function hydrateSession(force = false) {
   }
 
   hydrateStarted = true;
+  const epoch = bumpAuthEpoch();
   if (snapshot.status !== 'authenticated') {
     setSnapshot(loadingSnapshot);
   }
 
-  let timedOut = false;
   const timer = setTimeout(() => {
-    timedOut = true;
-    if (snapshot.status === 'loading') {
+    if (epoch === authEpoch && snapshot.status === 'loading') {
+      // Allow a later mount/retry; do not leave hydrate permanently stuck.
+      // Keep this above typical warm-API latency but recover if a late response
+      // still arrives with the same epoch (see apply path below).
+      hydrateStarted = false;
       clearSession();
     }
-  }, 4000);
+  }, 12_000);
 
   try {
     const data = await getAuthSession();
-    if (timedOut) {
+    if (epoch !== authEpoch) {
       return snapshot;
     }
     if (data.authenticated && data.session) {
@@ -87,7 +121,7 @@ export async function hydrateSession(force = false) {
       clearSession();
     }
   } catch (error) {
-    if (timedOut) {
+    if (epoch !== authEpoch) {
       return snapshot;
     }
     setSnapshot({
@@ -104,17 +138,23 @@ export async function hydrateSession(force = false) {
 
 export async function signIn(input: LoginInput) {
   const session = await loginCustomer(input);
+  // Invalidate any in-flight hydrate that would otherwise clear this session.
+  bumpAuthEpoch();
+  hydrateStarted = true;
   applySession(session);
   return session;
 }
 
 export async function signUp(input: RegisterInput) {
   const session = await registerCustomer(input);
+  bumpAuthEpoch();
+  hydrateStarted = true;
   applySession(session);
   return session;
 }
 
 export async function signOut() {
+  bumpAuthEpoch();
   await logoutCustomer();
   hydrateStarted = true;
   clearSession();
@@ -126,9 +166,27 @@ export function retryAuthSession() {
 }
 
 export function useAuth() {
+  const ready = useSyncExternalStore(
+    subscribeUiReady,
+    () => authUiReady,
+    () => false,
+  );
+  const store = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+
   useEffect(() => {
+    markAuthUiReady();
     void hydrateSession();
   }, []);
 
-  return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  return ready ? store : loadingSnapshot;
+}
+
+/** Test-only: reset module auth state between cases. */
+export function __resetAuthSessionForTests() {
+  snapshot = loadingSnapshot;
+  listeners.clear();
+  uiReadyListeners.clear();
+  hydrateStarted = false;
+  authEpoch = 0;
+  authUiReady = false;
 }

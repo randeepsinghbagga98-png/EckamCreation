@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "echo \"No lint config in @eckamcreation/database\"",
     "prisma": "prisma",
-    "seed": "node prisma/seed.mjs"
+    "seed": "node prisma/seed.mjs",
+    "import:products": "node scripts/import-products.mjs"
   },
   "prisma": {
     "seed": "node prisma/seed.mjs"

@@ -1,0 +1,340 @@
+{
+  "endpointCount": 96,
+  "counts": {
+    "products": 11,
+    "published": 11,
+    "categories": 8,
+    "customers": 76,
+    "orders": 0,
+    "staff": 1
+  },
+  "published": 11,
+  "leftoverUsers": [
+    {
+      "id": "cmuttclbv0007utkgbx2u8grc",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuttclg4000butkgr6ex12s3",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutdjdx7001rut3gaatd79ik",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutkf8qb0000utz4w82v0pi2",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutkf8tk0004utz4goqn3n1b",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutkpqt70000utjc75w9ijhm",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutkpr3o0004utjc8eppvr3y",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutl2fbg0001utqoysl6wsos",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutl2ffr0000ut54dpm60bqm",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutl2flb0004ut54g5sfi0lp",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqmtjn0001ut90a3c64k52",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqmtjm0000utx8zysbp34n",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqmtnn0004utx89e7cd1iu",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqq9hh0001ut5sh62zhi4m",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqqbxo0000utbk3zm4njzy",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutqqc7l0004utbkqjgyohu8",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuttcl8p0001uti07rg66clu",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuttdzek0007ut1gcw5mqdf2",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuttdzho000but1g7lt30v1u",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutteykn0001utfcyzco8il3",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutteymt0007uta8cdiybg75",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutteyr1000buta877ywfeu4",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaeo80001uti0fa41d6cx",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaeqm0000uttknlogw63u",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaewz0007utyohkosvngb",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaf140004uttkyslwnlhn",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaf1f0006uttkqpl357fi",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutuaf91000butyozrm6pvq9",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1170000utt44hxhmfrc",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1260000utkc6r1l8ke8",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj17q0004utt4xucy6pse",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1820006utt4ttuxz4ea",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1a00004utkcg6aku6w9",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1bw0007utn0fjfs0w99",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvj1k6000butn0ldv2nm3b",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvja8a0001utawprupq4pl",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmutvjblb0000uto8k05xnjgq",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19dph000rutokqpre3m2n",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19dwg000vutokbk43z1au",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19g890007ut90vk2joqjr",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19gcc000but90mi6wur0d",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19is90000ut5kjzngv2fx",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19iw20004ut5k3vrr3g4t",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19iws0006ut5k25s6ojwv",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19kou0001utrc5jjz1gd3",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19lrg0000utgovfpip5zc",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19lv70004utgo6js7z6kr",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu19mt20000utycvpyls4zb",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bosk0000uti88abietno",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bc5w0001utz8e61ser3y",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bg0h0000ut48xum4fwpi",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bg590004ut48hpmnc0fw",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bgah0008ut48npgsusgp",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1biss0007uts87odfwa8x",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1biym000buts8qyrxjjdn",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bp0s0004uti8zaekcyod",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1bqom0000ut44q7174hfb",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1thpi0017utokfpfy8km7",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1thtv001butokffs31wu2",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1urql001nutokgqwq43lm",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1urv3001rutokdh3gzxi7",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1y0pe002hutokjbfyco9r",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu1y19d002lutok02lijcwx",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu27dnj002zutokwn4v37rh",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu2gn2h003lutokl0j63bz1",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu2jfn7003tutokbq8676kq",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuu2ssyi0004uto0izfxbz9w",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur0wzf0000utn048qqp6u3",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur18sy0001uta8utdhzobz",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur19m60000utw8evmynhlu",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur19mr0002utw8w7iod06h",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur19t00008utw85t6vhloh",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur1ch90007ut4smwmtsona",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur1clp0000utt065fl97br",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur1cmf000but4smn13uih2",
+      "emailShape": "example.com"
+    },
+    {
+      "id": "cmuur1csd0004utt0nhygoj6f",
+      "emailShape": "example.com"
+    }
+  ],
+  "leftoverUserCount": 76,
+  "leftoverProducts": [],
+  "publicSlugs": [
+    "artisan-decorative-tray",
+    "botanical-gift-box",
+    "linen-accent-cushion",
+    "minimal-pendant-necklace",
+    "pearl-drop-earrings",
+    "porcelain-table-setting",
+    "daily-ritual-care",
+    "everyday-tailored-layer",
+    "tan-carryall",
+    "noir-compact-bag",
+    "cream-structured-tote"
+  ],
+  "searchApi": {
+    "status": 501,
+    "leak": false
+  },
+  "webSearch": 200,
+  "iconSvg": 200,
+  "nextImageSample": 200
+}

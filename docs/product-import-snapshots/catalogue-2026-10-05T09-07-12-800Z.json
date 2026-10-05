@@ -1,0 +1,375 @@
+{
+  "createdAt": "2026-10-05T09:07:13.163Z",
+  "counts": {
+    "categories": 8,
+    "products": 11,
+    "variants": 11,
+    "media": 6,
+    "prices": 11
+  },
+  "categories": [
+    {
+      "id": "cmutbq1p10003utgg0uc659dd",
+      "slug": "jewellery-accessories",
+      "name": "Jewellery & Accessories",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1po0004utggdzlmaccv",
+      "slug": "bags-lifestyle",
+      "name": "Bags & Lifestyle",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1ps0005utgg8l9j2taf",
+      "slug": "fashion",
+      "name": "Fashion",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1pu0006utggis03sgau",
+      "slug": "home-decor",
+      "name": "Home & Decor",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1pw0007utgglbfqqeva",
+      "slug": "kitchen-essentials",
+      "name": "Kitchen Essentials",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1py0008utggps4w3rfw",
+      "slug": "beauty-personal-care",
+      "name": "Beauty & Personal Care",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1q20009utggvx174hpy",
+      "slug": "gifts-celebrations",
+      "name": "Gifts & Celebrations",
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1q3000autgg97okasin",
+      "slug": "arts-crafts-spiritual",
+      "name": "Arts, Crafts & Spiritual",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "cmutbq1q9000butggdsjzqjud",
+      "slug": "cream-structured-tote",
+      "name": "Cream Structured Tote",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.364Z",
+      "description": "A structured everyday tote with a quiet cream finish and considered proportions."
+    },
+    {
+      "id": "cmutbq1sd000kutggof7k6jic",
+      "slug": "noir-compact-bag",
+      "name": "Noir Compact Bag",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.443Z",
+      "description": "A compact carry piece in a deep noir tone, sized for daily essentials."
+    },
+    {
+      "id": "cmutbq1ss000tutggmzqq9k3z",
+      "slug": "tan-carryall",
+      "name": "Tan Carryall",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.458Z",
+      "description": "An open carryall in warm tan, made for unhurried days and simple errands."
+    },
+    {
+      "id": "cmutbq1t70012utggcw33kokt",
+      "slug": "everyday-tailored-layer",
+      "name": "Everyday Tailored Layer",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.473Z",
+      "description": "A tailored layer with a clean line, intended for everyday wear."
+    },
+    {
+      "id": "cmutbq1tn001butgg2x9x649f",
+      "slug": "daily-ritual-care",
+      "name": "Daily Ritual Care",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.490Z",
+      "description": "A simple care ritual for the daily shelf — quiet, useful, and considered."
+    },
+    {
+      "id": "cmutbq1u2001kutgg25hf3o0x",
+      "slug": "porcelain-table-setting",
+      "name": "Porcelain Table Setting",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.504Z",
+      "description": "A porcelain table setting for a more graceful everyday table."
+    },
+    {
+      "id": "cmutbq1uj001tutggt2hktfco",
+      "slug": "pearl-drop-earrings",
+      "name": "Pearl Drop Earrings",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.521Z",
+      "description": "A pair of pearl drop earrings with a restrained, everyday silhouette."
+    },
+    {
+      "id": "cmutbq1uw0020utgg6nacxcs1",
+      "slug": "minimal-pendant-necklace",
+      "name": "Minimal Pendant Necklace",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.534Z",
+      "description": "A minimal pendant necklace with a quiet chain and a small, balanced drop."
+    },
+    {
+      "id": "cmutbq1v60027utgg8hi0bqwi",
+      "slug": "linen-accent-cushion",
+      "name": "Linen Accent Cushion",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.545Z",
+      "description": "A linen accent cushion for a considered living space."
+    },
+    {
+      "id": "cmutbq1vi002eutggmd8llk3y",
+      "slug": "botanical-gift-box",
+      "name": "Botanical Gift Box",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.557Z",
+      "description": "A botanical gift box assembled for a quiet celebration."
+    },
+    {
+      "id": "cmutbq1vu002lutgg6m2x06ht",
+      "slug": "artisan-decorative-tray",
+      "name": "Artisan Decorative Tray",
+      "status": "ACTIVE",
+      "publishedAt": "2026-10-04T04:31:30.569Z",
+      "description": "A decorative tray with a handmade character for mindful spaces."
+    }
+  ],
+  "variants": [
+    {
+      "id": "cmutbq1qt000dutggjfsx6r0j",
+      "productId": "cmutbq1q9000butggdsjzqjud",
+      "sku": "ECK-BAG-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1sg000mutggmc4yls56",
+      "productId": "cmutbq1sd000kutggof7k6jic",
+      "sku": "ECK-BAG-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1sv000vutgg5o051tp4",
+      "productId": "cmutbq1ss000tutggmzqq9k3z",
+      "sku": "ECK-BAG-003",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1ta0014utggx0cj993z",
+      "productId": "cmutbq1t70012utggcw33kokt",
+      "sku": "ECK-FSH-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1tr001dutggvx4tfzuj",
+      "productId": "cmutbq1tn001butgg2x9x649f",
+      "sku": "ECK-BTY-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1u5001mutgga6220cbz",
+      "productId": "cmutbq1u2001kutgg25hf3o0x",
+      "sku": "ECK-KIT-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1un001vutggphdleda6",
+      "productId": "cmutbq1uj001tutggt2hktfco",
+      "sku": "ECK-JWL-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1v00022utgg3i50rlrn",
+      "productId": "cmutbq1uw0020utgg6nacxcs1",
+      "sku": "ECK-JWL-002",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1v90029utgg30lpb4as",
+      "productId": "cmutbq1v60027utgg8hi0bqwi",
+      "sku": "ECK-HOM-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1vl002gutgg9nltsuyw",
+      "productId": "cmutbq1vi002eutggmd8llk3y",
+      "sku": "ECK-GFT-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    },
+    {
+      "id": "cmutbq1vy002nutggiivtu4e5",
+      "productId": "cmutbq1vu002lutgg6m2x06ht",
+      "sku": "ECK-ART-001",
+      "name": "Default",
+      "isDefault": true,
+      "isActive": true
+    }
+  ],
+  "media": [
+    {
+      "id": "cmutbq1s8000jutggpumylj0n",
+      "productId": "cmutbq1q9000butggdsjzqjud",
+      "variantId": null,
+      "url": "/products/cream-tote.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1sq000sutggr3o0tv3y",
+      "productId": "cmutbq1sd000kutggof7k6jic",
+      "variantId": null,
+      "url": "/products/noir-bag.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1t50011utgg6j4tm0hw",
+      "productId": "cmutbq1ss000tutggmzqq9k3z",
+      "variantId": null,
+      "url": "/products/tan-carryall.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1tm001autgg2c2ii4tp",
+      "productId": "cmutbq1t70012utggcw33kokt",
+      "variantId": null,
+      "url": "/products/fashion-layer.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1u0001jutgg9ntudrdx",
+      "productId": "cmutbq1tn001butgg2x9x649f",
+      "variantId": null,
+      "url": "/products/beauty-ritual.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "cmutbq1ug001sutggrgywnh39",
+      "productId": "cmutbq1u2001kutgg25hf3o0x",
+      "variantId": null,
+      "url": "/products/kitchen-vessel.svg",
+      "storageKey": null,
+      "isPrimary": true,
+      "sortOrder": 0
+    }
+  ],
+  "prices": [
+    {
+      "id": "cmutbq1vp002iutggo27z1hcr",
+      "variantId": "cmutbq1vl002gutgg9nltsuyw",
+      "currencyCode": "INR",
+      "amountMinor": "159900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1w1002putggok0g963b",
+      "variantId": "cmutbq1vy002nutggiivtu4e5",
+      "currencyCode": "INR",
+      "amountMinor": "189900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1rb000futggmuj3kin2",
+      "variantId": "cmutbq1qt000dutggjfsx6r0j",
+      "currencyCode": "INR",
+      "amountMinor": "249900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1sl000outggc43ho9yc",
+      "variantId": "cmutbq1sg000mutggmc4yls56",
+      "currencyCode": "INR",
+      "amountMinor": "199900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1t0000xutgginuzpwil",
+      "variantId": "cmutbq1sv000vutgg5o051tp4",
+      "currencyCode": "INR",
+      "amountMinor": "299900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1td0016utgg4oebk7ra",
+      "variantId": "cmutbq1ta0014utggx0cj993z",
+      "currencyCode": "INR",
+      "amountMinor": "179900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1tu001futggp9qypgwm",
+      "variantId": "cmutbq1tr001dutggvx4tfzuj",
+      "currencyCode": "INR",
+      "amountMinor": "89900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1u8001outggb57k1hm1",
+      "variantId": "cmutbq1u5001mutgga6220cbz",
+      "currencyCode": "INR",
+      "amountMinor": "149900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1ur001xutgg16cuoal6",
+      "variantId": "cmutbq1un001vutggphdleda6",
+      "currencyCode": "INR",
+      "amountMinor": "129900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1v30024utgg7nqjewki",
+      "variantId": "cmutbq1v00022utgg3i50rlrn",
+      "currencyCode": "INR",
+      "amountMinor": "99900",
+      "compareAtMinor": null
+    },
+    {
+      "id": "cmutbq1vf002butggbdnvfqq3",
+      "variantId": "cmutbq1v90029utgg30lpb4as",
+      "currencyCode": "INR",
+      "amountMinor": "119900",
+      "compareAtMinor": null
+    }
+  ]
+}

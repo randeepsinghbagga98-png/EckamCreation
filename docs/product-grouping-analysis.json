@@ -1,0 +1,1323 @@
+{
+  "sourceCount": 305,
+  "duplicateExactContentGroups": 0,
+  "duplicateSamples": [],
+  "blackHandbagCompare": {
+    "black02": {
+      "sha1": "c5d1b5017382",
+      "size": 131251,
+      "fp": "a7a11220d031"
+    },
+    "black04": {
+      "sha1": "b862df2c2eee",
+      "size": 173143,
+      "fp": "72b51fb407f8"
+    },
+    "sameContent": false
+  },
+  "kitchenCopy0": [
+    "01_front_view_hd.svg",
+    "02_top_view_hd.svg",
+    "03_bottom_view_hd.svg",
+    "03_left_side_view_hd.svg",
+    "05_top_view_hd.svg",
+    "06_bottom_view_hd.svg",
+    "07_angled_front_right_hd.svg",
+    "09_knob_closeup_hd.svg",
+    "10_spout_closeup_hd.svg"
+  ],
+  "kitchenNamedHints": {
+    "hotPot": [],
+    "allComponents": [],
+    "knob": [],
+    "spout": [],
+    "front0": []
+  },
+  "beautyOrphans": [
+    {
+      "filename": "bottom_view_hd.svg",
+      "sha1": "7487594eed3f",
+      "dupes": [
+        "beauty/bottom_view_hd.svg"
+      ],
+      "hints": []
+    },
+    {
+      "filename": "front_view_hd.svg",
+      "sha1": "6d31ce8ffe8c",
+      "dupes": [
+        "beauty/front_view_hd.svg"
+      ],
+      "hints": []
+    }
+  ],
+  "toyImages": [
+    {
+      "filename": "images (1).svg",
+      "sha1": "d6b52b19d87c",
+      "size": 40636,
+      "hints": []
+    },
+    {
+      "filename": "images (10).svg",
+      "sha1": "3a92c8217024",
+      "size": 65660,
+      "hints": []
+    },
+    {
+      "filename": "images (11).svg",
+      "sha1": "d6eaf685d586",
+      "size": 19504,
+      "hints": []
+    },
+    {
+      "filename": "images (12).svg",
+      "sha1": "15ec4b230a67",
+      "size": 36500,
+      "hints": []
+    },
+    {
+      "filename": "images (13).svg",
+      "sha1": "288ef0f9456e",
+      "size": 54916,
+      "hints": []
+    },
+    {
+      "filename": "images (14).svg",
+      "sha1": "8c618b36e4c1",
+      "size": 43744,
+      "hints": []
+    },
+    {
+      "filename": "images (15).svg",
+      "sha1": "b4f87a3cd606",
+      "size": 56040,
+      "hints": []
+    },
+    {
+      "filename": "images (16).svg",
+      "sha1": "d6eb2a724f8d",
+      "size": 33972,
+      "hints": []
+    },
+    {
+      "filename": "images (17).svg",
+      "sha1": "eeb377421f76",
+      "size": 56008,
+      "hints": []
+    },
+    {
+      "filename": "images (2).svg",
+      "sha1": "f2ca63c99ca4",
+      "size": 19332,
+      "hints": []
+    },
+    {
+      "filename": "images (6).svg",
+      "sha1": "d10e2d990ff9",
+      "size": 40728,
+      "hints": []
+    },
+    {
+      "filename": "images (7).svg",
+      "sha1": "b8a121687d2f",
+      "size": 25468,
+      "hints": []
+    },
+    {
+      "filename": "images (8).svg",
+      "sha1": "c379f456ac7c",
+      "size": 21528,
+      "hints": []
+    },
+    {
+      "filename": "images (9).svg",
+      "sha1": "aa6238010bec",
+      "size": 24488,
+      "hints": []
+    },
+    {
+      "filename": "images.svg",
+      "sha1": "d58c17cad06c",
+      "size": 52120,
+      "hints": []
+    }
+  ],
+  "toyImageExactDupes": [],
+  "groupingRows": [
+    {
+      "id": "cmuv10k8k00emutmc640cu361",
+      "name": "All Components",
+      "slug": "all-components",
+      "sku": "KIT-008",
+      "category": "Kitchen",
+      "categorySlug": "kitchen",
+      "imageCount": 1,
+      "storageKeys": [
+        "kitchen/12_all_components_hd.svg"
+      ],
+      "urls": [
+        "/products/import/kitchen/all-components/01-accessories.svg"
+      ],
+      "description": "Imported kitchen item imagery (12_all_components_hd.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ir4007mutmcpwj7x83j",
+      "name": "Black Handbag",
+      "slug": "black-handbag",
+      "sku": "HAN-003",
+      "category": "Handbags",
+      "categorySlug": "handbags",
+      "imageCount": 5,
+      "storageKeys": [
+        "handbag/02_Black_01_Front.svg",
+        "handbag/02_Black_02_Three_Quarter.svg",
+        "handbag/02_Black_03_Side.svg",
+        "handbag/02_Black_04_Back.svg",
+        "handbag/02_Black_05_Bottom.svg"
+      ],
+      "urls": [
+        "/products/import/handbags/black-handbag/01-front.svg",
+        "/products/import/handbags/black-handbag/02-three-quarter.svg",
+        "/products/import/handbags/black-handbag/03-side.svg",
+        "/products/import/handbags/black-handbag/04-back.svg",
+        "/products/import/handbags/black-handbag/05-bottom.svg"
+      ],
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10j3k009futmcry6ciwyx",
+      "name": "Black Handbag",
+      "slug": "black-handbag-2",
+      "sku": "HAN-008",
+      "category": "Handbags",
+      "categorySlug": "handbags",
+      "imageCount": 5,
+      "storageKeys": [
+        "handbag/04_Black_01_Front.svg",
+        "handbag/04_Black_02_Three_Quarter.svg",
+        "handbag/04_Black_03_Side.svg",
+        "handbag/04_Black_04_Back.svg",
+        "handbag/04_Black_05_Bottom.svg"
+      ],
+      "urls": [
+        "/products/import/handbags/black-handbag-2/01-front.svg",
+        "/products/import/handbags/black-handbag-2/02-three-quarter.svg",
+        "/products/import/handbags/black-handbag-2/03-side.svg",
+        "/products/import/handbags/black-handbag-2/04-back.svg",
+        "/products/import/handbags/black-handbag-2/05-bottom.svg"
+      ],
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10ka300erutmcz4r3h4xb",
+      "name": "Electric Hot Pot",
+      "slug": "electric-hot-pot-front-top-bottom-3d-hd-2",
+      "sku": "KIT-009",
+      "category": "Kitchen",
+      "categorySlug": "kitchen",
+      "imageCount": 1,
+      "storageKeys": [
+        "kitchen/electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg"
+      ],
+      "urls": [
+        "/products/import/kitchen/electric-hot-pot-front-top-bottom-3d-hd-2/01-front.svg"
+      ],
+      "description": "Imported kitchen item imagery (electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg). Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10inf0074utmcqumdx699",
+      "name": "Ivory Handbag",
+      "slug": "ivory-handbag",
+      "sku": "HAN-001",
+      "category": "Handbags",
+      "categorySlug": "handbags",
+      "imageCount": 1,
+      "storageKeys": [
+        "handbag/01_Ivory_05_Bottom.svg"
+      ],
+      "urls": [
+        "/products/import/handbags/ivory-handbag/01-bottom.svg"
+      ],
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m2w00mbutmcvaeydfqg",
+      "name": "Toy Image 01",
+      "slug": "toy-image-01-558a80",
+      "sku": "TOY-017",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (1).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-01-558a80/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m2500m6utmcxporv4z7",
+      "name": "Toy Image 01",
+      "slug": "toy-image-01-b957b0",
+      "sku": "TOY-016",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images.svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-01-b957b0/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mju00nkutmcsv9rwhnc",
+      "name": "Toy Image 02",
+      "slug": "toy-image-02-791fe6",
+      "sku": "TOY-026",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (2).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-02-791fe6/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mlb00nputmckjxgrl3b",
+      "name": "Toy Image 06",
+      "slug": "toy-image-06-a981d5",
+      "sku": "TOY-027",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (6).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-06-a981d5/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mmi00nuutmc5n571pb2",
+      "name": "Toy Image 07",
+      "slug": "toy-image-07-e76405",
+      "sku": "TOY-028",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (7).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-07-e76405/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mod00nzutmcsgyli5kr",
+      "name": "Toy Image 08",
+      "slug": "toy-image-08-d53700",
+      "sku": "TOY-029",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (8).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-08-d53700/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mpa00o4utmcnfndynh0",
+      "name": "Toy Image 09",
+      "slug": "toy-image-09-7fce09",
+      "sku": "TOY-030",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (9).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-09-7fce09/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m3j00mgutmcol15i5jp",
+      "name": "Toy Image 10",
+      "slug": "toy-image-10-04ddc1",
+      "sku": "TOY-018",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (10).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-10-04ddc1/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10m6800mlutmc7geh7iu8",
+      "name": "Toy Image 11",
+      "slug": "toy-image-11-d2289e",
+      "sku": "TOY-019",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (11).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-11-d2289e/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mb200mqutmcj1vswgsn",
+      "name": "Toy Image 12",
+      "slug": "toy-image-12-34da07",
+      "sku": "TOY-020",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (12).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-12-34da07/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mec00mvutmcve1i3jjx",
+      "name": "Toy Image 13",
+      "slug": "toy-image-13-371774",
+      "sku": "TOY-021",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (13).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-13-371774/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mff00n0utmc8xe9rskr",
+      "name": "Toy Image 14",
+      "slug": "toy-image-14-a88e98",
+      "sku": "TOY-022",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (14).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-14-a88e98/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mgd00n5utmcdyimgjqq",
+      "name": "Toy Image 15",
+      "slug": "toy-image-15-dbd28e",
+      "sku": "TOY-023",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (15).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-15-dbd28e/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mhc00nautmcdwuefhe7",
+      "name": "Toy Image 16",
+      "slug": "toy-image-16-0c24e5",
+      "sku": "TOY-024",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (16).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-16-0c24e5/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10mis00nfutmc25ls8ugh",
+      "name": "Toy Image 17",
+      "slug": "toy-image-17-ed46c3",
+      "sku": "TOY-025",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 1,
+      "storageKeys": [
+        "toys/images (17).svg"
+      ],
+      "urls": [
+        "/products/import/toys/toy-image-17-ed46c3/01-other.svg"
+      ],
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry."
+    },
+    {
+      "id": "cmuv10lrs00ktutmcouj6zg91",
+      "name": "Transforming Robot Car",
+      "slug": "transforming-robot-car",
+      "sku": "TOY-015",
+      "category": "Toys",
+      "categorySlug": "toys",
+      "imageCount": 23,
+      "storageKeys": [
+        "toys/01_front_car_mode_hd.svg",
+        "toys/01_front_robot_mode_hd.svg",
+        "toys/02_angled_car_mode_hd.svg",
+        "toys/02_angled_robot_mode_hd.svg",
+        "toys/03_side_car_mode_hd.svg",
+        "toys/03_back_robot_mode_hd.svg",
+        "toys/04_side_robot_mode_hd.svg",
+        "toys/04_rear_car_mode_hd.svg",
+        "toys/05_front_car_mode_hd.svg",
+        "toys/05_front_robot_mode_hd.svg",
+        "toys/06_angled_robot_mode_hd.svg",
+        "toys/08_rear_car_mode_hd.svg",
+        "toys/09_top_car_mode_hd (2).svg",
+        "toys/09_top_car_mode_hd.svg",
+        "toys/10_bottom_car_mode_hd (2).svg",
+        "toys/10_bottom_car_mode_hd.svg",
+        "toys/10_batteries_hd.svg",
+        "toys/10_rechargeable_battery_hd.svg",
+        "toys/11_accessories_hd.svg",
+        "toys/11_remote_battery_hd.svg",
+        "toys/11_remote_controller_usb_cable_hd.svg",
+        "toys/11_spare_propellers_landing_gear_hd.svg",
+        "toys/12_transforming_robot_car_hd.svg"
+      ],
+      "urls": [
+        "/products/import/toys/transforming-robot-car/01-front.svg",
+        "/products/import/toys/transforming-robot-car/02-front.svg",
+        "/products/import/toys/transforming-robot-car/03-angled.svg",
+        "/products/import/toys/transforming-robot-car/04-angled.svg",
+        "/products/import/toys/transforming-robot-car/05-side.svg",
+        "/products/import/toys/transforming-robot-car/06-back.svg",
+        "/products/import/toys/transforming-robot-car/07-side.svg",
+        "/products/import/toys/transforming-robot-car/08-back.svg",
+        "/products/import/toys/transforming-robot-car/09-front.svg",
+        "/products/import/toys/transforming-robot-car/10-front.svg",
+        "/products/import/toys/transforming-robot-car/11-angled.svg",
+        "/products/import/toys/transforming-robot-car/12-back.svg",
+        "/products/import/toys/transforming-robot-car/13-top.svg",
+        "/products/import/toys/transforming-robot-car/14-top.svg",
+        "/products/import/toys/transforming-robot-car/15-bottom.svg",
+        "/products/import/toys/transforming-robot-car/16-bottom.svg",
+        "/products/import/toys/transforming-robot-car/17-accessories.svg",
+        "/products/import/toys/transforming-robot-car/18-accessories.svg",
+        "/products/import/toys/transforming-robot-car/19-accessories.svg",
+        "/products/import/toys/transforming-robot-car/20-accessories.svg",
+        "/products/import/toys/transforming-robot-car/21-accessories.svg",
+        "/products/import/toys/transforming-robot-car/22-accessories.svg",
+        "/products/import/toys/transforming-robot-car/23-other.svg"
+      ],
+      "description": "Imported toy imagery that references robot/car modes and accessories. Confirm whether all of these assets belong to one SKU. Price and stock require manual entry."
+    }
+  ],
+  "nameReviewSample": [
+    {
+      "sku": "KIT-008",
+      "name": "All Components",
+      "images": [
+        "kitchen/12_all_components_hd.svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-001",
+      "name": "Beauty Product 01",
+      "images": [
+        "beauty/01_front_view_hd.svg",
+        "beauty/02_top_view_hd.svg",
+        "beauty/03_bottom_view_hd.svg",
+        "beauty/front_view_hd.svg",
+        "beauty/bottom_view_hd.svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-005",
+      "name": "Beauty Product 02",
+      "images": [
+        "beauty/01_front_view_hd (2).svg",
+        "beauty/02_top_view_hd (2).svg",
+        "beauty/03_bottom_view_hd (2).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-006",
+      "name": "Beauty Product 03",
+      "images": [
+        "beauty/01_front_view_hd (3).svg",
+        "beauty/02_top_view_hd (3).svg",
+        "beauty/03_bottom_view_hd (3).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-007",
+      "name": "Beauty Product 04",
+      "images": [
+        "beauty/01_front_view_hd (4).svg",
+        "beauty/02_top_view_hd (4).svg",
+        "beauty/03_bottom_view_hd (4).svg"
+      ],
+      "hints": []
+    }
+  ],
+  "nameReviewCount": 64,
+  "beautyHints": [
+    {
+      "sku": "BEA-001",
+      "name": "Beauty Product 01",
+      "keys": [
+        "beauty/01_front_view_hd.svg",
+        "beauty/02_top_view_hd.svg",
+        "beauty/03_bottom_view_hd.svg",
+        "beauty/front_view_hd.svg",
+        "beauty/bottom_view_hd.svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-005",
+      "name": "Beauty Product 02",
+      "keys": [
+        "beauty/01_front_view_hd (2).svg",
+        "beauty/02_top_view_hd (2).svg",
+        "beauty/03_bottom_view_hd (2).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-006",
+      "name": "Beauty Product 03",
+      "keys": [
+        "beauty/01_front_view_hd (3).svg",
+        "beauty/02_top_view_hd (3).svg",
+        "beauty/03_bottom_view_hd (3).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-007",
+      "name": "Beauty Product 04",
+      "keys": [
+        "beauty/01_front_view_hd (4).svg",
+        "beauty/02_top_view_hd (4).svg",
+        "beauty/03_bottom_view_hd (4).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-008",
+      "name": "Beauty Product 05",
+      "keys": [
+        "beauty/01_front_view_hd (5).svg",
+        "beauty/02_top_view_hd (5).svg",
+        "beauty/03_bottom_view_hd (5).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-009",
+      "name": "Beauty Product 06",
+      "keys": [
+        "beauty/01_front_view_hd (6).svg",
+        "beauty/02_top_view_hd (6).svg",
+        "beauty/03_bottom_view_hd (6).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-010",
+      "name": "Beauty Product 07",
+      "keys": [
+        "beauty/01_front_view_hd (7).svg",
+        "beauty/02_top_view_hd (7).svg",
+        "beauty/03_bottom_view_hd (7).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-011",
+      "name": "Beauty Product 08",
+      "keys": [
+        "beauty/01_front_view_hd (8).svg",
+        "beauty/02_top_view_hd (8).svg",
+        "beauty/03_bottom_view_hd (8).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-012",
+      "name": "Beauty Product 09",
+      "keys": [
+        "beauty/01_front_view_hd (9).svg",
+        "beauty/02_top_view_hd (9).svg",
+        "beauty/03_bottom_view_hd (9).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-002",
+      "name": "Beauty Product 10",
+      "keys": [
+        "beauty/01_front_view_hd (10).svg",
+        "beauty/02_top_view_hd (10).svg",
+        "beauty/03_bottom_view_hd (10).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-003",
+      "name": "Beauty Product 11",
+      "keys": [
+        "beauty/01_front_view_hd (11).svg",
+        "beauty/02_top_view_hd (11).svg",
+        "beauty/03_bottom_view_hd (11).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "BEA-004",
+      "name": "Beauty Product 12",
+      "keys": [
+        "beauty/03_bottom_view_hd (12).svg"
+      ],
+      "hints": []
+    }
+  ],
+  "fashionHints": [
+    {
+      "sku": "FAS-001",
+      "name": "Fashion Wear Product 01",
+      "keys": [
+        "fashion_wear/01_front_view_hd.svg",
+        "fashion_wear/02_side_view_hd.svg",
+        "fashion_wear/03_back_view_hd.svg",
+        "fashion_wear/04_angle_view_hd.svg",
+        "fashion_wear/04_another_angle_hd.svg",
+        "fashion_wear/05_lifestyle_view_hd.svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-002",
+      "name": "Fashion Wear Product 02",
+      "keys": [
+        "fashion_wear/02_side_view_hd(1).svg",
+        "fashion_wear/03_back_view_hd(1).svg",
+        "fashion_wear/04_another_angle_hd(1).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-006",
+      "name": "Fashion Wear Product 03",
+      "keys": [
+        "fashion_wear/01_front_view_hd (2).svg",
+        "fashion_wear/02_side_view_hd (2).svg",
+        "fashion_wear/03_back_view_hd (2).svg",
+        "fashion_wear/04_angle_view_hd (2).svg",
+        "fashion_wear/04_another_angle_hd (2).svg",
+        "fashion_wear/05_lifestyle_view_hd (2).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-007",
+      "name": "Fashion Wear Product 04",
+      "keys": [
+        "fashion_wear/01_front_view_hd (3).svg",
+        "fashion_wear/02_side_view_hd (3).svg",
+        "fashion_wear/03_back_view_hd (3).svg",
+        "fashion_wear/04_angle_view_hd (3).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-008",
+      "name": "Fashion Wear Product 05",
+      "keys": [
+        "fashion_wear/01_front_view_hd (4).svg",
+        "fashion_wear/02_side_view_hd (4).svg",
+        "fashion_wear/03_back_view_hd (4).svg",
+        "fashion_wear/04_angle_view_hd (4).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-009",
+      "name": "Fashion Wear Product 06",
+      "keys": [
+        "fashion_wear/01_front_view_hd (5).svg",
+        "fashion_wear/02_side_view_hd (5).svg",
+        "fashion_wear/03_back_view_hd (5).svg",
+        "fashion_wear/04_angle_view_hd (5).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-010",
+      "name": "Fashion Wear Product 07",
+      "keys": [
+        "fashion_wear/01_front_view_hd (6).svg",
+        "fashion_wear/02_side_view_hd (6).svg",
+        "fashion_wear/03_back_view_hd (6).svg",
+        "fashion_wear/04_angle_view_hd (6).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-011",
+      "name": "Fashion Wear Product 08",
+      "keys": [
+        "fashion_wear/01_front_view_hd (7).svg",
+        "fashion_wear/02_side_view_hd (7).svg",
+        "fashion_wear/03_back_view_hd (7).svg",
+        "fashion_wear/04_angle_view_hd (7).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-012",
+      "name": "Fashion Wear Product 09",
+      "keys": [
+        "fashion_wear/01_front_view_hd (8).svg",
+        "fashion_wear/02_side_view_hd (8).svg",
+        "fashion_wear/03_back_view_hd (8).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-013",
+      "name": "Fashion Wear Product 10",
+      "keys": [
+        "fashion_wear/01_front_view_hd (9).svg",
+        "fashion_wear/02_side_view_hd (9).svg",
+        "fashion_wear/03_back_view_hd (9).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-003",
+      "name": "Fashion Wear Product 11",
+      "keys": [
+        "fashion_wear/01_front_view_hd (10).svg",
+        "fashion_wear/02_side_view_hd (10).svg",
+        "fashion_wear/03_back_view_hd (10).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-004",
+      "name": "Fashion Wear Product 12",
+      "keys": [
+        "fashion_wear/01_front_view_hd (11).svg",
+        "fashion_wear/02_side_view_hd (11).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-005",
+      "name": "Fashion Wear Product 13",
+      "keys": [
+        "fashion_wear/02_side_view_hd (12).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-014",
+      "name": "Fashion Wear Product 14",
+      "keys": [
+        "fashion_wear/01_front_view_hd(20260912-061437).svg"
+      ],
+      "hints": []
+    },
+    {
+      "sku": "FAS-015",
+      "name": "Fashion Wear Product 15",
+      "keys": [
+        "fashion_wear/01_front_view_hd(20260912-062549).svg"
+      ],
+      "hints": []
+    }
+  ],
+  "kitchenProducts": [
+    {
+      "sku": "KIT-008",
+      "name": "All Components",
+      "keys": [
+        "kitchen/12_all_components_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-009",
+      "name": "Electric Hot Pot",
+      "keys": [
+        "kitchen/electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg"
+      ]
+    },
+    {
+      "sku": "KIT-001",
+      "name": "Kitchen Product 01",
+      "keys": [
+        "kitchen/01_front_view_hd.svg",
+        "kitchen/02_top_view_hd.svg",
+        "kitchen/03_left_side_view_hd.svg",
+        "kitchen/03_bottom_view_hd.svg",
+        "kitchen/05_top_view_hd.svg",
+        "kitchen/06_bottom_view_hd.svg",
+        "kitchen/07_angled_front_right_hd.svg",
+        "kitchen/09_knob_closeup_hd.svg",
+        "kitchen/10_spout_closeup_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-002",
+      "name": "Kitchen Product 02",
+      "keys": [
+        "kitchen/01_front_view_hd (2).svg",
+        "kitchen/02_top_view_hd (2).svg",
+        "kitchen/03_left_side_view_hd (2).svg",
+        "kitchen/03_bottom_view_hd (2).svg",
+        "kitchen/05_left_side_view_hd (2).svg",
+        "kitchen/05_top_view_hd (2).svg"
+      ]
+    },
+    {
+      "sku": "KIT-003",
+      "name": "Kitchen Product 03",
+      "keys": [
+        "kitchen/01_front_view_hd (3).svg",
+        "kitchen/02_right_side_view_hd (3).svg",
+        "kitchen/02_top_view_hd (3).svg",
+        "kitchen/03_bottom_view_hd (3).svg",
+        "kitchen/06_bottom_view_hd (3).svg"
+      ]
+    },
+    {
+      "sku": "KIT-004",
+      "name": "Kitchen Product 04",
+      "keys": [
+        "kitchen/01_front_view_hd (4).svg",
+        "kitchen/02_top_view_hd (4).svg",
+        "kitchen/03_bottom_view_hd (4).svg"
+      ]
+    },
+    {
+      "sku": "KIT-005",
+      "name": "Kitchen Product 05",
+      "keys": [
+        "kitchen/01_front_view_hd (5).svg",
+        "kitchen/02_top_view_hd (5).svg",
+        "kitchen/03_bottom_view_hd (5).svg"
+      ]
+    },
+    {
+      "sku": "KIT-006",
+      "name": "Kitchen Product 06",
+      "keys": [
+        "kitchen/02_top_view_hd (6).svg",
+        "kitchen/03_bottom_view_hd (6).svg"
+      ]
+    },
+    {
+      "sku": "KIT-007",
+      "name": "Kitchen Product 07",
+      "keys": [
+        "kitchen/01_front_view_hd (7).svg",
+        "kitchen/02_top_view_hd (7).svg",
+        "kitchen/03_bottom_view_hd (7).svg"
+      ]
+    },
+    {
+      "sku": "KIT-010",
+      "name": "Slotted Spatula",
+      "keys": [
+        "kitchen/11_slotted_spatula_top_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-011",
+      "name": "Slotted Spoon",
+      "keys": [
+        "kitchen/07_slotted_spoon_top_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-012",
+      "name": "Spiral Whisk",
+      "keys": [
+        "kitchen/10_spiral_whisk_top_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-013",
+      "name": "Whisk",
+      "keys": [
+        "kitchen/09_whisk_top_hd.svg"
+      ]
+    },
+    {
+      "sku": "KIT-014",
+      "name": "Wooden Spatula",
+      "keys": [
+        "kitchen/08_wooden_spatula_top_hd.svg"
+      ]
+    }
+  ],
+  "toyProducts": [
+    {
+      "sku": "TOY-017",
+      "name": "Toy Image 01",
+      "keys": [
+        "toys/images (1).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-016",
+      "name": "Toy Image 01",
+      "keys": [
+        "toys/images.svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-026",
+      "name": "Toy Image 02",
+      "keys": [
+        "toys/images (2).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-027",
+      "name": "Toy Image 06",
+      "keys": [
+        "toys/images (6).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-028",
+      "name": "Toy Image 07",
+      "keys": [
+        "toys/images (7).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-029",
+      "name": "Toy Image 08",
+      "keys": [
+        "toys/images (8).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-030",
+      "name": "Toy Image 09",
+      "keys": [
+        "toys/images (9).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-018",
+      "name": "Toy Image 10",
+      "keys": [
+        "toys/images (10).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-019",
+      "name": "Toy Image 11",
+      "keys": [
+        "toys/images (11).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-020",
+      "name": "Toy Image 12",
+      "keys": [
+        "toys/images (12).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-021",
+      "name": "Toy Image 13",
+      "keys": [
+        "toys/images (13).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-022",
+      "name": "Toy Image 14",
+      "keys": [
+        "toys/images (14).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-023",
+      "name": "Toy Image 15",
+      "keys": [
+        "toys/images (15).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-024",
+      "name": "Toy Image 16",
+      "keys": [
+        "toys/images (16).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-025",
+      "name": "Toy Image 17",
+      "keys": [
+        "toys/images (17).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-001",
+      "name": "Toy Product 01",
+      "keys": [
+        "toys/01_front_view_hd.svg",
+        "toys/02_angled_front_left_view_hd.svg",
+        "toys/02_angled_view_hd.svg",
+        "toys/02_side_view_hd.svg",
+        "toys/02_left_side_view_hd.svg",
+        "toys/02_rear_view_hd.svg",
+        "toys/02_top_view_hd.svg",
+        "toys/03_left_side_view_hd.svg",
+        "toys/03_side_left_view_hd.svg",
+        "toys/03_top_view_hd.svg",
+        "toys/03_bottom_view_hd.svg",
+        "toys/04_right_side_view_hd.svg",
+        "toys/04_rear_view_hd.svg",
+        "toys/04_top_view_hd.svg",
+        "toys/05_rear_view_hd.svg",
+        "toys/05_top_view_hd.svg",
+        "toys/06_bottom_view_hd.svg",
+        "toys/07_angled_front_left_view_hd.svg",
+        "toys/07_angled_view_hd.svg",
+        "toys/08_angled_rear_right_view_hd.svg"
+      ],
+      "imageCount": 20
+    },
+    {
+      "sku": "TOY-007",
+      "name": "Toy Product 02",
+      "keys": [
+        "toys/01_front_view_hd (2).svg",
+        "toys/02_angled_front_left_view_hd (2).svg",
+        "toys/02_angled_view_hd (2).svg",
+        "toys/02_top_view_hd (2).svg",
+        "toys/03_side_left_view_hd (2).svg",
+        "toys/03_bottom_view_hd (2).svg",
+        "toys/04_rear_view_hd (2).svg",
+        "toys/04_top_view_hd (2).svg",
+        "toys/04_bottom_view_hd (2).svg",
+        "toys/05_rear_view_hd (2).svg",
+        "toys/05_top_view_hd (2).svg",
+        "toys/08_angled_rear_right_view_hd (2).svg"
+      ],
+      "imageCount": 12
+    },
+    {
+      "sku": "TOY-008",
+      "name": "Toy Product 03",
+      "keys": [
+        "toys/01_front_view_hd (3).svg",
+        "toys/02_top_view_hd (3).svg",
+        "toys/03_bottom_view_hd (3).svg",
+        "toys/04_rear_view_hd (3).svg",
+        "toys/04_bottom_view_hd (3).svg",
+        "toys/05_left_side_view_hd (3).svg",
+        "toys/07_angled_front_left_view_hd (3).svg",
+        "toys/08_angled_rear_right_view_hd (3).svg"
+      ],
+      "imageCount": 8
+    },
+    {
+      "sku": "TOY-009",
+      "name": "Toy Product 04",
+      "keys": [
+        "toys/01_front_view_hd (4).svg",
+        "toys/02_angled_front_left_view_hd (4).svg",
+        "toys/02_top_view_hd (4).svg",
+        "toys/03_side_left_view_hd (4).svg",
+        "toys/03_top_view_hd (4).svg",
+        "toys/03_bottom_view_hd (4).svg",
+        "toys/04_rear_view_hd (4).svg",
+        "toys/05_left_side_view_hd (4).svg",
+        "toys/07_angled_front_left_view_hd (4).svg",
+        "toys/08_angled_rear_right_view_hd (4).svg"
+      ],
+      "imageCount": 10
+    },
+    {
+      "sku": "TOY-010",
+      "name": "Toy Product 05",
+      "keys": [
+        "toys/01_front_view_hd (5).svg",
+        "toys/02_angled_front_left_view_hd (5).svg",
+        "toys/02_top_view_hd (5).svg",
+        "toys/04_rear_view_hd (5).svg",
+        "toys/05_left_side_view_hd (5).svg",
+        "toys/06_right_side_view_hd (5).svg",
+        "toys/07_angled_front_left_view_hd (5).svg",
+        "toys/08_angled_rear_right_view_hd (5).svg"
+      ],
+      "imageCount": 8
+    },
+    {
+      "sku": "TOY-011",
+      "name": "Toy Product 06",
+      "keys": [
+        "toys/01_front_view_hd (6).svg",
+        "toys/04_rear_view_hd (6).svg",
+        "toys/05_left_side_view_hd (6).svg",
+        "toys/06_right_side_view_hd (6).svg"
+      ],
+      "imageCount": 4
+    },
+    {
+      "sku": "TOY-012",
+      "name": "Toy Product 07",
+      "keys": [
+        "toys/01_front_view_hd (7).svg",
+        "toys/04_rear_view_hd (7).svg",
+        "toys/05_left_side_view_hd (7).svg",
+        "toys/06_right_side_view_hd (7).svg"
+      ],
+      "imageCount": 4
+    },
+    {
+      "sku": "TOY-013",
+      "name": "Toy Product 08",
+      "keys": [
+        "toys/01_front_view_hd (8).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-014",
+      "name": "Toy Product 09",
+      "keys": [
+        "toys/01_front_view_hd (9).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-002",
+      "name": "Toy Product 10",
+      "keys": [
+        "toys/01_front_view_hd (10).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-003",
+      "name": "Toy Product 11",
+      "keys": [
+        "toys/01_front_view_hd (11).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-004",
+      "name": "Toy Product 12",
+      "keys": [
+        "toys/01_front_view_hd (12).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-005",
+      "name": "Toy Product 13",
+      "keys": [
+        "toys/01_front_view_hd (13).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-006",
+      "name": "Toy Product 14",
+      "keys": [
+        "toys/01_front_view_hd (14).svg"
+      ],
+      "imageCount": 1
+    },
+    {
+      "sku": "TOY-015",
+      "name": "Transforming Robot Car",
+      "keys": [
+        "toys/01_front_car_mode_hd.svg",
+        "toys/01_front_robot_mode_hd.svg",
+        "toys/02_angled_car_mode_hd.svg",
+        "toys/02_angled_robot_mode_hd.svg",
+        "toys/03_side_car_mode_hd.svg",
+        "toys/03_back_robot_mode_hd.svg",
+        "toys/04_side_robot_mode_hd.svg",
+        "toys/04_rear_car_mode_hd.svg",
+        "toys/05_front_car_mode_hd.svg",
+        "toys/05_front_robot_mode_hd.svg",
+        "toys/06_angled_robot_mode_hd.svg",
+        "toys/08_rear_car_mode_hd.svg",
+        "toys/09_top_car_mode_hd (2).svg",
+        "toys/09_top_car_mode_hd.svg",
+        "toys/10_bottom_car_mode_hd (2).svg",
+        "toys/10_bottom_car_mode_hd.svg",
+        "toys/10_batteries_hd.svg",
+        "toys/10_rechargeable_battery_hd.svg",
+        "toys/11_accessories_hd.svg",
+        "toys/11_remote_battery_hd.svg",
+        "toys/11_remote_controller_usb_cable_hd.svg",
+        "toys/11_spare_propellers_landing_gear_hd.svg",
+        "toys/12_transforming_robot_car_hd.svg"
+      ],
+      "imageCount": 23
+    }
+  ]
+}

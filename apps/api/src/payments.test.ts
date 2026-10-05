@@ -1,3 +1,4 @@
+import "./lib/preload-env";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
@@ -369,7 +370,26 @@ describeDb("payment core API", () => {
     expect(res.status).toBe(201);
     intentId = body.data.id;
     expect(body.data.status).toBe("REQUIRES_PAYMENT");
-    expect(body.data.amount.amountMinor).toBe("13000"); // 10000 + 3000 shipping
+
+    // Authoritative amount is the checkout session total (subtotal + tax + shipping).
+    // Tax may be present when other suites seed India GST into the shared local DB
+    // (e.g. checkout.test.ts creates GST 18% → 10000 + 1800 + 3000 = 14800).
+    const session = await prisma.checkoutSession.findUniqueOrThrow({
+      where: { id: checkoutId },
+      select: {
+        subtotalMinor: true,
+        discountMinor: true,
+        taxMinor: true,
+        shippingMinor: true,
+        totalMinor: true,
+      },
+    });
+    expect(session.subtotalMinor).toBe(10000n);
+    expect(session.shippingMinor).toBe(3000n);
+    expect(session.totalMinor).toBe(
+      session.subtotalMinor - session.discountMinor + session.taxMinor + session.shippingMinor,
+    );
+    expect(body.data.amount.amountMinor).toBe(session.totalMinor.toString());
     expect(body.data.amount.currencyCode).toBe("INR");
     expect(JSON.stringify(body)).not.toMatch(/secret|webhook|password|cvv/i);
 

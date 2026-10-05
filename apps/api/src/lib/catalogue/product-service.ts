@@ -13,6 +13,7 @@ import {
   decodeCursor,
   encodeCursor,
   publicProductWhere,
+  scoreProductSearch,
 } from "./helpers";
 import {
   availableUnits,
@@ -236,15 +237,33 @@ export class ProductService {
         ? [{ name: "asc" }, { id: "asc" }]
         : [{ createdAt: "desc" }, { id: "desc" }];
 
+    // Text search: pull a wider candidate window, then rank by relevance so
+    // whole-word matches are not crowded out by newer substring hits.
+    const searching = Boolean(query.q?.trim());
+    const take = searching
+      ? Math.min(100, Math.max(limit + 1, (limit + 1) * 8))
+      : limit + 1;
+
     const rows = await this.prisma.product.findMany({
       where,
       include: productListInclude,
       orderBy,
-      take: limit + 1,
+      take,
     });
 
+    const ranked = searching
+      ? [...rows].sort((a, b) => {
+          const diff =
+            scoreProductSearch(b, query.q!) - scoreProductSearch(a, query.q!);
+          if (diff !== 0) return diff;
+          const byCreated = b.createdAt.getTime() - a.createdAt.getTime();
+          if (byCreated !== 0) return byCreated;
+          return b.id < a.id ? -1 : b.id > a.id ? 1 : 0;
+        })
+      : rows;
+
     const priceCtx = { currencyCode: currency, countryId };
-    let mapped = rows.map((p) => this.toSummary(p, priceCtx));
+    let mapped = ranked.map((p) => this.toSummary(p, priceCtx));
 
     if (query.minPriceMinor || query.maxPriceMinor) {
       const min = query.minPriceMinor ? BigInt(query.minPriceMinor) : null;
@@ -263,9 +282,9 @@ export class ProductService {
     }
 
     const page = mapped.slice(0, limit);
-    const sourceForCursor = rows.slice(0, limit);
+    const sourceForCursor = ranked.slice(0, limit);
     const last = sourceForCursor[sourceForCursor.length - 1];
-    const hasMore = rows.length > limit;
+    const hasMore = ranked.length > limit;
     return {
       items: page,
       pagination: {

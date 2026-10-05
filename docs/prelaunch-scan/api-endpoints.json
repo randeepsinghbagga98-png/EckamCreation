@@ -1,0 +1,1116 @@
+{
+  "generatedAt": "2026-10-05T04:29:46.428Z",
+  "count": 96,
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/",
+      "public": false,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/ai/status",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "DASHBOARD_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/ai/status/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/brands",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/brands/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/brands",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/brands/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/brands/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/brands/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/categories",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/categories/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/categories",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/categories/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/categories/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/categories/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/collections",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/collections/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/collections",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/collections/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/collections/[id]/products",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/collections/[id]/products/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/collections/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CATALOGUE_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/collections/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/customers",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CUSTOMERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/customers/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/customers/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CUSTOMERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/customers/[id]/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/customers/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "CUSTOMERS_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/customers/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/dashboard",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "DASHBOARD_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/dashboard/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/orders",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/orders/[id]/cancellations",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_UPDATE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/[id]/cancellations/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/orders/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/orders/[id]/shipments",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/[id]/shipments/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/orders/[id]/shipments",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/[id]/shipments/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/orders/[id]/status",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_UPDATE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/orders/[id]/status/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/payments/intents",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PAYMENTS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/payments/intents/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/payments/intents/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PAYMENTS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/payments/intents/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/products",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/products",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/publish",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/[id]/publish/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/products/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/[id]/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/products/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_READ",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/[id]/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/unpublish",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/[id]/unpublish/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/variants",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/products/[id]/variants/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/settings",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "DASHBOARD_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/settings/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/admin/shipments",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_READ",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/shipments/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/admin/shipments/[id]/status",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "ORDERS_UPDATE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/shipments/[id]/status/route.ts"
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/admin/variants/[id]/prices",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "PRODUCTS_WRITE",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/admin/variants/[id]/prices/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/ai/conversations",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/ai/conversations/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/ai/conversations/[id]/messages",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/ai/conversations/[id]/messages/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ai/conversations/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/ai/conversations/[id]/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/login",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/login/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/logout",
+      "public": false,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/logout/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/register",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/register/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/auth/session",
+      "public": false,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/session/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/staff/login",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "staff-session",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/staff/login/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/staff/logout",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "staff-session",
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/staff/logout/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/auth/staff/session",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": "staff-session",
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/auth/staff/session/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carts/current/items",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/current/items/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/carts/current/items/[itemId]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/current/items/[itemId]/route.ts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/carts/current/items/[itemId]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/current/items/[itemId]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/carts/current",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/current/route.ts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/carts/current",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/current/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carts/merge",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/merge/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carts",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/carts/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/brands",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/brands/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/brands/[idOrSlug]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/brands/[idOrSlug]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/categories",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/categories/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/categories/[idOrSlug]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/categories/[idOrSlug]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/collections",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/collections/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/collections/[idOrSlug]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/collections/[idOrSlug]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/products",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/products/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]/media",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/products/[idOrSlug]/media/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/products/[idOrSlug]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]/variants",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/products/[idOrSlug]/variants/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/variants/[id]/price",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/variants/[id]/price/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/catalogue/variants/[id]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/catalogue/variants/[id]/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/checkout/sessions",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/complete",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/[id]/complete/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/payment-intent",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/[id]/payment-intent/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/quote",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/[id]/quote/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/checkout/sessions/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/[id]/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/checkout/sessions/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/checkout/sessions/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/health",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/health/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/addresses",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/addresses/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/addresses",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/addresses/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/me/addresses/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/addresses/[id]/route.ts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/addresses/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/addresses/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/consents",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/consents/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/consents",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/consents/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notification-preferences",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/notification-preferences/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/me/notification-preferences",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/notification-preferences/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/orders",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/orders/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/orders/[idOrNumber]/cancellations",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/orders/[idOrNumber]/cancellations/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/orders/[idOrNumber]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/orders/[idOrNumber]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/orders/[idOrNumber]/shipments",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/orders/[idOrNumber]/shipments/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/route.ts"
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/me",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/wishlist/items",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/wishlist/items/route.ts"
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/wishlist/items/[variantId]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/wishlist/items/[variantId]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wishlist",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/me/wishlist/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/payments/intents",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/payments/intents/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/payments/intents/[id]/initiate",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/payments/intents/[id]/initiate/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/payments/intents/[id]",
+      "public": false,
+      "authRequired": true,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/payments/intents/[id]/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/search/natural",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/search/natural/route.ts"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/search",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": 200,
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/search/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/search",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/search/route.ts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/webhooks/payments/[provider]",
+      "public": true,
+      "authRequired": false,
+      "permissionRequired": null,
+      "expectedSuccess": [
+        200,
+        201
+      ],
+      "expectedUnauthorized": 401,
+      "file": "apps/api/src/app/v1/webhooks/payments/[provider]/route.ts"
+    }
+  ]
+}

@@ -32,6 +32,15 @@ export const CATEGORIES: CategoryItem[] = [
     size: 'companion',
   },
   {
+    slug: 'handbags',
+    name: 'Handbags',
+    descriptor: 'Imported handbag colourways and views.',
+    href: '/shop?category=handbags',
+    imageSrc: '/products/cream-tote.svg',
+    imageAlt: 'Handbag catalogue imagery',
+    size: 'companion',
+  },
+  {
     slug: 'fashion',
     name: 'Fashion',
     descriptor: 'Silhouettes with quiet presence.',
@@ -40,6 +49,15 @@ export const CATEGORIES: CategoryItem[] = [
       'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1400&q=80',
     imageAlt: 'Editorial fashion garments hanging in a refined studio',
     size: 'companion',
+  },
+  {
+    slug: 'fashion-wear',
+    name: 'Fashion Wear',
+    descriptor: 'Imported fashion wear imagery awaiting merchandising detail.',
+    href: '/shop?category=fashion-wear',
+    imageSrc: '/products/fashion-layer.svg',
+    imageAlt: 'Fashion wear catalogue imagery',
+    size: 'standard',
   },
   {
     slug: 'home-decor',
@@ -62,6 +80,15 @@ export const CATEGORIES: CategoryItem[] = [
     size: 'standard',
   },
   {
+    slug: 'kitchen',
+    name: 'Kitchen',
+    descriptor: 'Imported kitchen product imagery awaiting merchandising detail.',
+    href: '/shop?category=kitchen',
+    imageSrc: '/products/kitchen-vessel.svg',
+    imageAlt: 'Kitchen catalogue imagery',
+    size: 'standard',
+  },
+  {
     slug: 'beauty-personal-care',
     name: 'Beauty & Personal Care',
     descriptor: 'Rituals of care, quietly refined.',
@@ -69,6 +96,24 @@ export const CATEGORIES: CategoryItem[] = [
     imageSrc:
       'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1400&q=80',
     imageAlt: 'Soft-focus beauty still life with brushes and muted cosmetics',
+    size: 'standard',
+  },
+  {
+    slug: 'beauty',
+    name: 'Beauty',
+    descriptor: 'Imported beauty imagery awaiting merchandising detail.',
+    href: '/shop?category=beauty',
+    imageSrc: '/products/beauty-ritual.svg',
+    imageAlt: 'Beauty catalogue imagery',
+    size: 'standard',
+  },
+  {
+    slug: 'toys',
+    name: 'Toys',
+    descriptor: 'Imported toy imagery awaiting merchandising detail.',
+    href: '/shop?category=toys',
+    imageSrc: '/products/cream-tote.svg',
+    imageAlt: 'Toys catalogue imagery',
     size: 'standard',
   },
   {

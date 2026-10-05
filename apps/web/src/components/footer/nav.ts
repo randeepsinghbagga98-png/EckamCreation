@@ -19,7 +19,7 @@ export const FOOTER_NAV_GROUPS: FooterNavGroup[] = [
     title: 'Shop',
     items: [
       { label: 'Shop', href: '/shop' },
-      { label: 'New Arrivals', href: '/#new-arrivals' },
+      { label: 'Latest', href: '/#new-arrivals' },
       { label: 'Collections', href: '/collections' },
       { label: 'Selected Pieces', href: '/#best-sellers' },
     ],

@@ -1,0 +1,1511 @@
+{
+  "dbGate": "LOCAL",
+  "env": {
+    "NODE_ENV": "UNSET",
+    "DATABASE_URL": "SET",
+    "API_INTERNAL_URL": "UNSET",
+    "CORS_ORIGINS": "UNSET",
+    "ADMIN_EMAIL": "SET",
+    "ADMIN_PASSWORD": "SET",
+    "AUTH_SECRET": "UNSET",
+    "NEXT_PUBLIC_APP_URL": "UNSET",
+    "NEXT_PUBLIC_APP_NAME": "UNSET",
+    "ALLOW_TEST_PAYMENT_PROVIDER": "UNSET",
+    "AI_PROVIDER": "UNSET",
+    "AI_API_KEY": "UNSET",
+    "PAYMENT_PROVIDER": "UNSET",
+    "PAYMENT_PROVIDER_KEY": "UNSET",
+    "PAYMENT_PROVIDER_SECRET": "UNSET",
+    "REDIS_URL": "UNSET"
+  },
+  "health": {
+    "web": 200,
+    "admin": 200,
+    "api": 200
+  },
+  "endpointCount": 3,
+  "broken": [
+    {
+      "href": "http://localhost:3000",
+      "status": 0
+    }
+  ],
+  "seo": {
+    "/": {
+      "title": "Eckam Creation | Designed To Be Desired",
+      "desc": "Curated products and a considered shopping experience from Eckam Creation.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 21
+    },
+    "/shop": {
+      "title": "Shop Eckam | ECKAM CREATION | Eckam Creation",
+      "desc": "Explore a considered selection of fashion, accessories, beauty, home, kitchen, gifts, and distinctive lifestyle pieces.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 2,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 11
+    },
+    "/collections": {
+      "title": "Collections | Eckam Creation | Eckam Creation",
+      "desc": "Explore curated collections from Eckam Creation.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 8
+    },
+    "/cart": {
+      "title": "Shopping Cart | ECKAM CREATION | Eckam Creation",
+      "desc": "Review your selected pieces before continuing to checkout.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 0
+    },
+    "/checkout": {
+      "title": "Checkout | ECKAM CREATION | Eckam Creation",
+      "desc": "Review your selection and enter your details to continue.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 0,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 0
+    },
+    "/about": {
+      "title": "Eckam Creation — About | Eckam Creation",
+      "desc": "Discover the story, philosophy and curated approach behind Eckam Creation.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 1,
+      "presentAlt": 9
+    },
+    "/contact": {
+      "title": "Eckam Creation — Contact | Eckam Creation",
+      "desc": "Get in touch with Eckam Creation about our collections and shopping experience.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 0
+    },
+    "/account/login": {
+      "title": "Sign In | ECKAM CREATION",
+      "desc": "Sign in to your Eckam Creation account.",
+      "canonical": "http://localhost:3000",
+      "robots": "index, follow",
+      "og": "",
+      "h1s": 1,
+      "status": 200,
+      "missingAlt": 0,
+      "presentAlt": 0
+    }
+  },
+  "assetResults": [
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1441984904996-e0b6ba687e04%3Fauto%3Dformat%26fit%3Dcrop%26w%3D3200%26q%3D85&amp;w=640&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_compiled_next-devtools_index_1l8vv1k.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_compiled_react-dom_1m-w4-1._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_compiled_react-server-dom-turbopack_07i4vxz._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_compiled_1rn17q4._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_client_0q1acdy._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_1f8c6bo._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/0zix_%40swc_helpers_cjs_0hi-e47._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/apps_web_1anvha4._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/turbopack-apps_web_16g7bpc._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/apps_web_219uq1s._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/apps_web_src_components_ai_eckam-ai-widget_tsx_0rqbd2t._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/_0l3ecpw._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/apps_web_src_app_error_tsx_06osx45._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/_1x85_ug._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_0bfakww._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/08zn_motion-dom_dist_es_1na468v._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/0zog_framer-motion_dist_es_1locy9k._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/0oo4_zod_v3_1ct7nna._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/node_modules__pnpm_0ehl_iu._.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/static/chunks/18rv_next_dist_build_polyfills_polyfill-nomodule.js",
+      "status": 200
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1441984904996-e0b6ba687e04%3Fauto%3Dformat%26fit%3Dcrop%26w%3D3200%26q%3D85&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1611591437281-460bfbe1220a%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1800%26q%3D80&amp;w=384&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1611591437281-460bfbe1220a%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1800%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1584917865442-de89df76afd3%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=384&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1584917865442-de89df76afd3%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1490481651871-ab68de25d43d%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=384&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1490481651871-ab68de25d43d%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1618221195710-dd6b41faaea6%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=256&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1618221195710-dd6b41faaea6%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1556912173-46c336c7fd55%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=256&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1556912173-46c336c7fd55%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1596462502278-27bfdc403348%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=256&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1596462502278-27bfdc403348%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1400%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1513885535751-8b9238bd345a%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80&amp;w=384&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1513885535751-8b9238bd345a%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1513364776144-60967b0f800f%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80&amp;w=384&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1513364776144-60967b0f800f%3Fauto%3Dformat%26fit%3Dcrop%26w%3D1600%26q%3D80&amp;w=3840&amp;q=75",
+      "status": 400
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&amp;fit=crop&amp;w=1800&amp;q=80",
+      "status": 200
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1723465302725-ff46b3e165f9%3Fauto%3Dformat%26fit%3Dcrop%26w%3D2800%26q%3D80&amp;w=640&amp;q=75",
+      "status": 400
+    }
+  ],
+  "rbac": {
+    "status": "PASS",
+    "login": 200,
+    "write": 403,
+    "read": 200,
+    "leak": false,
+    "leftover": [],
+    "leftoverStaff": [],
+    "before": {
+      "products": 11,
+      "categories": 8,
+      "customers": 76,
+      "orders": 0,
+      "staff": 1
+    },
+    "after": {
+      "products": 11,
+      "categories": 8,
+      "customers": 76,
+      "orders": 0,
+      "staff": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "P0-WEB-HEALTH",
+      "check": "web /",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-ADMIN-HEALTH",
+      "check": "admin login",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-API-HEALTH2",
+      "check": "api health",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/health",
+      "check": "unauth GET /v1/health",
+      "expected": "no 500",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/health",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/products",
+      "check": "unauth GET /v1/catalogue/products",
+      "expected": "no 500",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/catalogue/products",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/categories",
+      "check": "unauth GET /v1/catalogue/categories",
+      "expected": "no 500",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/catalogue/categories",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/collections",
+      "check": "unauth GET /v1/catalogue/collections",
+      "expected": "no 500",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/catalogue/collections",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/search?q=tray",
+      "check": "unauth GET /v1/search?q=tray",
+      "expected": "no 500",
+      "actual": "501",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S11-PUT-/v1/search",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me",
+      "check": "unauth GET /v1/me",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/me",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/auth/session",
+      "check": "unauth GET /v1/auth/session",
+      "expected": "no 500",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/auth/session",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/dashboard",
+      "check": "unauth GET /v1/admin/dashboard",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/dashboard",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/products",
+      "check": "unauth GET /v1/admin/products",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/products",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/carts/current",
+      "check": "unauth GET /v1/carts/current",
+      "expected": "no 500",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/carts/current",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/checkout/sessions",
+      "check": "unauth GET /v1/checkout/sessions",
+      "expected": "no 500",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/checkout/sessions",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/payments/intents",
+      "check": "unauth GET /v1/payments/intents",
+      "expected": "no 500",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/payments/intents",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/customers",
+      "check": "unauth GET /v1/admin/customers",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/customers",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/orders",
+      "check": "unauth GET /v1/admin/orders",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/orders",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/settings",
+      "check": "unauth GET /v1/admin/settings",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/settings",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/ai/status",
+      "check": "unauth GET /v1/admin/ai/status",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/ai/status",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/wishlist",
+      "check": "unauth GET /v1/me/wishlist",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/me/wishlist",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/addresses",
+      "check": "unauth GET /v1/me/addresses",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/me/addresses",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/orders",
+      "check": "unauth GET /v1/me/orders",
+      "expected": "no 500",
+      "actual": "401",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/me/orders",
+      "check": "wrong method PUT",
+      "expected": "405/404/401",
+      "actual": "405",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-CORS-OK",
+      "check": "allowed origin",
+      "expected": "ACAO localhost or none-dev",
+      "actual": "none",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-CTYPE",
+      "check": "wrong content-type login",
+      "expected": "4xx no stack",
+      "actual": "400 leak=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-OVERSIZE",
+      "check": "oversized-ish login",
+      "expected": "4xx",
+      "actual": "400 leak=false",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S12-BAD-SLUG",
+      "check": "invalid product idOrSlug",
+      "expected": "404",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-everyday-edit",
+      "check": "GET /collections/everyday-edit",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-signature-accessories",
+      "check": "GET /collections/signature-accessories",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-home-objects",
+      "check": "GET /collections/home-objects",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-kitchen-essentials",
+      "check": "GET /collections/kitchen-essentials",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-gifting-edit",
+      "check": "GET /collections/gifting-edit",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-craft-soul",
+      "check": "GET /collections/craft-soul",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-style-edit",
+      "check": "GET /collections/style-edit",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S1-COL-the-new-edit",
+      "check": "GET /collections/the-new-edit",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/",
+      "check": "title+h1 /",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/shop",
+      "check": "title+h1 /shop",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=2 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/collections",
+      "check": "title+h1 /collections",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/cart",
+      "check": "title+h1 /cart",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/checkout",
+      "check": "title+h1 /checkout",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=0 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S18-SEO-/about",
+      "check": "title+h1 /about",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/contact",
+      "check": "title+h1 /contact",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-SEO-/account/login",
+      "check": "title+h1 /account/login",
+      "expected": "title and 1 h1",
+      "actual": "title=true h1=1 canon=http://localhost:3000",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/_next/static/chunks/apps_web_src_app_globals_1wvyn-h.css",
+      "check": "internal link /_next/static/chunks/apps_web_src_app_globals_1wvyn-h.css",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1uw_2tp._.js",
+      "check": "internal link /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1uw_2tp._.js",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-http://localhost:3000",
+      "check": "internal link http://localhost:3000",
+      "expected": "<400",
+      "actual": "0",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S2-LINK-/icon.svg?icon.2jzp46-mqi1aq.svg",
+      "check": "internal link /icon.svg?icon.2jzp46-mqi1aq.svg",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/",
+      "check": "internal link /",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop",
+      "check": "internal link /shop",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections",
+      "check": "internal link /collections",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/about",
+      "check": "internal link /about",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/search",
+      "check": "internal link /search",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/account",
+      "check": "internal link /account",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/cart",
+      "check": "internal link /cart",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=jewellery-accessories",
+      "check": "internal link /shop?category=jewellery-accessories",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=bags-lifestyle",
+      "check": "internal link /shop?category=bags-lifestyle",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=fashion",
+      "check": "internal link /shop?category=fashion",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=home-decor",
+      "check": "internal link /shop?category=home-decor",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=kitchen-essentials",
+      "check": "internal link /shop?category=kitchen-essentials",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=beauty-personal-care",
+      "check": "internal link /shop?category=beauty-personal-care",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=gifts-celebrations",
+      "check": "internal link /shop?category=gifts-celebrations",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop?category=arts-crafts-spiritual",
+      "check": "internal link /shop?category=arts-crafts-spiritual",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/artisan-decorative-tray",
+      "check": "internal link /shop/artisan-decorative-tray",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/botanical-gift-box",
+      "check": "internal link /shop/botanical-gift-box",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/linen-accent-cushion",
+      "check": "internal link /shop/linen-accent-cushion",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/minimal-pendant-necklace",
+      "check": "internal link /shop/minimal-pendant-necklace",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/pearl-drop-earrings",
+      "check": "internal link /shop/pearl-drop-earrings",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/porcelain-table-setting",
+      "check": "internal link /shop/porcelain-table-setting",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/daily-ritual-care",
+      "check": "internal link /shop/daily-ritual-care",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/everyday-tailored-layer",
+      "check": "internal link /shop/everyday-tailored-layer",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/contact",
+      "check": "internal link /contact",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/privacy",
+      "check": "internal link /privacy",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/terms",
+      "check": "internal link /terms",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/refund-policy",
+      "check": "internal link /refund-policy",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/tan-carryall",
+      "check": "internal link /shop/tan-carryall",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/noir-compact-bag",
+      "check": "internal link /shop/noir-compact-bag",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/shop/cream-structured-tote",
+      "check": "internal link /shop/cream-structured-tote",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/everyday-edit",
+      "check": "internal link /collections/everyday-edit",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/signature-accessories",
+      "check": "internal link /collections/signature-accessories",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/home-objects",
+      "check": "internal link /collections/home-objects",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/kitchen-essentials",
+      "check": "internal link /collections/kitchen-essentials",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/gifting-edit",
+      "check": "internal link /collections/gifting-edit",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/craft-soul",
+      "check": "internal link /collections/craft-soul",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/style-edit",
+      "check": "internal link /collections/style-edit",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/collections/the-new-edit",
+      "check": "internal link /collections/the-new-edit",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S2-LINK-/account/signup",
+      "check": "internal link /account/signup",
+      "expected": "<400",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_compiled_next-devtools_i",
+      "check": "asset /_next/static/chunks/18rv_next_dist_compiled_next-devtools_i",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_compiled_react-dom_1m-w4",
+      "check": "asset /_next/static/chunks/18rv_next_dist_compiled_react-dom_1m-w4",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_compiled_react-server-do",
+      "check": "asset /_next/static/chunks/18rv_next_dist_compiled_react-server-do",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_compiled_1rn17q4._.js",
+      "check": "asset /_next/static/chunks/18rv_next_dist_compiled_1rn17q4._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_client_0q1acdy._.js",
+      "check": "asset /_next/static/chunks/18rv_next_dist_client_0q1acdy._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_1f8c6bo._.js",
+      "check": "asset /_next/static/chunks/18rv_next_dist_1f8c6bo._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/0zix_%40swc_helpers_cjs_0hi-e47._.js",
+      "check": "asset /_next/static/chunks/0zix_%40swc_helpers_cjs_0hi-e47._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/apps_web_1anvha4._.js",
+      "check": "asset /_next/static/chunks/apps_web_1anvha4._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/turbopack-apps_web_16g7bpc._.js",
+      "check": "asset /_next/static/chunks/turbopack-apps_web_16g7bpc._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/apps_web_219uq1s._.js",
+      "check": "asset /_next/static/chunks/apps_web_219uq1s._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/apps_web_src_components_ai_eckam-ai-wid",
+      "check": "asset /_next/static/chunks/apps_web_src_components_ai_eckam-ai-wid",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/_0l3ecpw._.js",
+      "check": "asset /_next/static/chunks/_0l3ecpw._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/apps_web_src_app_error_tsx_06osx45._.js",
+      "check": "asset /_next/static/chunks/apps_web_src_app_error_tsx_06osx45._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/_1x85_ug._.js",
+      "check": "asset /_next/static/chunks/_1x85_ug._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_0bfakww._.js",
+      "check": "asset /_next/static/chunks/18rv_next_0bfakww._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/08zn_motion-dom_dist_es_1na468v._.js",
+      "check": "asset /_next/static/chunks/08zn_motion-dom_dist_es_1na468v._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/0zog_framer-motion_dist_es_1locy9k._.js",
+      "check": "asset /_next/static/chunks/0zog_framer-motion_dist_es_1locy9k._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/0oo4_zod_v3_1ct7nna._.js",
+      "check": "asset /_next/static/chunks/0oo4_zod_v3_1ct7nna._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/node_modules__pnpm_0ehl_iu._.js",
+      "check": "asset /_next/static/chunks/node_modules__pnpm_0ehl_iu._.js",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/static/chunks/18rv_next_dist_build_polyfills_polyfill",
+      "check": "asset /_next/static/chunks/18rv_next_dist_build_polyfills_polyfill",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S13-IMG-https://images.unsplash.com/photo-1611591437281-460bfbe1220a",
+      "check": "asset https://images.unsplash.com/photo-1611591437281-460bfbe1220a",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S13-IMG-/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "check": "asset /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1",
+      "expected": "200",
+      "actual": "400",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    },
+    {
+      "id": "S18-ROBOTS",
+      "check": "robots disallow private",
+      "expected": "disallow account/cart/checkout",
+      "actual": "account=true cart=true checkout=true",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S6-UI-EMPTY",
+      "check": "checkout empty honest",
+      "expected": "empty or unconfigured, no fake success",
+      "actual": "honest=true fakePaid=false",
+      "evidence": "OBSERVED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-ANALYST-WRITE",
+      "check": "analyst POST /v1/admin/products",
+      "expected": "403",
+      "actual": "403",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S10-ANALYST-READ",
+      "check": "analyst GET /v1/admin/products",
+      "expected": "200",
+      "actual": "200",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S17-COUNTS",
+      "check": "catalogue counts intact",
+      "expected": "same products/categories/orders",
+      "actual": "{\"before\":{\"products\":11,\"categories\":8,\"customers\":76,\"orders\":0,\"staff\":1},\"after\":{\"products\":11,\"categories\":8,\"customers\":76,\"orders\":0,\"staff\":1},\"leftover\":0,\"leftoverStaff\":0}",
+      "evidence": "MEASURED",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-FAVICON",
+      "check": "favicon",
+      "expected": "200",
+      "actual": "404",
+      "evidence": "MEASURED",
+      "result": "FAIL"
+    }
+  ],
+  "findings": []
+}

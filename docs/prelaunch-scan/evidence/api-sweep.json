@@ -1,0 +1,790 @@
+{
+  "summary": {
+    "checked": 96,
+    "fail": 1,
+    "pass": 95,
+    "status501": 3,
+    "unexpected5xx": [
+      {
+        "id": "S11-POST-/v1/webhooks/payments/[provider]",
+        "method": "POST",
+        "path": "/v1/webhooks/payments/[provider]",
+        "status": 503,
+        "leak": false,
+        "result": "FAIL"
+      }
+    ],
+    "timeouts": [],
+    "leaks": []
+  },
+  "rows": [
+    {
+      "id": "S11-GET-/",
+      "method": "GET",
+      "path": "/",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/ai/status",
+      "method": "GET",
+      "path": "/v1/admin/ai/status",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/brands",
+      "method": "GET",
+      "path": "/v1/admin/brands",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/brands",
+      "method": "POST",
+      "path": "/v1/admin/brands",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/brands/[id]",
+      "method": "PATCH",
+      "path": "/v1/admin/brands/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/categories",
+      "method": "GET",
+      "path": "/v1/admin/categories",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/categories",
+      "method": "POST",
+      "path": "/v1/admin/categories",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/categories/[id]",
+      "method": "PATCH",
+      "path": "/v1/admin/categories/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/collections",
+      "method": "GET",
+      "path": "/v1/admin/collections",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/collections",
+      "method": "POST",
+      "path": "/v1/admin/collections",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/collections/[id]/products",
+      "method": "POST",
+      "path": "/v1/admin/collections/[id]/products",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/collections/[id]",
+      "method": "PATCH",
+      "path": "/v1/admin/collections/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/customers",
+      "method": "GET",
+      "path": "/v1/admin/customers",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/customers/[id]",
+      "method": "GET",
+      "path": "/v1/admin/customers/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/customers/[id]",
+      "method": "PATCH",
+      "path": "/v1/admin/customers/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/dashboard",
+      "method": "GET",
+      "path": "/v1/admin/dashboard",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/orders",
+      "method": "GET",
+      "path": "/v1/admin/orders",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/orders/[id]/cancellations",
+      "method": "POST",
+      "path": "/v1/admin/orders/[id]/cancellations",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/orders/[id]",
+      "method": "GET",
+      "path": "/v1/admin/orders/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/orders/[id]/shipments",
+      "method": "GET",
+      "path": "/v1/admin/orders/[id]/shipments",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/orders/[id]/shipments",
+      "method": "POST",
+      "path": "/v1/admin/orders/[id]/shipments",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/orders/[id]/status",
+      "method": "PATCH",
+      "path": "/v1/admin/orders/[id]/status",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/payments/intents",
+      "method": "GET",
+      "path": "/v1/admin/payments/intents",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/payments/intents/[id]",
+      "method": "GET",
+      "path": "/v1/admin/payments/intents/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/products",
+      "method": "GET",
+      "path": "/v1/admin/products",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/products",
+      "method": "POST",
+      "path": "/v1/admin/products",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/products/[id]/publish",
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/publish",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/products/[id]",
+      "method": "GET",
+      "path": "/v1/admin/products/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/products/[id]",
+      "method": "PATCH",
+      "path": "/v1/admin/products/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/products/[id]/unpublish",
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/unpublish",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/admin/products/[id]/variants",
+      "method": "POST",
+      "path": "/v1/admin/products/[id]/variants",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/settings",
+      "method": "GET",
+      "path": "/v1/admin/settings",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/admin/shipments",
+      "method": "GET",
+      "path": "/v1/admin/shipments",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/admin/shipments/[id]/status",
+      "method": "PATCH",
+      "path": "/v1/admin/shipments/[id]/status",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PUT-/v1/admin/variants/[id]/prices",
+      "method": "PUT",
+      "path": "/v1/admin/variants/[id]/prices",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/ai/conversations",
+      "method": "POST",
+      "path": "/v1/ai/conversations",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/ai/conversations/[id]/messages",
+      "method": "POST",
+      "path": "/v1/ai/conversations/[id]/messages",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/ai/conversations/[id]",
+      "method": "GET",
+      "path": "/v1/ai/conversations/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/auth/login",
+      "method": "POST",
+      "path": "/v1/auth/login",
+      "status": 400,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/auth/logout",
+      "method": "POST",
+      "path": "/v1/auth/logout",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/auth/register",
+      "method": "POST",
+      "path": "/v1/auth/register",
+      "status": 400,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/auth/session",
+      "method": "GET",
+      "path": "/v1/auth/session",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/auth/staff/login",
+      "method": "POST",
+      "path": "/v1/auth/staff/login",
+      "status": 400,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/auth/staff/logout",
+      "method": "POST",
+      "path": "/v1/auth/staff/logout",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/auth/staff/session",
+      "method": "GET",
+      "path": "/v1/auth/staff/session",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/carts/current/items",
+      "method": "POST",
+      "path": "/v1/carts/current/items",
+      "status": 400,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/carts/current/items/[itemId]",
+      "method": "PATCH",
+      "path": "/v1/carts/current/items/[itemId]",
+      "status": 400,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-DELETE-/v1/carts/current/items/[itemId]",
+      "method": "DELETE",
+      "path": "/v1/carts/current/items/[itemId]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/carts/current",
+      "method": "GET",
+      "path": "/v1/carts/current",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-DELETE-/v1/carts/current",
+      "method": "DELETE",
+      "path": "/v1/carts/current",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/carts/merge",
+      "method": "POST",
+      "path": "/v1/carts/merge",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/carts",
+      "method": "POST",
+      "path": "/v1/carts",
+      "status": 201,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/brands",
+      "method": "GET",
+      "path": "/v1/catalogue/brands",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/brands/[idOrSlug]",
+      "method": "GET",
+      "path": "/v1/catalogue/brands/[idOrSlug]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/categories",
+      "method": "GET",
+      "path": "/v1/catalogue/categories",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/categories/[idOrSlug]",
+      "method": "GET",
+      "path": "/v1/catalogue/categories/[idOrSlug]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/collections",
+      "method": "GET",
+      "path": "/v1/catalogue/collections",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/collections/[idOrSlug]",
+      "method": "GET",
+      "path": "/v1/catalogue/collections/[idOrSlug]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/products",
+      "method": "GET",
+      "path": "/v1/catalogue/products",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/products/[idOrSlug]/media",
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]/media",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/products/[idOrSlug]",
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/products/[idOrSlug]/variants",
+      "method": "GET",
+      "path": "/v1/catalogue/products/[idOrSlug]/variants",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/variants/[id]/price",
+      "method": "GET",
+      "path": "/v1/catalogue/variants/[id]/price",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/catalogue/variants/[id]",
+      "method": "GET",
+      "path": "/v1/catalogue/variants/[id]",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/checkout/sessions",
+      "method": "POST",
+      "path": "/v1/checkout/sessions",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/checkout/sessions/[id]/complete",
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/complete",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/checkout/sessions/[id]/payment-intent",
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/payment-intent",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/checkout/sessions/[id]/quote",
+      "method": "POST",
+      "path": "/v1/checkout/sessions/[id]/quote",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/checkout/sessions/[id]",
+      "method": "GET",
+      "path": "/v1/checkout/sessions/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/checkout/sessions/[id]",
+      "method": "PATCH",
+      "path": "/v1/checkout/sessions/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/health",
+      "method": "GET",
+      "path": "/v1/health",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/addresses",
+      "method": "GET",
+      "path": "/v1/me/addresses",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/me/addresses",
+      "method": "POST",
+      "path": "/v1/me/addresses",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/me/addresses/[id]",
+      "method": "PATCH",
+      "path": "/v1/me/addresses/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-DELETE-/v1/me/addresses/[id]",
+      "method": "DELETE",
+      "path": "/v1/me/addresses/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/consents",
+      "method": "GET",
+      "path": "/v1/me/consents",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/me/consents",
+      "method": "POST",
+      "path": "/v1/me/consents",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/notification-preferences",
+      "method": "GET",
+      "path": "/v1/me/notification-preferences",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/me/notification-preferences",
+      "method": "PATCH",
+      "path": "/v1/me/notification-preferences",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/orders",
+      "method": "GET",
+      "path": "/v1/me/orders",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/me/orders/[idOrNumber]/cancellations",
+      "method": "POST",
+      "path": "/v1/me/orders/[idOrNumber]/cancellations",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/orders/[idOrNumber]",
+      "method": "GET",
+      "path": "/v1/me/orders/[idOrNumber]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/orders/[idOrNumber]/shipments",
+      "method": "GET",
+      "path": "/v1/me/orders/[idOrNumber]/shipments",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me",
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-PATCH-/v1/me",
+      "method": "PATCH",
+      "path": "/v1/me",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/me/wishlist/items",
+      "method": "POST",
+      "path": "/v1/me/wishlist/items",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-DELETE-/v1/me/wishlist/items/[variantId]",
+      "method": "DELETE",
+      "path": "/v1/me/wishlist/items/[variantId]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/me/wishlist",
+      "method": "GET",
+      "path": "/v1/me/wishlist",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/payments/intents",
+      "method": "POST",
+      "path": "/v1/payments/intents",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/payments/intents/[id]/initiate",
+      "method": "POST",
+      "path": "/v1/payments/intents/[id]/initiate",
+      "status": 404,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/payments/intents/[id]",
+      "method": "GET",
+      "path": "/v1/payments/intents/[id]",
+      "status": 401,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1",
+      "method": "GET",
+      "path": "/v1",
+      "status": 200,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/search/natural",
+      "method": "POST",
+      "path": "/v1/search/natural",
+      "status": 501,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-GET-/v1/search",
+      "method": "GET",
+      "path": "/v1/search",
+      "status": 501,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/search",
+      "method": "POST",
+      "path": "/v1/search",
+      "status": 501,
+      "leak": false,
+      "result": "PASS"
+    },
+    {
+      "id": "S11-POST-/v1/webhooks/payments/[provider]",
+      "method": "POST",
+      "path": "/v1/webhooks/payments/[provider]",
+      "status": 503,
+      "leak": false,
+      "result": "FAIL"
+    }
+  ]
+}

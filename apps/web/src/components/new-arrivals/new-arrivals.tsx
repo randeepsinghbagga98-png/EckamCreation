@@ -41,7 +41,7 @@ export function NewArrivals({ products = NEW_ARRIVAL_PRODUCTS }: NewArrivalsProp
               id="new-arrivals-heading"
               className="mt-4 font-sans text-[clamp(36px,5vw,64px)] font-light tracking-[-0.045em] leading-[0.98] uppercase text-[#F6F0E5]"
             >
-              New Arrivals
+              Latest
             </h2>
             <p className="mt-5 max-w-xl text-[15px] sm:text-base font-light leading-relaxed text-[#F6F0E5]/68">
               A fresh edit of considered pieces, selected for modern living and
