@@ -31,7 +31,7 @@ export function AccountLoginForm({ next }: AccountLoginFormProps) {
     }
   }, [auth.status, destination, router]);
 
-  if (auth.status === 'loading' || auth.status === 'authenticated') {
+  if (auth.status === 'authenticated') {
     return <AccountLoading />;
   }
 

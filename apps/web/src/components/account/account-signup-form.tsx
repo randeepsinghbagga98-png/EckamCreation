@@ -32,7 +32,7 @@ export function AccountSignupForm({ next }: AccountSignupFormProps) {
     }
   }, [auth.status, destination, router]);
 
-  if (auth.status === 'loading' || auth.status === 'authenticated') {
+  if (auth.status === 'authenticated') {
     return <AccountLoading />;
   }
 

@@ -68,19 +68,35 @@ export async function hydrateSession(force = false) {
     setSnapshot(loadingSnapshot);
   }
 
+  let timedOut = false;
+  const timer = setTimeout(() => {
+    timedOut = true;
+    if (snapshot.status === 'loading') {
+      clearSession();
+    }
+  }, 4000);
+
   try {
     const data = await getAuthSession();
+    if (timedOut) {
+      return snapshot;
+    }
     if (data.authenticated && data.session) {
       applySession(data.session);
     } else {
       clearSession();
     }
   } catch (error) {
+    if (timedOut) {
+      return snapshot;
+    }
     setSnapshot({
       status: 'error',
       session: null,
       notice: messageForAuthError(error),
     });
+  } finally {
+    clearTimeout(timer);
   }
 
   return snapshot;
