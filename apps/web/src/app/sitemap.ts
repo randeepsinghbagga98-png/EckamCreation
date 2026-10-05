@@ -15,6 +15,10 @@ const INDEXABLE = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl();
+  if (!base) {
+    return [];
+  }
+
   return INDEXABLE.map((path) => ({
     url: path === '/' ? base : `${base}${path}`,
   }));

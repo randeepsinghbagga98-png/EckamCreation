@@ -7,9 +7,14 @@ import './globals.css';
 const appName = process.env.NEXT_PUBLIC_APP_NAME?.trim() || 'Eckam Creation';
 const description =
   'Curated products and a considered shopping experience from Eckam Creation.';
+const canonicalOrigin = siteUrl();
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl()),
+  ...(canonicalOrigin ? { metadataBase: new URL(canonicalOrigin) } : {}),
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    shortcut: ['/icon.svg'],
+  },
   title: {
     default: `${appName} | Designed To Be Desired`,
     template: `%s | ${appName}`,

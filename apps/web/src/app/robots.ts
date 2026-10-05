@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/account', '/account/', '/cart', '/checkout', '/login', '/signup'],
     },
-    sitemap: `${base}/sitemap.xml`,
+    ...(base ? { sitemap: `${base}/sitemap.xml` } : {}),
   };
 }
