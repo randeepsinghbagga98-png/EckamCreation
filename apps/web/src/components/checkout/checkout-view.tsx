@@ -38,6 +38,19 @@ import { CheckoutForm } from './checkout-form';
 import { CheckoutOrderSummary } from './checkout-order-summary';
 import { CheckoutSkeleton } from './checkout-skeleton';
 
+function subscribeCheckoutHydration(onChange: () => void) {
+  const timer = setTimeout(onChange, 0);
+  return () => clearTimeout(timer);
+}
+
+function getCheckoutHydratedSnapshot() {
+  return true;
+}
+
+function getCheckoutServerSnapshot() {
+  return false;
+}
+
 export function CheckoutView() {
   const cart = useCart();
   const reduceMotion = useReducedMotion();
@@ -46,9 +59,9 @@ export function CheckoutView() {
   const checkoutIdempotencyKeyRef = useRef<string | null>(null);
   const paymentIdempotencyKeyRef = useRef<string | null>(null);
   const hydrated = useSyncExternalStore(
-    () => () => {},
-    () => true,
-    () => false,
+    subscribeCheckoutHydration,
+    getCheckoutHydratedSnapshot,
+    getCheckoutServerSnapshot,
   );
   const [checkout, setCheckout] = useState(createCheckoutPresentation);
 
