@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { CollectionDetailView } from '@/components/collections/collection-detail-view';
 import { CollectionEmptyState } from '@/components/collections/collection-empty-state';
 import { CollectionHero } from '@/components/collections/collection-hero';
-import { CollectionNotFound } from '@/components/collections/collection-not-found';
 import { EDITORIAL_COLLECTIONS } from '@/lib/collections/edits';
 import { getResolvedCollection } from '@/lib/collections/resolve';
+import { notFound } from 'next/navigation';
 
 type CollectionPageProps = {
   params: Promise<{ slug: string }>;
@@ -27,6 +27,7 @@ export async function generateMetadata({
         ? `${editorial.title} | Eckam Creation`
         : 'Collection not found | Eckam Creation',
       description: editorial?.description ?? 'Explore curated collections from Eckam Creation.',
+      ...(!editorial ? { robots: { index: false, follow: false } } : {}),
     };
   }
 
@@ -41,7 +42,7 @@ export default async function CollectionDetailPage({ params }: CollectionPagePro
   const collection = await getResolvedCollection(slug);
 
   if (collection === null) {
-    return <CollectionNotFound />;
+    notFound();
   }
 
   if (collection === 'empty') {

@@ -20,6 +20,7 @@ export async function generateMetadata({
   if (!live) {
     return {
       title: 'Product not found | ECKAM CREATION',
+      robots: { index: false, follow: false },
     };
   }
 

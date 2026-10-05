@@ -14,7 +14,7 @@ export async function getCatalogueProduct(slug: string): Promise<ProductDetailDt
       return null;
     }
 
-    return null;
+    throw error;
   }
 }
 
