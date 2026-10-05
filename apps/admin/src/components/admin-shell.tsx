@@ -58,8 +58,30 @@ export function AdminShell({ children }: { children: ReactNode }) {
 
   if (!ready || !session) {
     return (
-      <div className="admin-app flex min-h-screen items-center justify-center">
-        <p className="text-sm tracking-[0.18em] text-ec-champagne uppercase">Opening console</p>
+      <div className="admin-app overflow-x-hidden">
+        <div className="flex min-h-screen">
+          <aside className="fixed inset-y-0 left-0 z-40 w-72 border-r border-ec-line bg-ec-black/95 p-6 lg:static">
+            <p className="font-serif text-2xl text-ec-ivory">Eckam</p>
+            <p className="mt-1 text-[11px] tracking-[0.22em] text-ec-gold uppercase">Admin console</p>
+            <nav className="mt-8 flex flex-col gap-1">
+              {NAV.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="rounded-xl px-3 py-2 text-sm text-ec-muted hover:bg-white/5 hover:text-ec-ivory"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </aside>
+          <div className="flex min-w-0 flex-1 flex-col">
+            <header className="flex items-center justify-between gap-4 border-b border-ec-line px-4 py-4 sm:px-8">
+              <p className="text-sm tracking-[0.18em] text-ec-champagne uppercase">Confirming staff session</p>
+            </header>
+            <main className="min-w-0 flex-1 px-4 py-8 sm:px-8">{children}</main>
+          </div>
+        </div>
       </div>
     );
   }
