@@ -25,6 +25,9 @@ const STATUS_MESSAGES: Record<number, string> = {
   422: "The submitted data could not be processed.",
   429: "Too many requests. Please wait and try again.",
   500: "Something went wrong. Please try again.",
+  502: "The API service is unavailable. Please try again.",
+  503: "The API service is unavailable. Please try again.",
+  504: "The API service timed out. Please try again.",
 };
 
 const UNSAFE_MESSAGE =

@@ -11,6 +11,9 @@ describe("admin safe messages", () => {
     expect(safeUserMessage(422)).toBe("The submitted data could not be processed.");
     expect(safeUserMessage(429)).toBe("Too many requests. Please wait and try again.");
     expect(safeUserMessage(500)).toBe("Something went wrong. Please try again.");
+    expect(safeUserMessage(502)).toBe("The API service is unavailable. Please try again.");
+    expect(safeUserMessage(503)).toBe("The API service is unavailable. Please try again.");
+    expect(safeUserMessage(504)).toBe("The API service timed out. Please try again.");
   });
 
   it("never surfaces prisma, secrets, or stack traces", () => {

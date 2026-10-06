@@ -1,7 +1,7 @@
 import {
   CustomerAuthService,
   StaffAuthService,
-  getDefaultStaffSessionStore,
+  PrismaStaffSessionStore,
 } from "@eckamcreation/auth";
 import { prisma } from "@eckamcreation/database";
 
@@ -15,7 +15,8 @@ export function getCustomerAuth(): CustomerAuthService {
 
 export function getStaffAuth(): StaffAuthService {
   if (!staffAuth) {
-    staffAuth = new StaffAuthService(prisma, getDefaultStaffSessionStore());
+    // Durable DB-backed sessions so multi-instance production (e.g. Render) shares staff auth.
+    staffAuth = new StaffAuthService(prisma, new PrismaStaffSessionStore(prisma));
   }
   return staffAuth;
 }

@@ -36,4 +36,7 @@ Values are never recorded here. Names only.
 - `.env.example` uses `ADMIN_PASSWORD=change-me-min-8-chars` (placeholder only).
 - Local staff login stays blocked if the real local password is shorter than 8 characters. Do not copy that value here.
 - Do not require a localhost URL at production build/run time. Set `NEXT_PUBLIC_APP_URL`, `API_INTERNAL_URL`, and `CORS_ORIGINS` to the real origins.
+- `CORS_ORIGINS` must include every browser origin that talks to the API (comma-separated exact origins). For the split Render deploy this means both the customer/API public origin and the Admin origin (example shape only: `https://<customer-host>,https://<admin-host>`). Do not use `*`.
+- Admin `API_INTERNAL_URL` must point at the live API origin (server-side only; never `NEXT_PUBLIC_`). Admin proxies browser `/v1/*` at **runtime** via that env (Route Handler); do not rely on build-time Next rewrites for the Admin→API hop.
+- Staff sessions are stored in PostgreSQL (`StaffSession`). Apply Prisma migrations before relying on multi-instance staff login.
 - `ALLOW_TEST_PAYMENT_PROVIDER` must stay unset in production.

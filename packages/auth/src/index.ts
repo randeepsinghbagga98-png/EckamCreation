@@ -44,6 +44,7 @@ export {
   type StaffSessionStore,
   type StaffSessionRecord,
   MemoryStaffSessionStore,
+  PrismaStaffSessionStore,
   getDefaultStaffSessionStore,
 } from "./staff-session-store";
 export {

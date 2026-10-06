@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-const API_ORIGIN = process.env.API_INTERNAL_URL ?? "http://127.0.0.1:3002";
-
 const nextConfig: NextConfig = {
   transpilePackages: [
     "@eckamcreation/api-contracts",
@@ -17,14 +15,12 @@ const nextConfig: NextConfig = {
     "@eckamcreation/storage",
   ],
   async rewrites() {
+    // /v1/* is proxied at runtime by app/v1/[...path]/route.ts using API_INTERNAL_URL
+    // (build-time rewrites can bake localhost when env is missing during next build).
     return [
       {
         source: "/favicon.ico",
         destination: "/icon.svg",
-      },
-      {
-        source: "/v1/:path*",
-        destination: `${API_ORIGIN}/v1/:path*`,
       },
     ];
   },

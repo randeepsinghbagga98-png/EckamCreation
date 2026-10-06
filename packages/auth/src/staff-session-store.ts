@@ -1,7 +1,9 @@
+import type { PrismaClient } from "@eckamcreation/database";
+
 /**
- * Staff sessions are not modeled in Prisma Phase 1 (Session is Auth.js/User-only).
- * Phase 3.2 uses a replaceable in-memory store for single-instance local/dev.
- * Production multi-instance deployments need a StaffSession table (or Redis) later.
+ * Staff sessions are stored separately from customer Auth.js Session rows.
+ * Production uses PrismaStaffSessionStore (durable, multi-instance safe).
+ * MemoryStaffSessionStore remains available for unit tests.
  */
 
 export type StaffSessionRecord = {
@@ -50,10 +52,49 @@ export class MemoryStaffSessionStore implements StaffSessionStore {
   }
 }
 
+export class PrismaStaffSessionStore implements StaffSessionStore {
+  constructor(private readonly prisma: PrismaClient) {}
+
+  async create(record: StaffSessionRecord): Promise<void> {
+    await this.prisma.staffSession.create({
+      data: {
+        sessionToken: record.token,
+        staffUserId: record.staffUserId,
+        expires: record.expiresAt,
+      },
+    });
+  }
+
+  async get(token: string): Promise<StaffSessionRecord | null> {
+    const row = await this.prisma.staffSession.findUnique({
+      where: { sessionToken: token },
+    });
+    if (!row) return null;
+    if (row.expires.getTime() <= Date.now()) {
+      await this.prisma.staffSession.delete({ where: { id: row.id } }).catch(() => undefined);
+      return null;
+    }
+    return {
+      token: row.sessionToken,
+      staffUserId: row.staffUserId,
+      expiresAt: row.expires,
+    };
+  }
+
+  async delete(token: string): Promise<void> {
+    await this.prisma.staffSession.deleteMany({ where: { sessionToken: token } });
+  }
+
+  async deleteAllForStaff(staffUserId: string): Promise<void> {
+    await this.prisma.staffSession.deleteMany({ where: { staffUserId } });
+  }
+}
+
 const globalStore = globalThis as unknown as {
   __eckamStaffSessions?: MemoryStaffSessionStore;
 };
 
+/** @deprecated Prefer PrismaStaffSessionStore in API runtime. Kept for tests. */
 export function getDefaultStaffSessionStore(): MemoryStaffSessionStore {
   if (!globalStore.__eckamStaffSessions) {
     globalStore.__eckamStaffSessions = new MemoryStaffSessionStore();

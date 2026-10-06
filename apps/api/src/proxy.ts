@@ -35,6 +35,9 @@ function applyCors(response: NextResponse, request: NextRequest) {
     );
     response.headers.set("Access-Control-Allow-Methods", "GET,POST,PUT,PATCH,DELETE,OPTIONS");
     response.headers.set("Access-Control-Expose-Headers", REQUEST_ID_HEADER);
+    // Allowlisted cross-site admin/web origins must be able to read credentialed responses.
+    // `same-site` CORP blocks distinct onrender.com services even when ACAO is set.
+    response.headers.set("Cross-Origin-Resource-Policy", "cross-origin");
   }
   return response;
 }
@@ -44,7 +47,10 @@ function applySecurityHeaders(response: NextResponse) {
   response.headers.set("X-Frame-Options", "DENY");
   response.headers.set("Referrer-Policy", "no-referrer");
   response.headers.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
-  response.headers.set("Cross-Origin-Resource-Policy", "same-site");
+  // Default: same-site. Overridden to cross-origin in applyCors for allowlisted Origins.
+  if (!response.headers.has("Cross-Origin-Resource-Policy")) {
+    response.headers.set("Cross-Origin-Resource-Policy", "same-site");
+  }
   return response;
 }
 
@@ -71,8 +77,8 @@ export function proxy(request: NextRequest) {
         };
         const tooLarge = NextResponse.json(body, { status: 413 });
         tooLarge.headers.set(REQUEST_ID_HEADER, requestId);
-        applySecurityHeaders(tooLarge);
         applyCors(tooLarge, request);
+        applySecurityHeaders(tooLarge);
         return tooLarge;
       }
     }
@@ -81,8 +87,8 @@ export function proxy(request: NextRequest) {
   if (request.method === "OPTIONS") {
     const preflight = new NextResponse(null, { status: 204 });
     preflight.headers.set(REQUEST_ID_HEADER, requestId);
-    applySecurityHeaders(preflight);
     applyCors(preflight, request);
+    applySecurityHeaders(preflight);
     return preflight;
   }
 
@@ -93,8 +99,8 @@ export function proxy(request: NextRequest) {
     request: { headers: requestHeaders },
   });
   response.headers.set(REQUEST_ID_HEADER, requestId);
-  applySecurityHeaders(response);
   applyCors(response, request);
+  applySecurityHeaders(response);
 
   logger.info("api.request", {
     requestId,

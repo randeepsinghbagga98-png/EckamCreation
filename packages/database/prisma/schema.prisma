@@ -363,11 +363,26 @@ model StaffUser {
   updatedAt    DateTime    @updatedAt
 
   roles              StaffUserRole[]
+  sessions           StaffSession[]
   auditLogs          AuditLog[]
   inventoryMovements InventoryMovement[]
   orderStatusChanges OrderStatusHistory[]
   supportTickets     SupportTicket[]      @relation("TicketAssignee")
   supportMessages    SupportMessage[]
+}
+
+/// Durable staff sessions for multi-instance production (replaces in-memory store).
+model StaffSession {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  staffUserId  String
+  expires      DateTime
+  createdAt    DateTime @default(now())
+
+  staffUser StaffUser @relation(fields: [staffUserId], references: [id], onDelete: Cascade)
+
+  @@index([staffUserId])
+  @@index([expires])
 }
 
 model Role {
