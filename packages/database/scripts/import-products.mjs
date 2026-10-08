@@ -647,8 +647,15 @@ async function main() {
   } catch {
     host = "UNKNOWN";
   }
-  if (!/^(localhost|127\.0\.0\.1)$/i.test(host)) {
-    throw new Error("Refusing import: DATABASE_URL host is not LOCAL.");
+  const allowRemote = process.argv.includes("--allow-remote");
+  if (!/^(localhost|127\.0\.0\.1)$/i.test(host) && !allowRemote) {
+    throw new Error(
+      "Refusing import: DATABASE_URL host is not LOCAL (pass --allow-remote for one-time prod).",
+    );
+  }
+  if (allowRemote && !/^(localhost|127\.0\.0\.1)$/i.test(host)) {
+    const suffix = host.includes(".") ? host.split(".").slice(-2).join(".") : host;
+    console.log(`Remote import target host suffix: ${suffix}`);
   }
 
   if (!existsSync(SOURCE_ROOT)) {
