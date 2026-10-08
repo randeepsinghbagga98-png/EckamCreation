@@ -32,7 +32,27 @@ function loadEnv() {
 loadEnv();
 
 if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL is required to seed the development catalogue.");
+  throw new Error("DATABASE_URL is required to seed the catalogue.");
+}
+
+{
+  let host = "UNKNOWN";
+  try {
+    host = new URL(process.env.DATABASE_URL).hostname;
+  } catch {
+    host = "UNKNOWN";
+  }
+  const allowRemote = process.argv.includes("--allow-remote");
+  const isLocal = /^(localhost|127\.0\.0\.1)$/i.test(host);
+  if (!isLocal && !allowRemote) {
+    throw new Error(
+      "Refusing seed: DATABASE_URL host is not LOCAL (pass --allow-remote for production Neon).",
+    );
+  }
+  if (allowRemote && !isLocal) {
+    const suffix = host.includes(".") ? host.split(".").slice(-2).join(".") : host;
+    console.log(`Remote seed target host suffix: ${suffix}`);
+  }
 }
 
 const prisma = new PrismaClient();
@@ -355,24 +375,25 @@ async function main() {
       });
     }
 
-    await prisma.inventoryItem.upsert({
+    // Create inventory row if missing; do not invent/overwrite stock quantities.
+    const existingInventory = await prisma.inventoryItem.findUnique({
       where: {
         variantId_locationId: {
           variantId: variant.id,
           locationId: location.id,
         },
       },
-      create: {
-        variantId: variant.id,
-        locationId: location.id,
-        onHand: 24,
-        reserved: 0,
-      },
-      update: {
-        onHand: 24,
-        reserved: 0,
-      },
     });
+    if (!existingInventory) {
+      await prisma.inventoryItem.create({
+        data: {
+          variantId: variant.id,
+          locationId: location.id,
+          onHand: 0,
+          reserved: 0,
+        },
+      });
+    }
 
     if (product.mediaUrl) {
       const existingMedia = await prisma.productMedia.findFirst({
@@ -408,7 +429,7 @@ async function main() {
     }
   }
 
-  console.log(`Development catalogue seed complete (${PRODUCTS.length} products).`);
+  console.log(`Catalogue seed complete (${PRODUCTS.length} products).`);
 }
 
 main()

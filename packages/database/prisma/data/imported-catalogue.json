@@ -1,0 +1,3651 @@
+{
+  "generatedAt": "2026-10-08T18:15:07.431Z",
+  "source": "local-db-non-seed-products",
+  "count": 86,
+  "products": [
+    {
+      "slug": "beauty-product-01",
+      "name": "Beauty Product 01",
+      "description": "Imported from beauty source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-001",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-01/01-front.svg",
+          "altText": "Beauty Product 01 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd.svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-01/02-top.svg",
+          "altText": "Beauty Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-01/03-bottom.svg",
+          "altText": "Beauty Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd.svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-01/04-front.svg",
+          "altText": "Beauty Product 01 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "beauty/front_view_hd.svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-01/05-bottom.svg",
+          "altText": "Beauty Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "beauty/bottom_view_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-10",
+      "name": "Beauty Product 10",
+      "description": "Imported from beauty source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-002",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-10/01-front.svg",
+          "altText": "Beauty Product 10 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (10).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-10/02-top.svg",
+          "altText": "Beauty Product 10 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (10).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-10/03-bottom.svg",
+          "altText": "Beauty Product 10 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (10).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-11",
+      "name": "Beauty Product 11",
+      "description": "Imported from beauty source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-003",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-11/01-front.svg",
+          "altText": "Beauty Product 11 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (11).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-11/02-top.svg",
+          "altText": "Beauty Product 11 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (11).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-11/03-bottom.svg",
+          "altText": "Beauty Product 11 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (11).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-12",
+      "name": "Beauty Product 12",
+      "description": "Imported from beauty source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-004",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-12/01-bottom.svg",
+          "altText": "Beauty Product 12 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/03_bottom_view_hd (12).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-02",
+      "name": "Beauty Product 02",
+      "description": "Imported from beauty source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-005",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-02/01-front.svg",
+          "altText": "Beauty Product 02 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-02/02-top.svg",
+          "altText": "Beauty Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-02/03-bottom.svg",
+          "altText": "Beauty Product 02 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (2).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-03",
+      "name": "Beauty Product 03",
+      "description": "Imported from beauty source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-006",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-03/01-front.svg",
+          "altText": "Beauty Product 03 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-03/02-top.svg",
+          "altText": "Beauty Product 03 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-03/03-bottom.svg",
+          "altText": "Beauty Product 03 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (3).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-04",
+      "name": "Beauty Product 04",
+      "description": "Imported from beauty source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-007",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-04/01-front.svg",
+          "altText": "Beauty Product 04 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-04/02-top.svg",
+          "altText": "Beauty Product 04 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-04/03-bottom.svg",
+          "altText": "Beauty Product 04 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (4).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-05",
+      "name": "Beauty Product 05",
+      "description": "Imported from beauty source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-008",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-05/01-front.svg",
+          "altText": "Beauty Product 05 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-05/02-top.svg",
+          "altText": "Beauty Product 05 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-05/03-bottom.svg",
+          "altText": "Beauty Product 05 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (5).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-06",
+      "name": "Beauty Product 06",
+      "description": "Imported from beauty source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-009",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-06/01-front.svg",
+          "altText": "Beauty Product 06 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-06/02-top.svg",
+          "altText": "Beauty Product 06 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-06/03-bottom.svg",
+          "altText": "Beauty Product 06 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (6).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-07",
+      "name": "Beauty Product 07",
+      "description": "Imported from beauty source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-010",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-07/01-front.svg",
+          "altText": "Beauty Product 07 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-07/02-top.svg",
+          "altText": "Beauty Product 07 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-07/03-bottom.svg",
+          "altText": "Beauty Product 07 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (7).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-08",
+      "name": "Beauty Product 08",
+      "description": "Imported from beauty source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-011",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-08/01-front.svg",
+          "altText": "Beauty Product 08 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (8).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-08/02-top.svg",
+          "altText": "Beauty Product 08 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (8).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-08/03-bottom.svg",
+          "altText": "Beauty Product 08 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (8).svg"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-product-09",
+      "name": "Beauty Product 09",
+      "description": "Imported from beauty source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "BEA-012",
+      "category": {
+        "slug": "beauty",
+        "name": "Beauty",
+        "sortOrder": 200
+      },
+      "media": [
+        {
+          "url": "/products/import/beauty/beauty-product-09/01-front.svg",
+          "altText": "Beauty Product 09 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "beauty/01_front_view_hd (9).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-09/02-top.svg",
+          "altText": "Beauty Product 09 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "beauty/02_top_view_hd (9).svg"
+        },
+        {
+          "url": "/products/import/beauty/beauty-product-09/03-bottom.svg",
+          "altText": "Beauty Product 09 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "beauty/03_bottom_view_hd (9).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-01",
+      "name": "Fashion Wear Product 01",
+      "description": "Imported from fashion wear source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-001",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/01-front.svg",
+          "altText": "Fashion Wear Product 01 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd.svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/02-side.svg",
+          "altText": "Fashion Wear Product 01 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/03-back.svg",
+          "altText": "Fashion Wear Product 01 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd.svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/04-angled.svg",
+          "altText": "Fashion Wear Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd.svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/05-angled.svg",
+          "altText": "Fashion Wear Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_another_angle_hd.svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-01/06-lifestyle.svg",
+          "altText": "Fashion Wear Product 01 — lifestyle",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/05_lifestyle_view_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-02",
+      "name": "Fashion Wear Product 02",
+      "description": "Imported from fashion wear source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-002",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-02/01-side.svg",
+          "altText": "Fashion Wear Product 02 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/02_side_view_hd(1).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-02/02-back.svg",
+          "altText": "Fashion Wear Product 02 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd(1).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-02/03-angled.svg",
+          "altText": "Fashion Wear Product 02 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_another_angle_hd(1).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-11",
+      "name": "Fashion Wear Product 11",
+      "description": "Imported from fashion wear source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-003",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-11/01-front.svg",
+          "altText": "Fashion Wear Product 11 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (10).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-11/02-side.svg",
+          "altText": "Fashion Wear Product 11 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (10).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-11/03-back.svg",
+          "altText": "Fashion Wear Product 11 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (10).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-12",
+      "name": "Fashion Wear Product 12",
+      "description": "Imported from fashion wear source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-004",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-12/01-front.svg",
+          "altText": "Fashion Wear Product 12 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (11).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-12/02-side.svg",
+          "altText": "Fashion Wear Product 12 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (11).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-13",
+      "name": "Fashion Wear Product 13",
+      "description": "Imported from fashion wear source imagery (set 13). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-005",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-13/01-side.svg",
+          "altText": "Fashion Wear Product 13 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/02_side_view_hd (12).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-03",
+      "name": "Fashion Wear Product 03",
+      "description": "Imported from fashion wear source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-006",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/01-front.svg",
+          "altText": "Fashion Wear Product 03 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/02-side.svg",
+          "altText": "Fashion Wear Product 03 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/03-back.svg",
+          "altText": "Fashion Wear Product 03 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/04-angled.svg",
+          "altText": "Fashion Wear Product 03 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/05-angled.svg",
+          "altText": "Fashion Wear Product 03 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_another_angle_hd (2).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-03/06-lifestyle.svg",
+          "altText": "Fashion Wear Product 03 — lifestyle",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/05_lifestyle_view_hd (2).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-04",
+      "name": "Fashion Wear Product 04",
+      "description": "Imported from fashion wear source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-007",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-04/01-front.svg",
+          "altText": "Fashion Wear Product 04 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-04/02-side.svg",
+          "altText": "Fashion Wear Product 04 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-04/03-back.svg",
+          "altText": "Fashion Wear Product 04 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-04/04-angled.svg",
+          "altText": "Fashion Wear Product 04 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (3).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-05",
+      "name": "Fashion Wear Product 05",
+      "description": "Imported from fashion wear source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-008",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-05/01-front.svg",
+          "altText": "Fashion Wear Product 05 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-05/02-side.svg",
+          "altText": "Fashion Wear Product 05 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-05/03-back.svg",
+          "altText": "Fashion Wear Product 05 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-05/04-angled.svg",
+          "altText": "Fashion Wear Product 05 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (4).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-06",
+      "name": "Fashion Wear Product 06",
+      "description": "Imported from fashion wear source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-009",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-06/01-front.svg",
+          "altText": "Fashion Wear Product 06 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-06/02-side.svg",
+          "altText": "Fashion Wear Product 06 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-06/03-back.svg",
+          "altText": "Fashion Wear Product 06 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-06/04-angled.svg",
+          "altText": "Fashion Wear Product 06 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (5).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-07",
+      "name": "Fashion Wear Product 07",
+      "description": "Imported from fashion wear source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-010",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-07/01-front.svg",
+          "altText": "Fashion Wear Product 07 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-07/02-side.svg",
+          "altText": "Fashion Wear Product 07 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-07/03-back.svg",
+          "altText": "Fashion Wear Product 07 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-07/04-angled.svg",
+          "altText": "Fashion Wear Product 07 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (6).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-08",
+      "name": "Fashion Wear Product 08",
+      "description": "Imported from fashion wear source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-011",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-08/01-front.svg",
+          "altText": "Fashion Wear Product 08 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-08/02-side.svg",
+          "altText": "Fashion Wear Product 08 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-08/03-back.svg",
+          "altText": "Fashion Wear Product 08 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-08/04-angled.svg",
+          "altText": "Fashion Wear Product 08 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/04_angle_view_hd (7).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-09",
+      "name": "Fashion Wear Product 09",
+      "description": "Imported from fashion wear source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-012",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-09/01-front.svg",
+          "altText": "Fashion Wear Product 09 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (8).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-09/02-side.svg",
+          "altText": "Fashion Wear Product 09 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (8).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-09/03-back.svg",
+          "altText": "Fashion Wear Product 09 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (8).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-10",
+      "name": "Fashion Wear Product 10",
+      "description": "Imported from fashion wear source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-013",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-10/01-front.svg",
+          "altText": "Fashion Wear Product 10 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd (9).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-10/02-side.svg",
+          "altText": "Fashion Wear Product 10 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/02_side_view_hd (9).svg"
+        },
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-10/03-back.svg",
+          "altText": "Fashion Wear Product 10 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "fashion_wear/03_back_view_hd (9).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-14",
+      "name": "Fashion Wear Product 14",
+      "description": "Imported from fashion wear source imagery (set 14). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-014",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-14/01-front.svg",
+          "altText": "Fashion Wear Product 14 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd(20260912-061437).svg"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-wear-product-15",
+      "name": "Fashion Wear Product 15",
+      "description": "Imported from fashion wear source imagery (set 15). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "FAS-015",
+      "category": {
+        "slug": "fashion-wear",
+        "name": "Fashion Wear",
+        "sortOrder": 210
+      },
+      "media": [
+        {
+          "url": "/products/import/fashion-wear/fashion-wear-product-15/01-front.svg",
+          "altText": "Fashion Wear Product 15 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "fashion_wear/01_front_view_hd(20260912-062549).svg"
+        }
+      ]
+    },
+    {
+      "slug": "ivory-handbag",
+      "name": "Ivory Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-001",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/ivory-handbag/01-bottom.svg",
+          "altText": "Ivory Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/01_Ivory_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "mint-green-handbag",
+      "name": "Mint Green Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-002",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/mint-green-handbag/01-front.svg",
+          "altText": "Mint Green Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/01_Mint_Green_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/mint-green-handbag/02-three-quarter.svg",
+          "altText": "Mint Green Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/01_Mint_Green_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/mint-green-handbag/03-side.svg",
+          "altText": "Mint Green Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/01_Mint_Green_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/mint-green-handbag/04-back.svg",
+          "altText": "Mint Green Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/01_Mint_Green_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/mint-green-handbag/05-bottom.svg",
+          "altText": "Mint Green Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/01_Mint_Green_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "black-handbag",
+      "name": "Black Handbag 02",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-003",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/black-handbag/01-front.svg",
+          "altText": "Black Handbag 02 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/02_Black_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag/02-three-quarter.svg",
+          "altText": "Black Handbag 02 — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Black_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag/03-side.svg",
+          "altText": "Black Handbag 02 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Black_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag/04-back.svg",
+          "altText": "Black Handbag 02 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Black_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag/05-bottom.svg",
+          "altText": "Black Handbag 02 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Black_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "cream-handbag",
+      "name": "Cream Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-004",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/cream-handbag/01-front.svg",
+          "altText": "Cream Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/02_Cream_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/cream-handbag/02-three-quarter.svg",
+          "altText": "Cream Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Cream_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/cream-handbag/03-side.svg",
+          "altText": "Cream Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Cream_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/cream-handbag/04-back.svg",
+          "altText": "Cream Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Cream_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/cream-handbag/05-bottom.svg",
+          "altText": "Cream Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/02_Cream_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "blush-pink-handbag",
+      "name": "Blush Pink Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-005",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/blush-pink-handbag/01-front.svg",
+          "altText": "Blush Pink Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/03_Blush_Pink_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-handbag/02-three-quarter.svg",
+          "altText": "Blush Pink Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Blush_Pink_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-handbag/03-side.svg",
+          "altText": "Blush Pink Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Blush_Pink_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-handbag/04-back.svg",
+          "altText": "Blush Pink Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Blush_Pink_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-handbag/05-bottom.svg",
+          "altText": "Blush Pink Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Blush_Pink_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "pink-handbag",
+      "name": "Pink Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-006",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/pink-handbag/01-front.svg",
+          "altText": "Pink Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/03_Pink_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/pink-handbag/02-three-quarter.svg",
+          "altText": "Pink Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Pink_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/pink-handbag/03-side.svg",
+          "altText": "Pink Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Pink_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/pink-handbag/04-back.svg",
+          "altText": "Pink Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Pink_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/pink-handbag/05-bottom.svg",
+          "altText": "Pink Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/03_Pink_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "beige-handbag",
+      "name": "Beige Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-007",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/beige-handbag/01-front.svg",
+          "altText": "Beige Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/04_Beige_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-handbag/02-three-quarter.svg",
+          "altText": "Beige Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Beige_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-handbag/03-side.svg",
+          "altText": "Beige Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Beige_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-handbag/04-back.svg",
+          "altText": "Beige Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Beige_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-handbag/05-bottom.svg",
+          "altText": "Beige Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Beige_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "black-handbag-2",
+      "name": "Black Handbag 04",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-008",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/black-handbag-2/01-front.svg",
+          "altText": "Black Handbag 04 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/04_Black_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag-2/02-three-quarter.svg",
+          "altText": "Black Handbag 04 — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Black_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag-2/03-side.svg",
+          "altText": "Black Handbag 04 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Black_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag-2/04-back.svg",
+          "altText": "Black Handbag 04 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Black_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-handbag-2/05-bottom.svg",
+          "altText": "Black Handbag 04 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/04_Black_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "light-blue-handbag",
+      "name": "Light Blue Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-009",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/light-blue-handbag/01-front.svg",
+          "altText": "Light Blue Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/05_Light_Blue_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/light-blue-handbag/02-three-quarter.svg",
+          "altText": "Light Blue Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Light_Blue_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/light-blue-handbag/03-side.svg",
+          "altText": "Light Blue Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Light_Blue_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/light-blue-handbag/04-back.svg",
+          "altText": "Light Blue Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Light_Blue_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/light-blue-handbag/05-bottom.svg",
+          "altText": "Light Blue Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Light_Blue_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "tan-handbag",
+      "name": "Tan Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-010",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/tan-handbag/01-front.svg",
+          "altText": "Tan Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/05_Tan_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/tan-handbag/02-three-quarter.svg",
+          "altText": "Tan Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Tan_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/tan-handbag/03-side.svg",
+          "altText": "Tan Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Tan_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/tan-handbag/04-back.svg",
+          "altText": "Tan Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Tan_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/tan-handbag/05-bottom.svg",
+          "altText": "Tan Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/05_Tan_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "beige-white-handbag",
+      "name": "Beige White Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-011",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/beige-white-handbag/01-front.svg",
+          "altText": "Beige White Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/Beige_White_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-white-handbag/02-three-quarter.svg",
+          "altText": "Beige White Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/Beige_White_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-white-handbag/03-side.svg",
+          "altText": "Beige White Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/Beige_White_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-white-handbag/04-back.svg",
+          "altText": "Beige White Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/Beige_White_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/beige-white-handbag/05-bottom.svg",
+          "altText": "Beige White Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/Beige_White_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "black-white-handbag",
+      "name": "Black White Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-012",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/black-white-handbag/01-front.svg",
+          "altText": "Black White Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/Black_White_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-white-handbag/02-three-quarter.svg",
+          "altText": "Black White Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/Black_White_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-white-handbag/03-side.svg",
+          "altText": "Black White Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/Black_White_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-white-handbag/04-back.svg",
+          "altText": "Black White Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/Black_White_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/black-white-handbag/05-bottom.svg",
+          "altText": "Black White Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/Black_White_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "blush-pink-white-handbag",
+      "name": "Blush Pink White Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-013",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/blush-pink-white-handbag/01-front.svg",
+          "altText": "Blush Pink White Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/Blush_Pink_White_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-white-handbag/02-three-quarter.svg",
+          "altText": "Blush Pink White Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/Blush_Pink_White_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-white-handbag/03-side.svg",
+          "altText": "Blush Pink White Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/Blush_Pink_White_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-white-handbag/04-back.svg",
+          "altText": "Blush Pink White Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/Blush_Pink_White_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/blush-pink-white-handbag/05-bottom.svg",
+          "altText": "Blush Pink White Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/Blush_Pink_White_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "mauve-white-handbag",
+      "name": "Mauve White Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-014",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/mauve-white-handbag/01-front.svg",
+          "altText": "Mauve White Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/Mauve_White_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/mauve-white-handbag/02-three-quarter.svg",
+          "altText": "Mauve White Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/Mauve_White_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/mauve-white-handbag/03-side.svg",
+          "altText": "Mauve White Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/Mauve_White_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/mauve-white-handbag/04-back.svg",
+          "altText": "Mauve White Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/Mauve_White_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/mauve-white-handbag/05-bottom.svg",
+          "altText": "Mauve White Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/Mauve_White_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "sky-blue-white-handbag",
+      "name": "Sky Blue White Handbag",
+      "description": "Imported from organized handbag imagery. Color and views were taken from source filenames. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "HAN-015",
+      "category": {
+        "slug": "handbags",
+        "name": "Handbags",
+        "sortOrder": 220
+      },
+      "media": [
+        {
+          "url": "/products/import/handbags/sky-blue-white-handbag/01-front.svg",
+          "altText": "Sky Blue White Handbag — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "handbag/Sky_Blue_White_01_Front.svg"
+        },
+        {
+          "url": "/products/import/handbags/sky-blue-white-handbag/02-three-quarter.svg",
+          "altText": "Sky Blue White Handbag — three_quarter",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "handbag/Sky_Blue_White_02_Three_Quarter.svg"
+        },
+        {
+          "url": "/products/import/handbags/sky-blue-white-handbag/03-side.svg",
+          "altText": "Sky Blue White Handbag — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "handbag/Sky_Blue_White_03_Side.svg"
+        },
+        {
+          "url": "/products/import/handbags/sky-blue-white-handbag/04-back.svg",
+          "altText": "Sky Blue White Handbag — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "handbag/Sky_Blue_White_04_Back.svg"
+        },
+        {
+          "url": "/products/import/handbags/sky-blue-white-handbag/05-bottom.svg",
+          "altText": "Sky Blue White Handbag — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "handbag/Sky_Blue_White_05_Bottom.svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-01",
+      "name": "Kitchen Product 01",
+      "description": "Imported from kitchen source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-001",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/01-front.svg",
+          "altText": "Kitchen Product 01 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/02-top.svg",
+          "altText": "Kitchen Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/03-left.svg",
+          "altText": "Kitchen Product 01 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_left_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/04-bottom.svg",
+          "altText": "Kitchen Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/05-top.svg",
+          "altText": "Kitchen Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "kitchen/05_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/06-bottom.svg",
+          "altText": "Kitchen Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "kitchen/06_bottom_view_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/07-angled.svg",
+          "altText": "Kitchen Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "kitchen/07_angled_front_right_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/08-closeup.svg",
+          "altText": "Kitchen Product 01 — closeup",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "kitchen/09_knob_closeup_hd.svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-01/09-closeup.svg",
+          "altText": "Kitchen Product 01 — closeup",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 8,
+          "isPrimary": false,
+          "storageKey": "kitchen/10_spout_closeup_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-02",
+      "name": "Kitchen Product 02",
+      "description": "Imported from kitchen source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-002",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/01-front.svg",
+          "altText": "Kitchen Product 02 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/02-top.svg",
+          "altText": "Kitchen Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/03-left.svg",
+          "altText": "Kitchen Product 02 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_left_side_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/04-bottom.svg",
+          "altText": "Kitchen Product 02 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/05-left.svg",
+          "altText": "Kitchen Product 02 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "kitchen/05_left_side_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-02/06-top.svg",
+          "altText": "Kitchen Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "kitchen/05_top_view_hd (2).svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-03",
+      "name": "Kitchen Product 03",
+      "description": "Imported from kitchen source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-003",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-03/01-front.svg",
+          "altText": "Kitchen Product 03 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-03/02-right.svg",
+          "altText": "Kitchen Product 03 — right",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_right_side_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-03/03-top.svg",
+          "altText": "Kitchen Product 03 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-03/04-bottom.svg",
+          "altText": "Kitchen Product 03 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-03/05-bottom.svg",
+          "altText": "Kitchen Product 03 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "kitchen/06_bottom_view_hd (3).svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-04",
+      "name": "Kitchen Product 04",
+      "description": "Imported from kitchen source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-004",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-04/01-front.svg",
+          "altText": "Kitchen Product 04 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-04/02-top.svg",
+          "altText": "Kitchen Product 04 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-04/03-bottom.svg",
+          "altText": "Kitchen Product 04 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (4).svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-05",
+      "name": "Kitchen Product 05",
+      "description": "Imported from kitchen source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-005",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-05/01-front.svg",
+          "altText": "Kitchen Product 05 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-05/02-top.svg",
+          "altText": "Kitchen Product 05 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-05/03-bottom.svg",
+          "altText": "Kitchen Product 05 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (5).svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-06",
+      "name": "Kitchen Product 06",
+      "description": "Imported from kitchen source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-006",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-06/01-top.svg",
+          "altText": "Kitchen Product 06 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/02_top_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-06/02-bottom.svg",
+          "altText": "Kitchen Product 06 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (6).svg"
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-product-07",
+      "name": "Kitchen Product 07",
+      "description": "Imported from kitchen source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-007",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/kitchen-product-07/01-front.svg",
+          "altText": "Kitchen Product 07 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/01_front_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-07/02-top.svg",
+          "altText": "Kitchen Product 07 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "kitchen/02_top_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/kitchen/kitchen-product-07/03-bottom.svg",
+          "altText": "Kitchen Product 07 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "kitchen/03_bottom_view_hd (7).svg"
+        }
+      ]
+    },
+    {
+      "slug": "all-components",
+      "name": "Kitchen Components",
+      "description": "Imported kitchen item imagery (12_all_components_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-008",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/all-components/01-accessories.svg",
+          "altText": "Kitchen Components — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/12_all_components_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "electric-hot-pot-front-top-bottom-3d-hd-2",
+      "name": "Electric Hot Pot",
+      "description": "Imported kitchen item imagery (electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-009",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/electric-hot-pot-front-top-bottom-3d-hd-2/01-front.svg",
+          "altText": "Electric Hot Pot — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/electric_hot_pot_front_top_bottom_3d_hd (2) - Copy.svg"
+        }
+      ]
+    },
+    {
+      "slug": "slotted-spatula",
+      "name": "Slotted Spatula",
+      "description": "Imported kitchen item imagery (11_slotted_spatula_top_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-010",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/slotted-spatula/01-top.svg",
+          "altText": "Slotted Spatula — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/11_slotted_spatula_top_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "slotted-spoon",
+      "name": "Slotted Spoon",
+      "description": "Imported kitchen item imagery (07_slotted_spoon_top_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-011",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/slotted-spoon/01-top.svg",
+          "altText": "Slotted Spoon — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/07_slotted_spoon_top_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "spiral-whisk",
+      "name": "Spiral Whisk",
+      "description": "Imported kitchen item imagery (10_spiral_whisk_top_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-012",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/spiral-whisk/01-top.svg",
+          "altText": "Spiral Whisk — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/10_spiral_whisk_top_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "whisk",
+      "name": "Whisk",
+      "description": "Imported kitchen item imagery (09_whisk_top_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-013",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/whisk/01-top.svg",
+          "altText": "Whisk — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/09_whisk_top_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "wooden-spatula",
+      "name": "Wooden Spatula",
+      "description": "Imported kitchen item imagery (08_wooden_spatula_top_hd.svg). Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "KIT-014",
+      "category": {
+        "slug": "kitchen",
+        "name": "Kitchen",
+        "sortOrder": 230
+      },
+      "media": [
+        {
+          "url": "/products/import/kitchen/wooden-spatula/01-top.svg",
+          "altText": "Wooden Spatula — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "kitchen/08_wooden_spatula_top_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-01",
+      "name": "Toy Product 01",
+      "description": "Imported from toys source imagery (set 01). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-001",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-01/01-front.svg",
+          "altText": "Toy Product 01 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/02-angled.svg",
+          "altText": "Toy Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_front_left_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/03-angled.svg",
+          "altText": "Toy Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/04-side.svg",
+          "altText": "Toy Product 01 — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/02_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/05-left.svg",
+          "altText": "Toy Product 01 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/02_left_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/06-back.svg",
+          "altText": "Toy Product 01 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/02_rear_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/07-top.svg",
+          "altText": "Toy Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/02_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/08-left.svg",
+          "altText": "Toy Product 01 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/03_left_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/09-left.svg",
+          "altText": "Toy Product 01 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 8,
+          "isPrimary": false,
+          "storageKey": "toys/03_side_left_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/10-top.svg",
+          "altText": "Toy Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 9,
+          "isPrimary": false,
+          "storageKey": "toys/03_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/11-bottom.svg",
+          "altText": "Toy Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 10,
+          "isPrimary": false,
+          "storageKey": "toys/03_bottom_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/12-right.svg",
+          "altText": "Toy Product 01 — right",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 11,
+          "isPrimary": false,
+          "storageKey": "toys/04_right_side_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/13-back.svg",
+          "altText": "Toy Product 01 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 12,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/14-top.svg",
+          "altText": "Toy Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 13,
+          "isPrimary": false,
+          "storageKey": "toys/04_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/15-back.svg",
+          "altText": "Toy Product 01 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 14,
+          "isPrimary": false,
+          "storageKey": "toys/05_rear_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/16-top.svg",
+          "altText": "Toy Product 01 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 15,
+          "isPrimary": false,
+          "storageKey": "toys/05_top_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/17-bottom.svg",
+          "altText": "Toy Product 01 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 16,
+          "isPrimary": false,
+          "storageKey": "toys/06_bottom_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/18-angled.svg",
+          "altText": "Toy Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 17,
+          "isPrimary": false,
+          "storageKey": "toys/07_angled_front_left_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/19-angled.svg",
+          "altText": "Toy Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 18,
+          "isPrimary": false,
+          "storageKey": "toys/07_angled_view_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-01/20-angled.svg",
+          "altText": "Toy Product 01 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 19,
+          "isPrimary": false,
+          "storageKey": "toys/08_angled_rear_right_view_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-10",
+      "name": "Toy Product 10",
+      "description": "Imported from toys source imagery (set 10). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-002",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-10/01-front.svg",
+          "altText": "Toy Product 10 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (10).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-11",
+      "name": "Toy Product 11",
+      "description": "Imported from toys source imagery (set 11). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-003",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-11/01-front.svg",
+          "altText": "Toy Product 11 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (11).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-12",
+      "name": "Toy Product 12",
+      "description": "Imported from toys source imagery (set 12). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-004",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-12/01-front.svg",
+          "altText": "Toy Product 12 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (12).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-13",
+      "name": "Toy Product 13",
+      "description": "Imported from toys source imagery (set 13). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-005",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-13/01-front.svg",
+          "altText": "Toy Product 13 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (13).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-14",
+      "name": "Toy Product 14",
+      "description": "Imported from toys source imagery (set 14). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-006",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-14/01-front.svg",
+          "altText": "Toy Product 14 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (14).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-02",
+      "name": "Toy Product 02",
+      "description": "Imported from toys source imagery (set 02). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-007",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-02/01-front.svg",
+          "altText": "Toy Product 02 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/02-angled.svg",
+          "altText": "Toy Product 02 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_front_left_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/03-angled.svg",
+          "altText": "Toy Product 02 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/04-top.svg",
+          "altText": "Toy Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/02_top_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/05-left.svg",
+          "altText": "Toy Product 02 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/03_side_left_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/06-bottom.svg",
+          "altText": "Toy Product 02 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/03_bottom_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/07-back.svg",
+          "altText": "Toy Product 02 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/08-top.svg",
+          "altText": "Toy Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/04_top_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/09-bottom.svg",
+          "altText": "Toy Product 02 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 8,
+          "isPrimary": false,
+          "storageKey": "toys/04_bottom_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/10-back.svg",
+          "altText": "Toy Product 02 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 9,
+          "isPrimary": false,
+          "storageKey": "toys/05_rear_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/11-top.svg",
+          "altText": "Toy Product 02 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 10,
+          "isPrimary": false,
+          "storageKey": "toys/05_top_view_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-02/12-angled.svg",
+          "altText": "Toy Product 02 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 11,
+          "isPrimary": false,
+          "storageKey": "toys/08_angled_rear_right_view_hd (2).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-03",
+      "name": "Toy Product 03",
+      "description": "Imported from toys source imagery (set 03). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-008",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-03/01-front.svg",
+          "altText": "Toy Product 03 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/02-top.svg",
+          "altText": "Toy Product 03 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/02_top_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/03-bottom.svg",
+          "altText": "Toy Product 03 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/03_bottom_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/04-back.svg",
+          "altText": "Toy Product 03 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/05-bottom.svg",
+          "altText": "Toy Product 03 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/04_bottom_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/06-left.svg",
+          "altText": "Toy Product 03 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/05_left_side_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/07-angled.svg",
+          "altText": "Toy Product 03 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/07_angled_front_left_view_hd (3).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-03/08-angled.svg",
+          "altText": "Toy Product 03 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/08_angled_rear_right_view_hd (3).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-04",
+      "name": "Toy Product 04",
+      "description": "Imported from toys source imagery (set 04). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-009",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-04/01-front.svg",
+          "altText": "Toy Product 04 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/02-angled.svg",
+          "altText": "Toy Product 04 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_front_left_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/03-top.svg",
+          "altText": "Toy Product 04 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/02_top_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/04-left.svg",
+          "altText": "Toy Product 04 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/03_side_left_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/05-top.svg",
+          "altText": "Toy Product 04 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/03_top_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/06-bottom.svg",
+          "altText": "Toy Product 04 — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/03_bottom_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/07-back.svg",
+          "altText": "Toy Product 04 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/08-left.svg",
+          "altText": "Toy Product 04 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/05_left_side_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/09-angled.svg",
+          "altText": "Toy Product 04 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 8,
+          "isPrimary": false,
+          "storageKey": "toys/07_angled_front_left_view_hd (4).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-04/10-angled.svg",
+          "altText": "Toy Product 04 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 9,
+          "isPrimary": false,
+          "storageKey": "toys/08_angled_rear_right_view_hd (4).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-05",
+      "name": "Toy Product 05",
+      "description": "Imported from toys source imagery (set 05). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-010",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-05/01-front.svg",
+          "altText": "Toy Product 05 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/02-angled.svg",
+          "altText": "Toy Product 05 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_front_left_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/03-top.svg",
+          "altText": "Toy Product 05 — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/02_top_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/04-back.svg",
+          "altText": "Toy Product 05 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/05-left.svg",
+          "altText": "Toy Product 05 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/05_left_side_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/06-right.svg",
+          "altText": "Toy Product 05 — right",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/06_right_side_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/07-angled.svg",
+          "altText": "Toy Product 05 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/07_angled_front_left_view_hd (5).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-05/08-angled.svg",
+          "altText": "Toy Product 05 — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/08_angled_rear_right_view_hd (5).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-06",
+      "name": "Toy Product 06",
+      "description": "Imported from toys source imagery (set 06). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-011",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-06/01-front.svg",
+          "altText": "Toy Product 06 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-06/02-back.svg",
+          "altText": "Toy Product 06 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-06/03-left.svg",
+          "altText": "Toy Product 06 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/05_left_side_view_hd (6).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-06/04-right.svg",
+          "altText": "Toy Product 06 — right",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/06_right_side_view_hd (6).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-07",
+      "name": "Toy Product 07",
+      "description": "Imported from toys source imagery (set 07). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-012",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-07/01-front.svg",
+          "altText": "Toy Product 07 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-07/02-back.svg",
+          "altText": "Toy Product 07 — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-07/03-left.svg",
+          "altText": "Toy Product 07 — left",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/05_left_side_view_hd (7).svg"
+        },
+        {
+          "url": "/products/import/toys/toy-product-07/04-right.svg",
+          "altText": "Toy Product 07 — right",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/06_right_side_view_hd (7).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-08",
+      "name": "Toy Product 08",
+      "description": "Imported from toys source imagery (set 08). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-013",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-08/01-front.svg",
+          "altText": "Toy Product 08 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (8).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-product-09",
+      "name": "Toy Product 09",
+      "description": "Imported from toys source imagery (set 09). Product title is a placeholder derived from folder grouping because source files do not include commercial names. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-014",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-product-09/01-front.svg",
+          "altText": "Toy Product 09 — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_view_hd (9).svg"
+        }
+      ]
+    },
+    {
+      "slug": "transforming-robot-car",
+      "name": "Transforming Robot Car",
+      "description": "Imported toy imagery that references robot/car modes and accessories. Confirm whether all of these assets belong to one SKU. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-015",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/transforming-robot-car/01-front.svg",
+          "altText": "Transforming Robot Car — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/01_front_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/02-front.svg",
+          "altText": "Transforming Robot Car — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 1,
+          "isPrimary": false,
+          "storageKey": "toys/01_front_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/03-angled.svg",
+          "altText": "Transforming Robot Car — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 2,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/04-angled.svg",
+          "altText": "Transforming Robot Car — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 3,
+          "isPrimary": false,
+          "storageKey": "toys/02_angled_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/05-side.svg",
+          "altText": "Transforming Robot Car — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 4,
+          "isPrimary": false,
+          "storageKey": "toys/03_side_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/06-back.svg",
+          "altText": "Transforming Robot Car — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 5,
+          "isPrimary": false,
+          "storageKey": "toys/03_back_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/07-side.svg",
+          "altText": "Transforming Robot Car — side",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 6,
+          "isPrimary": false,
+          "storageKey": "toys/04_side_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/08-back.svg",
+          "altText": "Transforming Robot Car — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 7,
+          "isPrimary": false,
+          "storageKey": "toys/04_rear_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/09-front.svg",
+          "altText": "Transforming Robot Car — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 8,
+          "isPrimary": false,
+          "storageKey": "toys/05_front_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/10-front.svg",
+          "altText": "Transforming Robot Car — front",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 9,
+          "isPrimary": false,
+          "storageKey": "toys/05_front_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/11-angled.svg",
+          "altText": "Transforming Robot Car — angled",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 10,
+          "isPrimary": false,
+          "storageKey": "toys/06_angled_robot_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/12-back.svg",
+          "altText": "Transforming Robot Car — back",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 11,
+          "isPrimary": false,
+          "storageKey": "toys/08_rear_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/13-top.svg",
+          "altText": "Transforming Robot Car — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 12,
+          "isPrimary": false,
+          "storageKey": "toys/09_top_car_mode_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/14-top.svg",
+          "altText": "Transforming Robot Car — top",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 13,
+          "isPrimary": false,
+          "storageKey": "toys/09_top_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/15-bottom.svg",
+          "altText": "Transforming Robot Car — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 14,
+          "isPrimary": false,
+          "storageKey": "toys/10_bottom_car_mode_hd (2).svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/16-bottom.svg",
+          "altText": "Transforming Robot Car — bottom",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 15,
+          "isPrimary": false,
+          "storageKey": "toys/10_bottom_car_mode_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/17-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 16,
+          "isPrimary": false,
+          "storageKey": "toys/10_batteries_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/18-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 17,
+          "isPrimary": false,
+          "storageKey": "toys/10_rechargeable_battery_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/19-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 18,
+          "isPrimary": false,
+          "storageKey": "toys/11_accessories_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/20-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 19,
+          "isPrimary": false,
+          "storageKey": "toys/11_remote_battery_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/21-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 20,
+          "isPrimary": false,
+          "storageKey": "toys/11_remote_controller_usb_cable_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/22-accessories.svg",
+          "altText": "Transforming Robot Car — accessories",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 21,
+          "isPrimary": false,
+          "storageKey": "toys/11_spare_propellers_landing_gear_hd.svg"
+        },
+        {
+          "url": "/products/import/toys/transforming-robot-car/23-other.svg",
+          "altText": "Transforming Robot Car — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 22,
+          "isPrimary": false,
+          "storageKey": "toys/12_transforming_robot_car_hd.svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-01-b957b0",
+      "name": "Toy Image 01",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-016",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-01-b957b0/01-other.svg",
+          "altText": "Toy Image 01 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images.svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-01-558a80",
+      "name": "Toy Image 01",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-017",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-01-558a80/01-other.svg",
+          "altText": "Toy Image 01 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (1).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-10-04ddc1",
+      "name": "Toy Image 10",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-018",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-10-04ddc1/01-other.svg",
+          "altText": "Toy Image 10 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (10).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-11-d2289e",
+      "name": "Toy Image 11",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-019",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-11-d2289e/01-other.svg",
+          "altText": "Toy Image 11 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (11).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-12-34da07",
+      "name": "Toy Image 12",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-020",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-12-34da07/01-other.svg",
+          "altText": "Toy Image 12 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (12).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-13-371774",
+      "name": "Toy Image 13",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-021",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-13-371774/01-other.svg",
+          "altText": "Toy Image 13 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (13).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-14-a88e98",
+      "name": "Toy Image 14",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-022",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-14-a88e98/01-other.svg",
+          "altText": "Toy Image 14 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (14).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-15-dbd28e",
+      "name": "Toy Image 15",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-023",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-15-dbd28e/01-other.svg",
+          "altText": "Toy Image 15 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (15).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-16-0c24e5",
+      "name": "Toy Image 16",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-024",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-16-0c24e5/01-other.svg",
+          "altText": "Toy Image 16 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (16).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-17-ed46c3",
+      "name": "Toy Image 17",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-025",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-17-ed46c3/01-other.svg",
+          "altText": "Toy Image 17 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (17).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-02-791fe6",
+      "name": "Toy Image 02",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-026",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-02-791fe6/01-other.svg",
+          "altText": "Toy Image 02 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (2).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-06-a981d5",
+      "name": "Toy Image 06",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-027",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-06-a981d5/01-other.svg",
+          "altText": "Toy Image 06 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (6).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-07-e76405",
+      "name": "Toy Image 07",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-028",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-07-e76405/01-other.svg",
+          "altText": "Toy Image 07 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (7).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-08-d53700",
+      "name": "Toy Image 08",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-029",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-08-d53700/01-other.svg",
+          "altText": "Toy Image 08 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (8).svg"
+        }
+      ]
+    },
+    {
+      "slug": "toy-image-09-7fce09",
+      "name": "Toy Image 09",
+      "description": "Imported from an untitled toys/images SVG. Commercial name is unknown. Price and stock require manual entry.",
+      "status": "ACTIVE",
+      "sku": "TOY-030",
+      "category": {
+        "slug": "toys",
+        "name": "Toys",
+        "sortOrder": 240
+      },
+      "media": [
+        {
+          "url": "/products/import/toys/toy-image-09-7fce09/01-other.svg",
+          "altText": "Toy Image 09 — other",
+          "mimeType": "image/svg+xml",
+          "sortOrder": 0,
+          "isPrimary": true,
+          "storageKey": "toys/images (9).svg"
+        }
+      ]
+    }
+  ]
+}

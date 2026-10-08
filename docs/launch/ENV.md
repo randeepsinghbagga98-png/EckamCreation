@@ -7,6 +7,7 @@ Values are never recorded here. Names only.
 - `NODE_ENV` (must be `production`)
 - `DATABASE_URL`
 - `API_INTERNAL_URL`
+- `NEXT_PUBLIC_API_URL` (optional public API origin for split Vercel web↔API; never a secret)
 - `CORS_ORIGINS`
 - `ADMIN_EMAIL`
 - `ADMIN_PASSWORD` (8–128 characters or bootstrap is skipped)

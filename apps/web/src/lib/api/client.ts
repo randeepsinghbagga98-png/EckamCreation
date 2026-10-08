@@ -117,9 +117,20 @@ export async function apiRequest<T>(path: string, options: RequestOptions = {}):
 }
 
 function resolveRequestUrl(pathname: string, search: string): string {
+  // Server: prefer private API_INTERNAL_URL, then public API origin.
+  // Browser: use same-origin /v1 (Next rewrite) unless NEXT_PUBLIC_API_URL is set
+  // for a dedicated API host (split Vercel deployment).
   if (typeof window === 'undefined') {
-    const origin = process.env.API_INTERNAL_URL ?? 'http://127.0.0.1:3002';
+    const origin =
+      process.env.API_INTERNAL_URL ??
+      process.env.NEXT_PUBLIC_API_URL ??
+      'http://127.0.0.1:3002';
     return `${origin}${pathname}${search}`;
+  }
+
+  const publicApi = process.env.NEXT_PUBLIC_API_URL?.trim();
+  if (publicApi) {
+    return `${publicApi.replace(/\/$/, '')}${pathname}${search}`;
   }
 
   return `${pathname}${search}`;

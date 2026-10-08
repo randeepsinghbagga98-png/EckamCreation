@@ -2,7 +2,10 @@ import { paths } from '@eckamcreation/api-contracts';
 import { NextResponse, type NextRequest } from 'next/server';
 import { getEditorialCollection } from '@/lib/collections/edits';
 
-const API_ORIGIN = process.env.API_INTERNAL_URL ?? 'http://127.0.0.1:3002';
+const API_ORIGIN =
+  process.env.API_INTERNAL_URL ??
+  process.env.NEXT_PUBLIC_API_URL ??
+  'http://127.0.0.1:3002';
 const MISSING_SLUG = 'eckam-missing';
 const SKIP_HEADER = 'x-eckam-catalogue-missing';
 
